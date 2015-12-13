@@ -29,17 +29,6 @@
   <![endif]-->
 </head>
 <body>
-  <div class="container-fluid" id="top">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="page-header page-title">
-          <h1>A Landing Page</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   <div class="container" id="main">
     <div class="row">
       <div class="col-md-4 bootcards-cards">
@@ -81,62 +70,30 @@
             </div>
           </div>
         </div>
+<!-- Right Column -->
 
-        //
-        //
-        //Right Column
-        //
-        //
+        <div class="col-md-8">
+        <div class="bootcards-cards">
+          <div class="panel panel-default bootcards-richtext">
+              <div class="panel-heading center-block text-center">
+                <h2 class="panel-title">Bricks and Mortar</h2>
+              </div>
 
-
-        <div class="col-md-8 bootcards-lists">
+              <div class="panel-body">
+                <p>Bricks and Mortar is a UK based company owned by myself providing services and plugins related to Rock RMS.</p>
+                <p>Below are the Github repositories related to the open source code of our plugins. Many of the plugins are currently undergoing rapid development or are ready for use but are currently undocumented.</p>
+              </div>
+        <div class="bootcards-lists">
           <div class="panel panel-default">
-            <div class="list-group">
-              <a class="list-group-item" href="#">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <i class="fa fa-3x fa-github pull-left"></i>
-                    <h4 class="list-group-item-heading">Alparvis Ltd</h4>
-                    <p class="list-group-item-text">London, UK</p>
-                  </div>
-                  <div class="col-sm-6">
-                    <p class="list-group-item-text" id="test"></p>
-                    <p class="list-group-item-text">$12,000 Revenue YTD</p>
-                  </div>
-                </div>
-              </a>
-              <a class="list-group-item" href="#">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <i class="fa fa-3x fa-github pull-left"></i>
-                    <h4 class="list-group-item-heading">Camion Corp</h4>
-                    <p class="list-group-item-text">Tokyo, Japan</p>
-                  </div>
-                  <div class="col-sm-6">
-                    <p class="list-group-item-text">Customer</p>
-                    <p class="list-group-item-text">$75,000 Revenue YTD</p>
-                  </div>
-                </div>
-              </a>
-              <a class="list-group-item" href="#">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <i class="fa fa-3x fa-github pull-left"></i>
-                    <h4 class="list-group-item-heading">Derenden Systems</h4>
-                    <p class="list-group-item-text">Albuquerque, USA</p>
-                  </div>
-                  <div class="col-sm-6">
-                    <p class="list-group-item-text">Supplier</p>
-                    <p class="list-group-item-text">$1.3m Revenue YTD</p>
-                  </div>
-                </div>
-              </a>
+            <div class="list-group" id="github-append">
             </div>
           </div>
-          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/arranf" data-widget-id="675729226851577856">Tweets by @arranf</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
         </div>
+      </div>
+
+  </div>
+</div>
+
 
       </div><!--/row-->
     </div>
@@ -147,6 +104,6 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js"></script>
-  <script src="js/ghost.js"></script>
+  <script type="text/javascript" src="js/github.js"></script>
 </body>
 </html>
