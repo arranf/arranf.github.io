@@ -1,10 +1,11 @@
 (function() {
-  //var clientSecret = "9708c4b45e81";
-  var clientSecret = "76d12d0ddfaf";
-  var clientId = "ghost-frontend";
-  var api = "http://localhost:2368/ghost/api/v0.1/posts?client_id=ghost_frontend&client_secret="+clientSecret;
-  $.getJSON( api)
-    .done(function( data ) {
-      document.getElementById("test").innerHTML=data[0].title;
-    });
+  //var clientSecret = "9708c4b45e81"; //real
+//var clientSecret = "76d12d0ddfaf";
+  //var clientId = "ghost-frontend";
+
+  $.getJSON('http://blog.arranfrance.com/ghost/api/v0.1/posts?client_id=my-app&client_secret=XWfmJKYYh9', function(data){
+      alert("data.posts[0].title")
+    //document.getElementById("test").innerHTML=data.posts[0].title;
+  });
+
 })();
