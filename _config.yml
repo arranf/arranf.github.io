@@ -1,0 +1,16 @@
+license: Apache 2.0
+licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.html
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+url: https://www.arranfrance.com   # with the https protocol
+enforce_ssl: www.arranfrance.com   # without any protocol
+
+exclude: ['README.md', 'LICENSE', 'bower.json', 'Gemfile.lock', 'Gemfile', 'gulpfile.js','/node_modules', '/bower_components', 'package.json']
+
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
