@@ -1,31 +1,20 @@
 {
   "name": "arranf.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple VuePress statically generated site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arranf/arranf.github.io.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/arranf/arranf.github.io.git",
+  "author": "Arran France <arranf@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arranf/arranf.github.io/issues"
   },
   "homepage": "https://github.com/arranf/arranf.github.io#readme",
   "devDependencies": {
-    "bower": "^1.7.9",
-    "gulp": "^3.9.1",
-    "gulp-bower": "0.0.13",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-concat": "^2.6.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^1.5.4",
-    "gulp-watch": "^4.3.8",
-    "pump": "^1.0.1"
+    "vuepress": "^0.14.8"
   }
 }
