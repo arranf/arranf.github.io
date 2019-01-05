@@ -8,7 +8,7 @@
 
 ## Experience
 
-<block title="Spark Development Network" subtitle="Developer" years="2018-Current">
+<block title="Spark Development Network" subtitle="Developer, Remote" years="2018-Current">
 
 My main responsibility is acting the primary point of contact for a large client - I design features to their requests and either incorporate them into the core OSS code or build custom functionality unique to their deployment.
 Additional responsibilities include leading code reviews at all-hands developer meeting managing offshore resources. Introduced company wide tools for enforcing code style and static analysis.  
