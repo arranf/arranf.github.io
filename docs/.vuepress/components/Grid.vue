@@ -2,7 +2,7 @@
 <div>
     <h4 style="margin-bottom: 0px" v-if="title">{{title}}</h4>
     <div class="container">
-        <grid-item v-for="item in chosen" :classes="width" :badge="item.badge">
+        <grid-item :key="item.name+index" v-for="(item, index) in chosen" :classes="width" :badge="item.badge">
             <span class="small">{{item.name}}</span>
         </grid-item>
     </div>

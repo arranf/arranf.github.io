@@ -2,9 +2,9 @@
 <div class="page">
   <div class="content">
     <!-- <Content /> -->
-    <footer>
+    <main>
       <Content slot-key="footer"/>
-    </footer>
+    </main>
   </div>
 </div>
 </template>

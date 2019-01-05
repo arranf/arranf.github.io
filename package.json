@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "dev": "yarn docs:dev",
+    "build": "yarn docs:build"
   },
   "repository": "git+https://github.com/arranf/arranf.github.io.git",
   "author": "Arran France <arranf@gmail.com>",

@@ -1,6 +1,8 @@
 <template>
 <div>
-    <ul class="inline"><li v-for="(skill, index) in list">{{skill}}{{(index < list.length - 1) ? ',' : ''}}</li></ul>
+    <ul class="inline">
+        <li v-for="(skill, index) in list">{{skill}}{{(index < list.length - 1) ? ',' : ''}}</li>
+    </ul>
 </div>
 </template>
 
@@ -20,8 +22,9 @@ ul.inline {
     padding: 0;
     margin-top: 0;
 }
+
 ul.inline li {
-    display: inline; 
+    display: inline-block; 
     padding-right: 0.5em;
     font-size: 90%;
     opacity: 0.8;

@@ -4,6 +4,8 @@
   "title": "CV"
 }
 ---
+<c-v-header />
+
 ## Experience
 
 <block title="Spark Development Network" subtitle="Developer" years="2018-Current">
@@ -50,7 +52,7 @@ Architected an information strategy. Modernised processes including a migration 
 
 ## Projects
 
-<block title="Heroes Companion">
+<block title="Heroes Companion" github-url="arranf/HeroesCompanion">
 
 A Flutter application for Android and iOS that displays high win % combinations of talents for the game Heroes of the Storm.
 
@@ -60,7 +62,7 @@ Uses the redux paradigm for state management and a SQLite database for persisted
 
 </block>
 
-<block title="Jonathan's Movies">
+<block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
 
 A Vue.js web application to make hosting movie nights among friends easier. Users, in real time, nominate and then vote on movies in a library. Notable features include per user movie recommendations, SQIP lazy-loading for movie posters and backdrops, and a combination of local and Facebook auth.
 
