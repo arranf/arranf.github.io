@@ -1,0 +1,20 @@
+{
+  "name": "arranf.github.io",
+  "version": "1.0.0",
+  "description": "A simple VuePress statically generated site",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "git+https://github.com/arranf/arranf.github.io.git",
+  "author": "Arran France <arranf@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arranf/arranf.github.io/issues"
+  },
+  "homepage": "https://github.com/arranf/arranf.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
