@@ -8,7 +8,7 @@
 
 <block title="Spark Development Network" subtitle="Developer" years="2018-Current">
 
-My main repsonsibility is acting the primary point of contact for a large client - I design features to their requests and either incorporate them into the core OSS code or build custom functionality unique to their deployment.
+My main responsibility is acting the primary point of contact for a large client - I design features to their requests and either incorporate them into the core OSS code or build custom functionality unique to their deployment.
 Additional responsibilities include leading code reviews at all-hands developer meeting managing offshore resources. Introduced company wide tools for enforcing code style and static analysis.  
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" />
@@ -56,7 +56,7 @@ A Flutter application for Android and iOS that displays high win % combinations 
 
 Uses the redux paradigm for state management and a SQLite database for persisted data. Updates provided by an Express REST server which connects to a Mongo database. Uses S3 as an asset store. Statistics scraped using Puppeteer and game data is translated using an AWS Lambda Python script function.
 
-<skills :list="['Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Pupeteer', 'Heroku']" />
+<skills :list="['Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Puppeteer', 'Heroku']" />
 
 </block>
 
