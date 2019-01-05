@@ -1,6 +1,5 @@
 <template>
     <a :href="'https://github.com/' + url">
-        <!-- <img src="https://unpkg.com/simple-icons@latest/icons/github.svg" /> -->
         <img src="./github.svg" />
         <p>{{url}}</p>
     </a>
