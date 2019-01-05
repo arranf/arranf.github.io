@@ -26,11 +26,11 @@ I am a self employed consultant for non-profits using Rock RMS, an open source C
 
 **2016**
 
-Produced a web interface (Rust/Angular 1) to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I also added multiple modes of serialization to ExpoSE.js and identified a bug which lead to a pull request in Samsung’s Jalangi2’s analysis framework.
+Produced a web interface (Rust/Angular 1) to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I also added multiple modes of serialization to ExpoSE.js and identified a bug which led to a pull request in Samsung’s Jalangi2’s analysis framework.
 
 **2017**
 
-Added features to ExpoSE.js to help users analyse line coverage and added preliminary support for creating new paths when performing object access. I also performed case studies on notable NPM libraries to identify causes of concretization which help informed my third year project work on ExpoSE.js.
+Added features to ExpoSE.js to help users analyse line coverage and added preliminary support for creating new paths when performing object access. I also performed case studies on notable NPM libraries to identify causes of concretization which helped inform my third year project work on ExpoSE.js.
 
 <skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
 </block>
@@ -69,7 +69,7 @@ A Vue.js web application to make hosting movie nights among friends easier. User
 </block>
 
 ## Education
-<block title="First Class Software Engineering Bsc" subtitle="Royal Holloway, University of London" years="2015-2018">
+<block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
 <grid title="Awards" items="awards" width="100" style="margin-bottom: 2em;" />
 
