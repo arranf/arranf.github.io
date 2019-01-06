@@ -52,7 +52,7 @@ Architected an information strategy. Modernised processes including a migration 
 
 ## Projects
 
-<block title="Heroes Companion" github-url="arranf/HeroesCompanion">
+<block title="Heroes Companion" github-url="arranf/Heroes-Companion">
 
 A Flutter application for Android and iOS that displays high win % combinations of talents for the game Heroes of the Storm.
 
