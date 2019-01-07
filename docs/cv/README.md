@@ -10,11 +10,11 @@
 
 <block title="Spark Development Network" subtitle="Developer, Remote" years="2018-Current">
 
-I build and design features to specification for clients, incorporating them into the core OSS product when appropiate, or building them as a custom solution when not. Solutions are built to work at scale (millions of records) while maintaining high performance and reliability on both on-premise or cloud infrastructure.
+I build and design features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions are built to work at scale (millions of records) while maintaining high performance and reliability on both on-premise or cloud infrastructure.
 
 I also act as the lead developer for a strategic partner which requires me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
 
-During my time I have introduced developer best practises including code reviews and tools for enforcing code style and static analysis.
+During my time I have introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
 <skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" />
 
 </block>
@@ -41,7 +41,7 @@ I added features to ExpoSE.js to help users analyse line coverage and to provide
 
 <block title="Spark Development Network" subtitle="Internship" years="Summer 2016">
 
-I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and deveopers have within that ecosystem.
+I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and developers have within that ecosystem.
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'Entity Framework 6', 'SQL Server', 'HTML5', 'CSS3', 'jQuery', 'Git', 'Public Speaking']" />
 </block>
