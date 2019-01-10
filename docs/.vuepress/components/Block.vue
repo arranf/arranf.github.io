@@ -37,7 +37,7 @@ export default {
 // This shouldn't be nested under main
 .block
   margin-top: 1.25em
-  margin-top: 1.25em
+  margin-bottom: 2em
   border-bottom: 1px solid #eeeff0
   break-inside avoid-page
   box-decoration-break: clone

@@ -5,6 +5,9 @@
     <main>
       <Content slot-key="footer"/>
     </main>
+    <footer>
+      <PopUp :url="'https://s3.eu-west-2.amazonaws.com/arranfrance.com/CV+_+Arran+France.pdf'"/>
+    </footer>
   </div>
 </div>
 </template>
