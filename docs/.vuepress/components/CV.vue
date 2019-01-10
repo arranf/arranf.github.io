@@ -20,8 +20,12 @@ h4
   color: #888888
 
 @media print
+  // Pages after the front need a bigger top margin
   @page
-    margin: 0;
+    margin: 1.5em .2em
+
+  @page :first
+    margin: .20em .2em
 
   .navbar
     display none
@@ -39,16 +43,19 @@ h4
   
   main
     .block
-      margin-bottom 1.3em
+      margin-top: 0.7em
+      margin-bottom 0.7em
       &:last-child
-        margin-bottom 0px
-  
+        margin-bottom 0
+      &:first-child
+        margin-top 0
+
   .icon.outbound
     display none
 
   .right
     float right
-    
+
   h1 
     margin-top 1rem
     margin-bottom 1rem

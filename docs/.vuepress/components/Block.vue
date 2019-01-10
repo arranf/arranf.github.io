@@ -34,13 +34,13 @@ export default {
 </script>
 
 <style lang="stylus">
-.right
-  float: right
-
 // This shouldn't be nested under main
 .block
-  margin-bottom: 2.5em
+  margin-top: 1.25em
+  margin-top: 1.25em
   border-bottom: 1px solid #eeeff0
+  break-inside avoid-page
+  box-decoration-break: clone
 
 main
   .block:last-child
