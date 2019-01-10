@@ -69,13 +69,13 @@ I built a Flutter application for Android and iOS to help users identify the opt
 
 The project combines multiple technologies and paradigms spread over multiple services to power the on-device application. App content updates are provided by a Express/MongoDB backend which also scrapes statistics from the web. Game data is translated using an AWS Lambda function, images are served by S3, and the API is backed by CloudFront.
 
-<skills :list="['Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Puppeteer', 'Heroku']" />
+<skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Puppeteer', 'Heroku']" />
 
 </block>
 
 <block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
 
-I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. I built a machine learning system to produce movie recommendations for users using a cosine similarity matrix and I use SQIP progressive loading for all movie posters.
+I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
 
 <skills :list="['Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
 
