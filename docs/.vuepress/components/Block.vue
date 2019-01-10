@@ -33,13 +33,18 @@ export default {
 }
 </script>
 
-<style scoped>
-.right {
-    float: right;
-}
+<style lang="stylus">
+.right
+  float: right
 
-.block {
-    margin-bottom: 4em;
-    border-bottom: 1px solid #eeeff0;
-}
+// This shouldn't be nested under main
+.block
+  margin-bottom: 2.5em
+  border-bottom: 1px solid #eeeff0
+
+main
+  .block:last-child
+    border-bottom none
+
+  // Block  print styles handled in CV layout
 </style>

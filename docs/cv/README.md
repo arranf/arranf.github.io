@@ -6,6 +6,12 @@
 ---
 <c-v-header />
 
+## Profile
+
+A full-stack developer with a broad experience of building products for clients and a strong grasp of computer science fundamentals looking to join an established team of developers.
+
+<grid title="Languages" items="languages" class="block" />
+
 ## Experience
 
 <block title="Spark Development Network" subtitle="Developer, Remote" years="2018-Current">
@@ -15,6 +21,7 @@ I build and design features to specification for clients, incorporating them int
 I also act as the lead developer for a strategic partner which requires me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
 
 During my time I have introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
+
 <skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" />
 
 </block>
@@ -30,13 +37,14 @@ I am a consultant for non-profits (and their partners) using Rock RMS, an open s
 
 **2016**
 
-I produced a web interface (Rust/Angular 1) to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I also added multiple modes of serialization to ExpoSE.js and identified a bug which led to a pull request in Samsung’s Jalangi2’s analysis framework.
+I produced a web interface (Rust/Angular 1) to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I also added multiple modes of serialization to ExpoSE.js and identified and wrote a PR to fix a bug in Samsung’s JavaScript analysis framework.
 
 **2017**
 
 I added features to ExpoSE.js to help users analyse line coverage and to provide preliminary support for creating new paths when accessing objects. I also performed case studies on popular NPM libraries to identify causes of concretization which helped inform my third year project work on ExpoSE.js.
 
 <skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
+
 </block>
 
 <block title="Spark Development Network" subtitle="Internship" years="Summer 2016">
@@ -44,6 +52,7 @@ I added features to ExpoSE.js to help users analyse line coverage and to provide
 I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and developers have within that ecosystem.
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'Entity Framework 6', 'SQL Server', 'HTML5', 'CSS3', 'jQuery', 'Git', 'Public Speaking']" />
+
 </block>
 
 <block title="Hope Church" subtitle="Communications Director" years="2013-2015">
@@ -75,28 +84,15 @@ I built a Vue.js web application to make hosting movie nights among friends easi
 ## Education
 <block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
-<grid title="Awards" items="awards" width="100" style="margin-bottom: 2em;" />
+<grid title="Awards" items="awards" width="100" />
 
 <h4 style="margin-bottom: 0px">Final Year Project</h4>
 
 <div style="margin-top: 4px;"></div>
 
-I added SMT models of popular array prototype functions to the research tool ExpoSE.js and demonstrated a method of verifying array polyfills which I used to identify a bug in a popular array polyfill library.
+I added SMT models of popular array prototype functions to the research tool ExpoSE.js and demonstrated a method of verifying array polyfills which I used to identify a bug in a popular polyfill library.
 
 <!-- <div style="margin-bottom: 2em;"></div> -->
-
 <!-- <grid title="Elective Modules" items="modules" width="33" /> -->
+
 </block>
-
-## Languages
-<grid items="languages" />
-
-<style>
-h2 {
-  border-bottom: 0 !important;
-}
-
-h4 {
-  color: #888888;
-}
-</style>

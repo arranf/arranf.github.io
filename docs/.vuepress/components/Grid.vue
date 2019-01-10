@@ -15,7 +15,7 @@ export default {
     data() {
         return {
             languages: [
-                {name: 'C#'}, {name: 'Java'}, {name: 'Rust'}, {name: 'Dart'}, {name: 'Python', badge:'2/3'}, {name: 'JavaScript', badge: 'Node/ES6'}, {name: 'R'}, {name: 'HTML/CSS'}, {name: 'C'}
+                {name: 'C#'}, {name: 'Java'}, {name: 'Rust'}, {name: 'Dart'}, {name: 'Python', badge:'2/3'}, {name: 'JavaScript', badge: 'Node/ES2017'}, {name: 'R'}, {name: 'HTML/CSS'}, {name: 'C'}
             ],
             awards: [
                 {name: 'Ede and Ravenscroft Prize - Best First Year in Science Faculty', badge: {text: '2016', position: 'right', type: 'warn'}},
@@ -59,13 +59,20 @@ export default {
 }
 </script>
 
-<style scoped>
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
+<style lang="stylus" scoped>
+.container 
+  display: flex
+  flex-wrap: wrap
 
-.small {
-    font-size: 90%;
-}
+.small
+  font-size: 90%
+
+@media print 
+  font-size 80%
+
+  h4
+    margin-top .8rem
+
+  .container 
+    margin-bottom .8rem
 </style>

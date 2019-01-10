@@ -44,29 +44,33 @@ export default {
 }
 </script>
 
-<style scoped>
-.item {
-    flex: 1;
-    border-bottom: 1px solid #d8d3d3;
-}
+<style lang="stylus" scoped>
+.item
+  flex 1
+  border-bottom 1px solid #d8d3d3
 
-.p-1 {
-    padding: 0.75em;
-}
 
-.p-1-0-l {
-    padding: 0.5em 0.5em 0.5em 0em;
-}
+.p-1 
+  padding 0.75em
 
-.right {
-    float: right;
-}
 
-.w-33 {
-    min-width: 25%;
-}
+.p-1-0-l
+  padding 0.5em 0.5em 0.5em 0em
+  
+.w-33
+  min-width 25%
 
-.w-100 {
-    min-width: 100%;
-}
+.w-100
+  min-width 100%
+
+@media print
+  .p-1 
+    padding 0.1em
+
+  .p-1-0-l
+    padding 0 0.1em 0.1em 0em
+
+  .item
+    border-bottom none
+
 </style>
