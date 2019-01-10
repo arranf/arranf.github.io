@@ -6,6 +6,7 @@
       <Content slot-key="footer"/>
     </main>
     <footer>
+      <!-- <span class="download"><a href="">Download PDF</a></span> -->
       <PopUp :url="'https://s3.eu-west-2.amazonaws.com/arranfrance.com/CV+_+Arran+France.pdf'"/>
     </footer>
   </div>
@@ -21,6 +22,13 @@ h2
 
 h4
   color: #888888
+.download
+  border-top 3px solid #eeeff0
+  padding-top 0.5em
+  margin-top: 4em
+  font-size 0.9rem
+  a
+    color #b5b5b5
 
 @media print
   // Pages after the front need a bigger top margin
@@ -58,6 +66,9 @@ h4
 
   .right
     float right
+
+  .download
+    display none
 
   h1 
     margin-top 1rem

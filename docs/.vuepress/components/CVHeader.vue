@@ -22,7 +22,7 @@
 
 <style lang="stylus" scoped>
 .cv-header
-    margin-bottom 2em
+    margin-bottom 1.5em
 
 .container
     display: flex
