@@ -10,7 +10,7 @@
     "build": "yarn docs:build"
   },
   "repository": "git+https://github.com/arranf/arranf.github.io.git",
-  "author": "Arran France <arranf@gmail.com>",
+  "author": "Arran France <arran@arranfrance.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arranf/arranf.github.io/issues"

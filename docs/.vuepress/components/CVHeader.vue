@@ -11,7 +11,7 @@
             <h4>Surrey, United Kingdom</h4>
         </div>
         <div class="item">
-            <a href="mailto:arranf@gmail.com">arranf@gmail.com</a>
+            <a href="mailto:arran@arranfrance.com">arran@arranfrance.com</a>
         </div>
         <div class="item">
             <a href="https://github.com/arranf">github.com/arranf</a>
