@@ -15,7 +15,7 @@ export default {
     data() {
         return {
             languages: [
-                {name: 'C#'}, {name: 'Java'}, {name: 'Rust'}, {name: 'Dart'}, {name: 'Python', badge:'2/3'}, {name: 'JavaScript', badge: 'Node/ES2017'}, {name: 'R'}, {name: 'HTML/CSS'}, {name: 'C'}
+                {name: 'C#'}, {name: 'Java'}, {name: 'Rust'}, {name: 'Dart'}, {name: 'Python', badge:'2/3'}, {name: 'JavaScript', badge: 'Node/ES2017'}, {name: 'HTML/CSS'}, {name: 'C'}, {name: ''}
             ],
             awards: [
                 {name: 'Ede and Ravenscroft Prize - Best First Year in Science Faculty', badge: {text: '2016', position: 'right', type: 'warn'}},

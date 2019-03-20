@@ -14,13 +14,21 @@ A full-stack developer with a broad experience of building products for clients 
 
 ## Experience
 
-<block title="Spark Development Network" subtitle="Developer, Remote" years="2018-Current">
+<block title="Limejump" subtitle="Fullstack Developer" years="February 2019-Current">
 
-I build and design features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions are built to work at scale (millions of records) while maintaining high performance and reliability on both on-premise or cloud infrastructure.
+I'm responsible for the architecture, design, and implementation of microservices to support customer facing and internal tools. Services are designed and built within the frame of an aggressive scaling plan and to work with large volumes of real-time data. Services are deployed as containers and managed with Kubernetes.
 
-I also act as the lead developer for a strategic partner which requires me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
+<skills :list="['Python', 'Node.js', 'React', 'Go', 'Postgres', 'GraphQL', 'Google Cloud', 'AWS', 'Rabbit MQ', 'Microservices', 'Docker', 'Kubernetes', 'Nginx', 'Scrun']" />
 
-During my time I have introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
+</block>
+
+<block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
+
+I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale (millions of records) while maintaining high performance and reliability on both on-premise or cloud infrastructure.
+
+I also acted as the lead developer for a strategic partner which requireed me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
+
+During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" />
 
