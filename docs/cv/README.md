@@ -18,7 +18,7 @@ A full-stack developer with a broad experience of building products for clients 
 
 I'm responsible for the architecture, design, and implementation of microservices to support customer facing and internal tools. Services are designed and built within the frame of an aggressive scaling plan and to work with large volumes of real-time data. Services are deployed as containers and managed with Kubernetes.
 
-<skills :list="['Python', 'Node.js', 'React', 'Go', 'Postgres', 'GraphQL', 'Google Cloud', 'AWS', 'Rabbit MQ', 'Microservices', 'Docker', 'Kubernetes', 'Nginx', 'Scrun']" />
+<skills :list="['Python', 'Node.js', 'React', 'Go', 'Postgres', 'GraphQL', 'Google Cloud', 'AWS', 'Rabbit MQ', 'Microservices', 'Docker', 'Kubernetes', 'Nginx', 'Scrum']" />
 
 </block>
 
