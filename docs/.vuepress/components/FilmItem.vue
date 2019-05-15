@@ -1,5 +1,8 @@
 <template>
-  <p>{{title}} ({{year}})</p>
+  <p>
+    {{title}}
+    <span class="year">({{year}})</span>
+  </p>
 </template>
 
 <script>
@@ -10,3 +13,13 @@ export default {
   }
 };
 </script>
+
+<style lang="stylus" scoped>
+p {
+  line-height: 0.8;
+}
+
+.year {
+  color: #777777;
+}
+</style>
