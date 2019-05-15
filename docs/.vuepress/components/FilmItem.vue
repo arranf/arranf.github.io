@@ -16,7 +16,7 @@ export default {
 
 <style lang="stylus" scoped>
 p {
-  line-height: 0.8;
+  line-height: 1;
 }
 
 .year {

@@ -1,14 +1,17 @@
 <template>
-  <div v-if="!isLoaded">
+  <div v-if="films.length <= 0">
     <Loading/>
   </div>
   <div v-else>
-    <film-item
-      v-for="film in films"
-      :key="film.title + film.year"
-      :title="film.title"
-      :year="film.year"
-    />
+    <transition-group name="list">
+      <film-item
+        v-for="film in films"
+        :key="film.title + film.year"
+        :title="film.title"
+        :year="film.year"
+      />
+    </transition-group>
+    <Loading v-if="!isLoadingFinished"/>
   </div>
 </template>
 
@@ -22,7 +25,7 @@ const URL_PREFIX =
 export default {
   data() {
     return {
-      isLoaded: false,
+      isLoadingFinished: false,
       films: []
     };
   },
@@ -48,7 +51,19 @@ export default {
   },
   async beforeMount() {
     await this.getFilms();
-    this.isLoaded = true;
+    this.isLoadingFinished = true;
   }
 };
 </script>
+
+<style scoped>
+.list-enter-active,
+.list-leave-active {
+  transition: all 1s;
+}
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+</style>
