@@ -1,5 +1,7 @@
 <template>
-  <div v-if="!isLoaded">Loading films....</div>
+  <div v-if="!isLoaded">
+    <Loading/>
+  </div>
   <div v-else>
     <film-item
       v-for="film in films"
@@ -12,6 +14,7 @@
 
 <script>
 import FilmItem from "./FilmItem.vue";
+import Loading from "./Loading.vue";
 
 const URL_PREFIX =
   "https://api.jonathansmovies.com/films?owned_by[$in]=Arran&$limit=50&$sort[name]=1&$select[]=name&$select[]=release_date&$select=imdb_id&$skip=";
