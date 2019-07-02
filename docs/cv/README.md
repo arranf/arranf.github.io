@@ -8,68 +8,75 @@
 
 ## Profile
 
-A full-stack developer with a broad experience of building products for clients and a strong grasp of computer science fundamentals looking to join an established team of developers.
+A full-stack developer with a track record of building well engineered products and a strong grasp of computer science fundamentals looking to join an established team of developers solving challenging problems building their platform in Rust or Go.
 
 <grid title="Languages" items="languages" class="block" />
+
+<grid title="Affiliations" :items="['Rust CLI Working Group']" />
 
 ## Experience
 
 <block title="Limejump" subtitle="Fullstack Developer" years="February 2019-Current">
 
-I'm responsible for the architecture, design, and implementation of microservices to support customer facing and internal tools. Services are designed and built within the frame of an aggressive scaling plan and to work with large volumes of real-time data. Services are deployed as containers and managed with Kubernetes.
+I'm responsible for the architecture, design, and implementation of microservices to support customer facing and internal tools. Services are designed and built within the frame of an aggressive scaling plan and to work with large volumes of real-time data, and are managed with Kubernetes across two cloud providers, AWS and GCP. 
 
-<skills :list="['Python', 'Node.js', 'React', 'Go', 'Postgres', 'GraphQL', 'Google Cloud', 'AWS', 'Rabbit MQ', 'Microservices', 'Docker', 'Kubernetes', 'Nginx', 'Scrum']" />
+I also have a significant role in hiring pipeline at both the telephone and on-site stages.
+
+<skills :list="['Python', 'Node.js', 'Rust', 'React', 'Go', 'Postgres', 'Redis', 'Airflow', 'Google Cloud', 'AWS', 'Microservices', 'Docker', 'Kubernetes', 'CircleCI', 'Nginx', 'Scrum']" />
 
 </block>
 
-<block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
+<block title="Spark Development Network" subtitle="Developer, Remote" years="June 2016-February 2019">
 
-I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale (millions of records) while maintaining high performance and reliability on both on-premise or cloud infrastructure.
+I worked on [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits. I built and designed solutions as the lead developer for a strategic partner, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. My role required me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
 
-I also acted as the lead developer for a strategic partner which requireed me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
-
-During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
+During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis, and I also regularly spoke at conferences.
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" />
 
 </block>
 
-<block title="Bricks and Mortar Studio" subtitle="Consultant" years="2016-Current">
-I am a consultant for non-profits (and their partners) using Rock RMS, an open source CMS/CRM. I perform data migration and write code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue.
+<block title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017 / Final Year Project 2018">
 
-<skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" />
+I produced a RESTful API and web app using Rust and Angular JS to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I extended the engine to add multiple modes of serialization, record line coverage, and to provide preliminary support for creating new paths when accessing objects. 
 
-</block>
-
-<block title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017">
-
-**2016**
-
-I produced a web interface (Rust/Angular 1) to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I also added multiple modes of serialization to ExpoSE.js and identified and wrote a PR to fix a bug in Samsung’s JavaScript analysis framework.
-
-**2017**
-
-I added features to ExpoSE.js to help users analyse line coverage and to provide preliminary support for creating new paths when accessing objects. I also performed case studies on popular NPM libraries to identify causes of concretization which helped inform my third year project work on ExpoSE.js.
+I also performed case studies on popular NPM libraries to identify causes of concretization which helped inform my third year project work of adding support for arrays array prototype functions by producing SMT models. This work enabled me to demonstrate a method of verifying array polyfills which I used to identify a bug in a popular polyfill library.
 
 <skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
 
 </block>
 
-<block title="Spark Development Network" subtitle="Internship" years="Summer 2016">
+<block title="Bricks and Mortar Studio" subtitle="Consultant" years="2016-Present">
 
-I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and developers have within that ecosystem.
+I founded a consultancy focusing on non-profits and their partners. Work performed includes data migration, customization of OSS, designing and writing the API for a leading giving provider with $1m+ weekly revenue, and a proof-of-concept web application for a startup.
 
-<skills :list="['C#', 'ASP.NET', 'SQL', 'Entity Framework 6', 'SQL Server', 'HTML5', 'CSS3', 'jQuery', 'Git', 'Public Speaking']" />
+<skills :list="['C#', 'ASP.NET', 'SQL', 'Python 3', 'Pandas', 'Node.js', 'TDD', 'Requirements Analysis', 'Project Management']" />
 
 </block>
 
 <block title="Hope Church" subtitle="Communications Director" years="2013-2015">
 
-I architected an information strategy for people data. I also modernised internal tools and processes, including a migration to Google Apps and the introduction of a modern CRM.
+I architected an information strategy for recording data on people, in line with ICO recommendations. I also modernised internal tools and processes, including a migration to Google Apps and the introduction of a modern CRM.
 
 </block>
 
-## Projects
+## Notable Projects
+
+<block title="Rust Projects">
+
+#### Hugo to JSON <github url="arranf/HugoToJSON" />
+An application to parse and index the contents of a Hugo blog and produce a JSON index. It demonstrates testing best practises by using a suite of unit and integration tests as well fuzzing to test for errors.
+
+#### Responsive Image to Hugo Shortcode <github url="arranf/responsive-image-to-hugo-shortcode" />
+
+A command line tool to convert the verbose output of responsivebreakpoints.com into a Hugo shortcode and upload the relevant images to an S3 bucket, notably the program builds against a Go binary and uses FFI.
+
+#### Deck Codes <github url="arranf/deck-codes" />
+A library for encoding and decoding Hearthstone deck codes or deckstrings - an example of parsing basic structures without the use of crates like nom.
+
+<skills :list="['Rust', 'CircleCI', 'Go', 'FFI', 'AFL', 'Structopt']" />
+
+</block>
 
 <block title="Heroes Companion" github-url="arranf/Heroes-Companion">
 
@@ -93,14 +100,5 @@ I built a Vue.js web application to make hosting movie nights among friends easi
 <block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
 <grid title="Awards" items="awards" width="100" />
-
-<h4 style="margin-bottom: 0px">Final Year Project</h4>
-
-<div style="margin-top: 4px;"></div>
-
-I added SMT models of popular array prototype functions to the research tool ExpoSE.js and demonstrated a method of verifying array polyfills which I used to identify a bug in a popular polyfill library.
-
-<!-- <div style="margin-bottom: 2em;"></div> -->
-<!-- <grid title="Elective Modules" items="modules" width="33" /> -->
 
 </block>
