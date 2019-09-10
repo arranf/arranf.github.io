@@ -16,7 +16,7 @@ After all, liberals have a valid argument about the “Christian Right,” don�
 
 <click-to-reveal >
 <p>
-  Why do so many Christians sell Jesus “pain-relievers”? Man, I must have missed that pill. \nHe does rescue. He does save. But, I still feel pain. And, so did He. 
+  Why do so many Christians sell Jesus “pain-relievers”? Man, I must have missed that pill. He does rescue. He does save. But, I still feel pain. And, so did He. 
   
   So what is it? What is it that truly adds that value to life? For one, I have to remind myself “it’s not about here.” Our life on earth is temporary and our purpose is not an unwavering pursuit of happiness, wealth and health here…NO! We struggle, we work it out and we deal with it. We’re not immune to it…but our hope, prize and purpose is and will be with Christ. Shame on us for over-selling life here on earth.
   
