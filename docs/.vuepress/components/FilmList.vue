@@ -20,7 +20,7 @@ import FilmItem from "./FilmItem.vue";
 import Loading from "./Loading.vue";
 
 const URL_PREFIX =
-  "https://api.jonathansmovies.com/films?owned_by[$in]=Arran&$limit=50&$sort[name]=1&$select[]=name&$select[]=release_date&$select=imdb_id&$skip=";
+  "https://api.jonathansmovies.com/films?owned_by[$in]=Arran&$limit=50&$sort[canonical_name]=1&$select[]=name&$select[]=release_date&$select=imdb_id&$skip=";
 
 export default {
   data() {
