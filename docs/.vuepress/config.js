@@ -17,7 +17,7 @@ module.exports = {
       { text: 'Github', link: 'https://github.com/arranf' },
       { text: 'Twitter', link: 'https://twitter.com/arranf' },
       { text: 'Blog', link: 'https://blog.arranfrance.com' },
-      { text: 'My Wishlist', link: 'https://www.giftster.com/gift/public/fdZd3/' }
+      { text: 'Wishlist', link: 'https://www.giftster.com/gift/public/fdZd3/' }
     ]
   }
 }
