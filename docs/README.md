@@ -1,7 +1,7 @@
 <profile-image />
 I'm Arran France and I'm a software engineer.
 
-I work on Limejump where I'm part of the customer experience team. I'm currently on working a building a reliable next generation microservice architecture to support our customer portal.
+I work at Limejump where I'm part of the Customer Experience team. I'm currently on working a building a reliable next generation microservice architecture to support our customer portal.
 
 I also run [Bricks and Mortar Studio](https://bricksandmortarstudio.com), a company that provides custom development, data migration, and consultancy for [Rock RMS](https://www.rockrms.com). Since launching in 2016 I have succesfully migrated a number of organisations and have worked with over a dozen clients, including the Spark Development Network.
 
