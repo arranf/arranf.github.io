@@ -8,25 +8,29 @@
 
 ## Profile
 
-A full-stack developer with a broad experience of building products for clients and a strong grasp of computer science fundamentals looking to join an established team of developers.
+A full-stack software engineer with a product focus and leadership experience looking to make an impact.
 
 <grid title="Languages" items="languages" class="block" />
 
 ## Experience
 
-<block title="Limejump" subtitle="Fullstack Developer" years="February 2019-Current">
+<block title="Limejump" subtitle="Developer" years="February 2019-Current">
 
-I'm responsible for the architecture, design, and implementation of microservices to support customer facing and internal tools. Services are designed and built within the frame of an aggressive scaling plan and to work with large volumes of real-time data. Services are deployed as containers and managed with Kubernetes.
+I am responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I trade-off simplictly, speed, and correctness whilst working on identifying what users really need.
 
-<skills :list="['Python', 'Node.js', 'React', 'Go', 'Postgres', 'GraphQL', 'Google Cloud', 'AWS', 'Rabbit MQ', 'Microservices', 'Docker', 'Kubernetes', 'Nginx', 'Scrum']" />
+During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architectured and implemented a set of microservices, split by domain, running in Kubernetes to improve the performance, productivity, and maintainability of the codebase
+
+Whilst at Limejump I also made signifcant contributions to our hiring and interview process, taking key ownership of the technical screening phase of our process for full-stack, frontend, and QA engineers. I also introduced guidance and led training around code reviews, codified our process of promoting releases to production, and created and led an on-call system for our team. I also took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
+
+<skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
 
 </block>
 
 <block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
 
-I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale (millions of records) while maintaining high performance and reliability on both on-premise or cloud infrastructure.
+I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise or cloud infrastructure.
 
-I also acted as the lead developer for a strategic partner which requireed me to field informal client requests, analyse the requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
+My primary focus was as the lead developer for a strategic partner which required me to translate informal client requests into requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
 
 During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
 
@@ -43,13 +47,9 @@ I am a consultant for non-profits (and their partners) using Rock RMS, an open s
 
 <block title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017">
 
-**2016**
+I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified and wrote an contributed a fix for a bug in Samsung’s JavaScript analysis framework.
 
-I produced a web interface (Rust/Angular 1) to queue jobs for ExpoSE.js, a JavaScript symbolic execution engine. I also added multiple modes of serialization to ExpoSE.js and identified and wrote a PR to fix a bug in Samsung’s JavaScript analysis framework.
-
-**2017**
-
-I added features to ExpoSE.js to help users analyse line coverage and to provide preliminary support for creating new paths when accessing objects. I also performed case studies on popular NPM libraries to identify causes of concretization which helped inform my third year project work on ExpoSE.js.
+In my second Summer, I added features to ExpoSE.js to help users analyse line coverage and to provide preliminary support symbolic objects. I also performed a number of case studies on popular NPM libraries.
 
 <skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
 
@@ -65,7 +65,7 @@ I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large 
 
 <block title="Hope Church" subtitle="Communications Director" years="2013-2015">
 
-I architected an information strategy for people data. I also modernised internal tools and processes, including a migration to Google Apps and the introduction of a modern CRM.
+I architected an information strategy for storing and recording data within ICO guidelines. I also modernised internal tools and processes, including a migration to Google Apps and the introduction of a modern CRM.
 
 </block>
 
@@ -75,9 +75,9 @@ I architected an information strategy for people data. I also modernised interna
 
 I built a Flutter application for Android and iOS to help users identify the optimal talent combinations for the game Heroes of the Storm.
 
-The project combines multiple technologies and paradigms spread over multiple services to power the on-device application. App content updates are provided by a Express/MongoDB backend which also scrapes statistics from the web. Game data is translated using an AWS Lambda function, images are served by S3, and the API is backed by CloudFront.
+The on-device application is supported by a data pipeline that translates in-game data via an AWS Lambda function. App content updates are provided by a Express/MongoDB backend which also scrapes statistics from the web. Images are served by S3, and the API is backed by CloudFront.
 
-<skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Puppeteer', 'Heroku']" />
+<skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Cloudfront', 'Lambda', 'Puppeteer', 'Heroku']" />
 
 </block>
 
@@ -85,7 +85,12 @@ The project combines multiple technologies and paradigms spread over multiple se
 
 I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
 
-<skills :list="['Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
+<skills :list="['Node.js', 'Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
+</block>
+
+<block title="Rust Libraries">
+
+I maintain a number of open source Rust libraries and applications including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing markdown syntax from a string.
 
 </block>
 
@@ -93,14 +98,5 @@ I built a Vue.js web application to make hosting movie nights among friends easi
 <block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
 <grid title="Awards" items="awards" width="100" />
-
-<h4 style="margin-bottom: 0px">Final Year Project</h4>
-
-<div style="margin-top: 4px;"></div>
-
-I added SMT models of popular array prototype functions to the research tool ExpoSE.js and demonstrated a method of verifying array polyfills which I used to identify a bug in a popular polyfill library.
-
-<!-- <div style="margin-bottom: 2em;"></div> -->
-<!-- <grid title="Elective Modules" items="modules" width="33" /> -->
 
 </block>
