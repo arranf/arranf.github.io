@@ -18,7 +18,7 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 I am responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I trade-off simplictly, speed, and correctness whilst working on identifying what users really need.
 
-During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architectured and implemented a set of microservices, split by domain, running in Kubernetes to improve the performance, productivity, and maintainability of the codebase
+During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architectured and implemented a set of microservices, split by domain, running in Kubernetes to improve the performance, productivity, and maintainability of the codebase.
 
 Whilst at Limejump I also made signifcant contributions to our hiring and interview process, taking key ownership of the technical screening phase of our process for full-stack, frontend, and QA engineers. I also introduced guidance and led training around code reviews, codified our process of promoting releases to production, and created and led an on-call system for our team. I also took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
 
@@ -28,9 +28,9 @@ Whilst at Limejump I also made signifcant contributions to our hiring and interv
 
 <block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
 
-I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise or cloud infrastructure.
+I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise and cloud infrastructure.
 
-My primary focus was as the lead developer for a strategic partner which required me to translate informal client requests into requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
+My primary focus was coordinating the development for a key strategic partner which required me to translate informal client requests into requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
 
 During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
 
@@ -47,9 +47,9 @@ I am a consultant for non-profits (and their partners) using Rock RMS, an open s
 
 <block title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017">
 
-I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified and wrote an contributed a fix for a bug in Samsung’s JavaScript analysis framework.
+I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified, wrote, and contributed a fix for a bug in Samsung’s JavaScript analysis framework.
 
-In my second Summer, I added features to ExpoSE.js to help users analyse line coverage and to provide preliminary support symbolic objects. I also performed a number of case studies on popular NPM libraries.
+In my second year, I added features to the symbolic engine to help users analyse line coverage and to provide preliminary support for symbolic objects. I also performed a number of case studies on popular NPM libraries to identify areas of the engine that required improvement.
 
 <skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
 
