@@ -16,11 +16,11 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 <block title="Limejump" subtitle="Developer" years="February 2019-Current">
 
-I am responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I trade-off simplictly, speed, and correctness whilst working on identifying what users really need.
+I am responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I trade-off simplicity, speed, and correctness whilst working on identifying what users really need.
 
-During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accomodate scale and cleanly divide responsibilities in a growing team.
+During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accommodate scale and cleanly divide responsibilities in a growing team.
 
-Whilst at Limejump I made signifcant contributions to our hiring and interview process, taking key ownership of the technical screening phase of our process for full-stack, frontend, and QA engineers. I also introduced guidance and led training around code reviews, codified our process of promoting releases to production, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
+Whilst at Limejump I made significant contributions to our hiring and interview process, taking key ownership of the technical screening phase of our process for full-stack, frontend, and QA engineers. I also introduced guidance and led training around code reviews, codified our process of promoting releases to production, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
 
 <skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
 
