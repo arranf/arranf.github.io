@@ -8,6 +8,8 @@
 
 [Chazz Beyond v0.3](https://files.arranfrance.com/ChazzBeyond-v0.3.zip), the browser extension to send information from your D&D Beyond character sheet to Discord via Chazz [is available for download](https://files.arranfrance.com/ChazzBeyond-v0.3.zip).
 
+The video below explains how to set up the extension once it is downloaded.
+
 <video controls preload="auto" playsinline="true" autoPictureInPicture="true">
   <source src="https://files.arranfrance.com/vokoscreenNG-2020-09-02_23-38-57.webm" type="video/webm">
   <source src="myVideo.webm" type="video/webm">
