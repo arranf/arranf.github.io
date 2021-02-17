@@ -20,7 +20,7 @@ During my time I have taken on several solo initiatives including: adjusting our
 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
 
-<skills :list="['Typescript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo']" />
+<skills :list="['Typescript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo']" />
 
 </block>
 
@@ -46,8 +46,8 @@ During my time I introduced developer best practices including code reviews and 
 
 </block>
 
-<block title="Bricks and Mortar Studio" subtitle="Consultant" years="2016-Current">
-I am a consultant for non-profits (and their partners) using Rock RMS, an open source CMS/CRM. I perform data migration and write code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue.
+<block title="Bricks and Mortar Studio" subtitle="Consultant" years="2016-2020">
+I consulted with non-profits (and their partners) using Rock RMS, an open source CMS/CRM. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue.
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" />
 
@@ -57,7 +57,7 @@ I am a consultant for non-profits (and their partners) using Rock RMS, an open s
 
 I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified, wrote, and contributed a fix for a bug in Samsung’s JavaScript analysis framework.
 
-In my second year, I added features to the symbolic engine to help users analyse line coverage and to provide preliminary support for symbolic objects. Additionally, I performed a number of case studies on popular NPM libraries to identify areas of the engine that required improvement.
+I also added features to the symbolic engine to help users analyse line coverage and to provide preliminary support for symbolic objects. Additionally, I performed a number of case studies on popular NPM libraries to identify areas of the engine that required improvement.
 
 <skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
 
