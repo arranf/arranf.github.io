@@ -47,7 +47,7 @@ During my time I introduced developer best practices including code reviews and 
 </block>
 
 <block title="Bricks and Mortar Studio" subtitle="Consultant" years="2016-2020">
-I consulted with non-profits (and their partners) using Rock RMS, an open source CMS/CRM. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue.
+I consulted with non-profits (and their partners) using Rock RMS, an open source CMS/CRM. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
 
 <skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" />
 
