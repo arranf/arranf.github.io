@@ -1,9 +1,7 @@
 ---
-{
-  "layout": "CV",
-  "title": "CV"
-}
+{ "layout": "CV", "title": "CV" }
 ---
+
 <c-v-header />
 
 ## Profile
@@ -14,13 +12,25 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 ## Experience
 
-<block title="Limejump" subtitle="Developer" years="February 2019-Current">
+<block title="Tractable" subtitle="Developer" years="September 2020-Current">
 
-I am responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I trade-off simplicity, speed, and correctness whilst working on identifying what users really need.
+I am responsible for building a growing feature set and scaling our architecture to a rapidly growing number of clients.
+
+During my time I have taken on several solo initiatives including: adjusting our pipeline to support automation both AI driven decisions and partial automation with human in the loop, migrating the team's services to Kubernetes from DC/OS, and introducing a framework for end-to-end testing of our pipeline.
+
+I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
+
+<skills :list="['Typescript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo']" />
+
+</block>
+
+<block title="Limejump" subtitle="Developer" years="February 2019-September 2020">
+
+I was responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I worked on creating abstractions to trade-off simplicity, speed, and correctness whilst working on identifying what users really need.
 
 During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accommodate scale and cleanly divide responsibilities in a growing team.
 
-Whilst at Limejump I made significant contributions to our hiring and interview process, taking key ownership of the technical screening phase of our process for full-stack, frontend, and QA engineers. I also introduced guidance and led training around code reviews, introduced and led training on kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
+Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, introduced and led training on kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
 
 <skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
 
@@ -71,6 +81,13 @@ I architected an information strategy for storing and recording data within ICO 
 
 ## Projects
 
+<block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
+
+I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
+
+<skills :list="['Typescript', 'Node.js', 'Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
+</block>
+
 <block title="Heroes Companion" github-url="arranf/Heroes-Companion">
 
 I built a Flutter application for Android and iOS to help users identify the optimal talent combinations for the game Heroes of the Storm.
@@ -81,13 +98,6 @@ The on-device application is supported by a data pipeline that translates in-gam
 
 </block>
 
-<block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
-
-I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
-
-<skills :list="['Node.js', 'Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
-</block>
-
 <block title="Miscellaneous">
 
 I maintain a number of open source Rust libraries and tools including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing markdown syntax from a string. I also have my own gitops powered home Kubernetes cluster.
@@ -95,6 +105,7 @@ I maintain a number of open source Rust libraries and tools including applicatio
 </block>
 
 ## Education
+
 <block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
 <grid title="Awards" items="awards" width="100" />

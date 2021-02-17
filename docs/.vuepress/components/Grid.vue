@@ -21,9 +21,9 @@ export default {
     return {
       languages: [
         { name: "JavaScript", badge: "Node/ES6" },
+        { name: "TypeScript"},
         { name: "Rust" },
         { name: "C#" },
-        { name: "Go" },
         { name: "Python", badge: "2/3" },
         { name: "HTML/CSS" }
       ],
