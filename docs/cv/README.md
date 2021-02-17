@@ -16,7 +16,7 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 I am responsible for building a growing feature set and scaling our architecture to a rapidly growing number of clients.
 
-During my time I have taken on several solo initiatives including: adjusting our pipeline to support automation both AI driven decisions and partial automation with human in the loop, migrating the team's services to Kubernetes from DC/OS, and introducing a framework for end-to-end testing of our pipeline.
+During my time I have taken on several solo initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; migrating the team's services to Kubernetes from DC/OS; and introducing a framework for end-to-end testing of our pipeline.
 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
 
@@ -38,9 +38,7 @@ Whilst at Limejump I drove change to several processes. I made significant contr
 
 <block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
 
-I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise and cloud infrastructure.
-
-My primary focus was coordinating the development for a key strategic partner which required me to translate informal client requests into requirements, provide an effort estimate, produce a specification, and communicate the requirements with other developers to plan the feature as part of the ongoing product release cycle.
+I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise and cloud infrastructure. My primary focus was coordinating the development for a key strategic partner.
 
 During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
 
@@ -75,7 +73,7 @@ I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large 
 
 <block title="Hope Church" subtitle="Communications Director" years="2013-2015">
 
-I architected an information strategy for storing and recording data within ICO guidelines. This strategy led to me modernising internal tools and processes, which included a migration to Google Apps and the introduction of a modern CRM.
+I architected an information strategy for storing and recording PII data within ICO guidelines. This strategy led to me modernising internal tools and processes, which included a migration to Google Apps and the introduction of a modern CRM.
 
 </block>
 
