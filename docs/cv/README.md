@@ -12,15 +12,23 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 ## Experience
 
-<block title="Tractable" subtitle="Developer" years="September 2020-Current">
+<block title="Perfect Ward" subtitle="Developer" years="June 2021-Current">
 
-I am responsible for building a growing feature set and scaling our architecture to a rapidly growing number of clients.
+I am responsible for building and maintaining a backend infrastructure expanding into multiple geographies.
 
-During my time I have taken on several solo initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; migrating the team's services to Kubernetes from DC/OS; and introducing a framework for end-to-end testing of our pipeline.
+<skills :list="['Ruby', 'Rails']" />
+
+</block>
+
+<block title="Tractable" subtitle="Developer" years="September 2020-June 2021">
+
+I was responsible for building a growing feature set and scaling our architecture to meet a rapidly number of clients across multiple geographies.
+
+During my time I took on several solo initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuiliding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
 
-<skills :list="['Typescript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo']" />
+<skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo']" />
 
 </block>
 
@@ -30,7 +38,7 @@ I was responsible for the ongoing rearchitecture and redesign of a critical cust
 
 During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accommodate scale and cleanly divide responsibilities in a growing team.
 
-Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, introduced and led training on kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
+Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, introduced and led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
 
 <skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
 
@@ -83,7 +91,7 @@ I architected an information strategy for storing and recording PII data within 
 
 I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
 
-<skills :list="['Typescript', 'Node.js', 'Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
+<skills :list="['TypeScript', 'Node.js', 'Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
 </block>
 
 <block title="Heroes Companion" github-url="arranf/Heroes-Companion">
