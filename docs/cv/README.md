@@ -12,9 +12,9 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 ## Experience
 
-<block title="Perfect Ward" subtitle="Developer" years="June 2021-Current">
+<block title="Tendable" subtitle="Developer" years="June 2021-Current">
 
-I am responsible for building and maintaining a backend infrastructure expanding into multiple geographies.
+I am responsible for designing, building, and maintaining a backend infrastructure expanding into multiple geographies, transitioning from a monolith to a microservice based architecture.
 
 <skills :list="['Ruby', 'Rails']" />
 
