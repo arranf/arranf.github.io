@@ -21,5 +21,4 @@ The video below explains how to set up the extension once it is downloaded.
   video {
     max-width: 65vw;
   }
-
 </style>

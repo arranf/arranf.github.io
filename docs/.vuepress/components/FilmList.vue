@@ -33,7 +33,6 @@ export default {
     async getFilms() {
       let fetched = 0;
       let total = 0;
-      let films = [];
 
       while (fetched < 1 || fetched < total) {
         const response = await (await fetch(URL_PREFIX + fetched)).json();

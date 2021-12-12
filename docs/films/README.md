@@ -5,6 +5,7 @@
 ---
 
 # My Films
-All the films below I own on a blu-ray and are available for borrowing!
+
+All the films below I own on a Blu-ray and are available for borrowing!
 
 <film-list />

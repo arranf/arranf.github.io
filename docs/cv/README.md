@@ -14,27 +14,27 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 <block title="Tendable" subtitle="Developer" years="June 2021-Current">
 
-I am responsible for designing, building, and maintaining a backend infrastructure expanding into multiple geographies, transitioning from a monolith to a microservice based architecture.
+I am responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture.
 
-<skills :list="['Ruby', 'Rails']" />
+<skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'Postgres', 'Redis', 'Microservices']" />
 
 </block>
 
 <block title="Tractable" subtitle="Developer" years="September 2020-June 2021">
 
-I was responsible for building a growing feature set and scaling our architecture to meet a rapidly number of clients across multiple geographies.
+I was responsible for building a growing feature set and scaling our architecture to meet a rapidly growing number of clients across multiple geographies.
 
-During my time I took on several solo initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuiliding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
+During my time I took on several solo initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuilding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
 
-<skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo']" />
+<skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" />
 
 </block>
 
 <block title="Limejump" subtitle="Developer" years="February 2019-September 2020">
 
-I was responsible for the ongoing rearchitecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day to day basis I worked on creating abstractions to trade-off simplicity, speed, and correctness whilst working on identifying what users really need.
+I was responsible for the ongoing re-architecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day-to-day basis I worked on creating abstractions to trade-off simplicity, speed, and correctness whilst working on identifying what users really need.
 
 During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accommodate scale and cleanly divide responsibilities in a growing team.
 

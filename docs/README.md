@@ -1,7 +1,7 @@
 <profile-image />
 I'm Arran France and I'm a software engineer.
 
-I work at Tendable as part of the API & Web team. Previously I worked at Tractable, as part of the Estimating team, and Limejump, as part of the Customer Experience team.
+I work at Tendable as part of the API & Web team where I am responsible for the reimagining of our backend architecture. Previously I worked at Tractable, as part of the Estimating team, and Limejump, as part of the Customer Experience team.
 
 My experience focuses on using web technologies on both frontend and backend to produce products that put the customer's experience first, and supporting the team by building processes to improve delivery. I also have a significant amount of experience of working with devops to migrate orchestration tools and build CI/CD pipelines.
 
@@ -9,4 +9,4 @@ I previously built [Heroes Companion](https://github.com/arranf/Heroes-Companion
 
 I have a number of open source packages available for [Rust](https://crates.io/users/arranf).
 
-When I'm not working you can normally find me reading, writing, watching the NFL, playing board games, or preparing for playing Dungeons and Dragons with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
+When I'm not working you can normally find me reading, writing, watching the NFL (Go Cowboys!), playing board games, or preparing for playing Dungeons and Dragons with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
