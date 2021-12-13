@@ -1,4 +1,4 @@
-<template functional>
+<template>
   <div class="cv-header">
     <div>
       <h1>Arran France</h1>

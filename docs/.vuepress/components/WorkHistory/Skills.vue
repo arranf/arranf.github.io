@@ -1,4 +1,4 @@
-<template functional>
+<template>
 <div>
     <ul class="inline">
         <li v-for="(skill, index) in list">{{skill}}{{(index < list.length - 1) ? ',' : ''}}</li>
