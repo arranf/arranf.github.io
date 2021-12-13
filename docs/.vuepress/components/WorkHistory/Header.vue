@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <div class="cv-header">
     <div>
       <h1>Arran France</h1>
@@ -19,6 +19,12 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'CV-Header'
+}
+</script>
 
 <style lang="stylus" scoped>
 .cv-header {

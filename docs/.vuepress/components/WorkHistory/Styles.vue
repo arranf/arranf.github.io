@@ -1,16 +1,5 @@
-<template>
-  <div class="page">
-    <div class="content">
-      <main>
-        <Content slot-key="footer" />
-      </main>
-      <footer>
-        <PopUp
-          :url="'https://s3.eu-west-2.amazonaws.com/arranfrance.com/Arran-France--Full-Stack-Software-Engineer--CV.pdf'"
-        />
-      </footer>
-    </div>
-  </div>
+<template functional>
+  
 </template>
 
 <style lang="stylus">
@@ -51,7 +40,7 @@ h4 {
     display: none;
   }
 
-  .content {
+  .content__default {
     padding: 0.2em 0.2em !important;
     margin: 0 auto;
   }
@@ -87,8 +76,8 @@ h4 {
   .right {
     float: right;
   }
-
-  .download {
+  
+  .last-updated {
     display: none;
   }
 

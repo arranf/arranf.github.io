@@ -3,10 +3,9 @@
     <Loading/>
   </div>
   <div v-else>
-    <transition-group name="list">
-      <film-item
+    <transition-group key="list" name="list">
+      <Item
         v-for="film in films"
-        :key="film.title + film.year"
         :title="film.title"
         :year="film.year"
       />
@@ -16,13 +15,15 @@
 </template>
 
 <script>
-import FilmItem from "./FilmItem.vue";
-import Loading from "./Loading.vue";
+import Item from './Item.vue';
 
 const URL_PREFIX =
   "https://api.jonathansmovies.com/films?owned_by[$in]=Arran&$limit=50&$sort[canonical_name]=1&$select[]=name&$select[]=release_date&$select=imdb_id&$skip=";
 
 export default {
+  components: {
+    Item
+  },
   data() {
     return {
       isLoadingFinished: false,

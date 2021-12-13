@@ -1,4 +1,4 @@
-<template>
+<template functional>
 <div>
     <ul class="inline">
         <li v-for="(skill, index) in list">{{skill}}{{(index < list.length - 1) ? ',' : ''}}</li>
@@ -8,6 +8,7 @@
 
 <script>
 export default {
+    name: 'CVContainer',
     props: {
         list: {
             type: Array,

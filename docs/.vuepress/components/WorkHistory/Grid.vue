@@ -17,6 +17,7 @@
 <script>
 import GridItem from "./GridItem.vue";
 export default {
+  name: 'CV-Grid',
   data() {
     return {
       languages: [
