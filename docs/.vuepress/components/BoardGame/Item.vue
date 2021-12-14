@@ -1,12 +1,14 @@
 <template>
-  <article :style="{background: backgroundColor}">
-    <div class="media" :style="backgroundImage">
+  <article class="board-game-item" :style="{background: backgroundColor}">
+    <div class="board-game-media lazyload" :data-bg="backgroundImage">
     </div>
 
     <div class="card-text-section" >
       <a :href="url" target="_blank" rel="noopener noreferrer"><h3 class="title">{{name}}</h3></a>
       <div class="flex summary-section">
-        <div class="text summary-item" v-if="rank">#{{rank}}</div> <div class="text summary-item" v-if="rating">#{{rating}}</div> <div class="text summary-item">{{playing_time}}</div>
+        <div class="text summary-item" v-if="rating">{{rating.toFixed(1)}}</div>        
+        <div class="text summary-item" v-if="rank">Rank #{{rank}}</div> 
+        <div class="text summary-item">{{playing_time}}</div>
       </div>
       <div class="summary-section">
         <p class="text summary-item">{{mechanics.join(', ')}}</p>
@@ -17,8 +19,8 @@
         </p>
       </div>
       <div v-if="expansions.length" class="description-section">
-        <h4 class="expansion-title">Owned Expansions</h4>
-        <div class="summary-section">
+        <h4 @click="expansionsToggled = !expansionsToggled"  class="expansion-title">Owned Expansions<span class="expansion-toggle" v-if="expansionOverflow">{{expansionToggleIcon}}</span></h4>
+        <div v-show="showExpansions" class="summary-section">
           <a class="expansion summary-item" v-for="expansion in expansions" :key="expansion.id" target="_blank" rel="noopener noreferrer" :href="`https://boardgamegeek.com/boardgame/${expansion.id}`">{{expansion.name}}</a>
         </div>
       </div>
@@ -101,23 +103,36 @@ export default {
       required: false
     }
   },
+  data() {
+    return {
+      expansionsToggled: false 
+    }
+  },
   computed: {
     backgroundImage() {
-      const imageUrl = `url('${encodeURI(this.image)}')`;
-      return {'background-image': imageUrl};
+      return encodeURI(this.image)
     },
     backgroundColor() {
       return `rgba(${this.color}, 1)`;
     },
     url() {
       return `https://boardgamegeek.com/boardgame/${this.id}`
+    },
+    expansionOverflow() {
+      return this.expansions.length > 3;
+    },
+    showExpansions() {
+      return !this.expansionOverflow || this.expansionsToggled;
+    },
+    expansionToggleIcon() {
+      return this.expansionsToggled ? '▲' : '▼' 
     }
   }
 }
 </script>
 
 <style lang="stylus" scoped>
- article {
+ .board-game-item {
    margin: 8px 0;
    border-radius: 10px;
 
@@ -129,51 +144,60 @@ export default {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
- }
 
+  .board-game-media  {
+      position: relative;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
 
- .media  {
-    position: relative;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
 
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
+      &::before {
+            margin-top: 56.25%;
+            display: block;
+            content: ""
+      }
+  }
 
-    &::before {
-          margin-top: 56.25%;
-          display: block;
-          content: ""
+  .expansion-toggle {
+    padding-left: 8px;
+
+    cursor: pointer;
+
+    &:hover {
+      border-color: #d6d6e7; 
     }
- }
+  }
 
-.card-text-section {
-   padding: 8px;
-}
+  .card-text-section {
+    padding: 8px;
+  }
 
- h1, h2, h3, h4, h5, p, .text, a {
-   color: #e8e8e8;
- }
+  h1, h2, h3, h4, h5, p, .text, a {
+    color: #e8e8e8;
+  }
 
- .flex {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
- }
+  .flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 
- .summary-item {
-   margin-right: 16px;
-   margin-bottom: 4px;
- }
+  .summary-item {
+    margin-right: 16px;
+    margin-bottom: 4px;
+  }
 
- .description-section, .summary-section, .title {
-   margin-left: 4px;
-   margin-right: 4px;
- }
+  .description-section, .summary-section, .title {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
 
- .expansion-title {
-   margin-bottom: 4px;
+  .expansion-title {
+    margin-bottom: 4px;
+  }
  }
 </style>
