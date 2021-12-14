@@ -3,7 +3,7 @@
 <template>
   <div>
     <!-- Include only the reset -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
 
     <ais-instant-search :search-client="searchClient" :index-name="ALGOLIA_INDEX_NAME">
       <div class="top-panel">
@@ -15,8 +15,7 @@
         />
         <ais-search-box
           placeholder="Search for games"
-          reset-title="string"
-          :autofocus="boolean"
+          reset-title="Clear"
         />
       </div>
       <div class="top-panel">
@@ -53,9 +52,6 @@ import algoliasearch from 'algoliasearch/lite';
 import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
-import 'lazysizes';
-
-import 'lazysizes/plugins/unveilhooks/ls.unveilhooks';
 
 const ALGOLIA_APP_ID = "DS3H5ZZC3L";
 const ALGOLIA_API_KEY = "df3ea87860cc4dd53c139f7199b38d44";
@@ -90,7 +86,10 @@ export default {
       ),
     }
   },
-  beforeMount() {
+  async mounted() {
+     await import('lazysizes');
+     await import('lazysizes/plugins/unveilhooks/ls.unveilhooks');
+    
     document.addEventListener('lazybeforeunveil', function(e){
         var bg = e.target.getAttribute('data-bg');
         if(bg){
