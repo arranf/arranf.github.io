@@ -9,9 +9,10 @@
         <div class="text summary-item" v-if="rating">{{rating.toFixed(1)}}</div>        
         <div class="text summary-item" v-if="rank">Rank #{{rank}}</div> 
         <div class="text summary-item">{{playing_time}}</div>
+        <!-- <div class="text summary-item">{{playerCount}}</div> -->
       </div>
       <div class="summary-section">
-        <p class="text summary-item">{{mechanics.join(', ')}}</p>
+        <p class="text summary-item">{{playerCount}}</p>
       </div>
       <div class="description-section">
         <p class="supporting-text">
@@ -29,6 +30,10 @@
 </template>
 
 <script>
+function oxfordComma(array) {
+ return  array.reduce((text, value, i, array) => text + (i < array.length - 1 ? ', ' : ' and ') + value);
+}
+
 export default {
   props: {
     name: {
@@ -126,6 +131,33 @@ export default {
     },
     expansionToggleIcon() {
       return this.expansionsToggled ? '▲' : '▼' 
+    },
+    playerCount() {
+      const counts = this.players.map(a => a.level2.split('> ')[1]);
+      const groupCounts = {
+        recommended: [],
+        best: []
+      }
+      for (const count of counts) {
+        if (count.startsWith('Recommended with ')) {
+          groupCounts.recommended.push(count.split('Recommended with ')[1]);
+        } else if (count.startsWith('Best with')) {
+          groupCounts.best.push(count.split('Best with ')[1])
+        }
+      }
+
+      let str = '';
+      if (groupCounts.best.length > 0) {
+        str += `Best with ${oxfordComma(groupCounts.best)}.`
+      }
+      if (groupCounts.recommended.length > 0) {
+        if (str.length > 0) {
+          str+= ' '
+        }
+        str+= `Recommended ${oxfordComma(groupCounts.recommended)}.`
+      }
+
+      return str;
     }
   }
 }
