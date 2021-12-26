@@ -86,7 +86,7 @@ export default {
       ),
     }
   },
-  async mounted() {
+  async beforeMount() {
      await import('lazysizes');
      await import('lazysizes/plugins/unveilhooks/ls.unveilhooks');
     

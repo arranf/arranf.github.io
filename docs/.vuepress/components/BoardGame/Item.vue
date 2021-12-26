@@ -15,11 +15,15 @@
       </div>
       <div class="description-section">
         <p class="supporting-text">
+          {{short_description}}
+        </p>
+        <h4 @click="descriptionToggled = !descriptionToggled"  class="toggle-title">Description<span class="expansion-toggle">{{descriptionToggleIcon}}</span></h4>
+        <p class="summary-section" v-show="descriptionToggled">
           {{description}}
         </p>
       </div>
-      <div v-if="expansions.length" class="description-section">
-        <h4 @click="expansionsToggled = !expansionsToggled"  class="expansion-title">Owned Expansions<span class="expansion-toggle" v-if="expansionOverflow">{{expansionToggleIcon}}</span></h4>
+      <div v-if="expansions.length" class="expansion-section">
+        <h4 @click="expansionsToggled = !expansionsToggled"  class="toggle-title">Owned Expansions<span class="expansion-toggle" v-if="expansionOverflow">{{expansionToggleIcon}}</span></h4>
         <div v-show="showExpansions" class="summary-section">
           <a class="expansion summary-item" v-for="expansion in expansions" :key="expansion.id" target="_blank" rel="noopener noreferrer" :href="`https://boardgamegeek.com/boardgame/${expansion.id}`">{{expansion.name}}</a>
         </div>
@@ -35,6 +39,9 @@ function oxfordComma(array) {
 
 export default {
   props: {
+    short_description: {
+      type: String
+    },
     name: {
       required: true,
       type: String
@@ -109,7 +116,8 @@ export default {
   },
   data() {
     return {
-      expansionsToggled: false 
+      expansionsToggled: false,
+      descriptionToggled: false
     }
   },
   computed: {
@@ -130,6 +138,9 @@ export default {
     },
     expansionToggleIcon() {
       return this.expansionsToggled ? '▲' : '▼' 
+    },
+    descriptionToggleIcon() {
+      return this.descriptionToggled ? '▲' : '▼'
     },
     playerCount() {
       const counts = this.players.map(a => a.level2.split('> ')[1]);
@@ -222,12 +233,16 @@ export default {
     margin-bottom: 4px;
   }
 
-  .description-section, .summary-section, .title {
+  .description-section, .expansion-section, .summary-section, .title {
     margin-left: 4px;
     margin-right: 4px;
   }
 
-  .expansion-title {
+  .description-section {
+    margin-bottom: 12px;
+  }
+
+  .toggle-title {
     margin-bottom: 4px;
   }
  }
