@@ -9,7 +9,6 @@
         <div class="text summary-item" v-if="rating">{{rating.toFixed(1)}}</div>        
         <div class="text summary-item" v-if="rank">Rank #{{rank}}</div> 
         <div class="text summary-item">{{playing_time}}</div>
-        <!-- <div class="text summary-item">{{playerCount}}</div> -->
       </div>
       <div class="summary-section">
         <p class="text summary-item">{{playerCount}}</p>
