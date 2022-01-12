@@ -53,9 +53,6 @@ import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
 
-import _lazysizes from 'lazysizes';
-import _unveilhooks from 'lazysizes/plugins/unveilhooks/ls.unveilhooks';
-
 const ALGOLIA_APP_ID = "DS3H5ZZC3L";
 const ALGOLIA_API_KEY = "df3ea87860cc4dd53c139f7199b38d44";
 
@@ -90,13 +87,16 @@ export default {
     }
   },
   async beforeMount() {
-    document.addEventListener('lazybeforeunveil', function(e) {
+    // Must be imported _only_ client side
+     await Promise.all([import('lazysizes'), import('lazysizes/plugins/unveilhooks/ls.unveilhooks')]);
+
+      document.addEventListener('lazybeforeunveil', function(e) {
         let bg = e.target.getAttribute('data-bg');
         console.log(e.target)
         if(bg){
             e.target.style.backgroundImage = 'url(' + bg + ')';
         }
-    });
+      });
   }
 }
 </script>
