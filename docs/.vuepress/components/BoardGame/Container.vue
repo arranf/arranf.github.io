@@ -87,15 +87,17 @@ export default {
     }
   },
   async beforeMount() {
-     await import('lazysizes');
-     await import('lazysizes/plugins/unveilhooks/ls.unveilhooks');
+    document.addEventListener('lazybeforeunveil', function(e) {
+        let bg = e.target.getAttribute('data-bg');
     
-    document.addEventListener('lazybeforeunveil', function(e){
-        var bg = e.target.getAttribute('data-bg');
         if(bg){
             e.target.style.backgroundImage = 'url(' + bg + ')';
         }
     });
+
+     await import('lazysizes');
+     await import('lazysizes/plugins/unveilhooks/ls.unveilhooks');
+
   }
 }
 </script>
@@ -105,6 +107,11 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    h5 {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
   }
 
   .ais-ClearRefinements {

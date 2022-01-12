@@ -33,9 +33,7 @@
 </template>
 
 <script>
-function oxfordComma(array) {
- return  array.reduce((text, value, i, array) => text + (i < array.length - 1 ? ', ' : ' and ') + value);
-}
+import { oxfordComma } from '../utils';
 
 export default {
   props: {
@@ -187,6 +185,17 @@ export default {
     flex-direction: column;
     box-sizing: border-box;
 
+    p {
+      line-height: 1.4;
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+
+    h3 {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
   .board-game-media  {
       position: relative;
       box-sizing: border-box;
@@ -198,14 +207,14 @@ export default {
       border-top-right-radius: inherit;
 
       &::before {
-            margin-top: 56.25%;
+            margin-top: 37.12%;
             display: block;
             content: ""
       }
   }
 
   .expansion-toggle {
-    padding-left: 8px;
+    padding-left: 4px;
 
     cursor: pointer;
 
@@ -215,7 +224,11 @@ export default {
   }
 
   .card-text-section {
-    padding: 8px;
+    padding: 4px 8px;
+
+    &:last-child {
+      margin-bottom: 8px;
+    }
   }
 
   h1, h2, h3, h4, h5, p, .text, a {
@@ -229,17 +242,19 @@ export default {
   }
 
   .summary-item {
-    margin-right: 16px;
+    margin-right: 8px;
     margin-bottom: 4px;
   }
 
   .description-section, .expansion-section, .summary-section, .title {
     margin-left: 4px;
     margin-right: 4px;
+    margin-top: 8px;
+    margin-bottom: 4px;
   }
 
   .description-section {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
 
   .toggle-title {
