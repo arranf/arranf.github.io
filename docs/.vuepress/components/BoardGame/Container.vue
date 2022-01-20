@@ -10,7 +10,8 @@
         <ais-sort-by
           :items="[
             { value: ALGOLIA_INDEX_NAME, label: 'Name' },
-            { value: `${ALGOLIA_INDEX_NAME}_rank_ascending`, label: 'BGG Rank' }
+            { value: `${ALGOLIA_INDEX_NAME}_rank_ascending`, label: 'BGG Rank' },
+            { value: `${ALGOLIA_INDEX_NAME}_personal_rank_ascending`, label: 'My Ranking' }
           ]"
         />
         <ais-search-box
@@ -111,6 +112,10 @@ export default {
       margin-top: 12px;
       margin-bottom: 12px;
     }
+  }
+
+  .ais-SortBy {
+    margin-right: 4px;
   }
 
   .ais-ClearRefinements {

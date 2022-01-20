@@ -6,8 +6,9 @@
     <div class="card-text-section" >
       <a :href="url" target="_blank" rel="noopener noreferrer"><h3 class="title">{{name}}</h3></a>
       <div class="flex summary-section">
-        <div class="text summary-item" v-if="rating">{{rating.toFixed(1)}}</div>        
-        <div class="text summary-item" v-if="rank">Rank #{{rank}}</div> 
+        <div class="text summary-item" v-if="rating">{{rating.toFixed(1)}}</div> 
+        <div class="text summary-item" v-if="personal_rank">My Rank #{{personal_rank}}</div> 
+        <div class="text summary-item" v-if="rank">BGG Rank #{{rank}}</div> 
         <div class="text summary-item">{{playing_time}}</div>
       </div>
       <div class="summary-section">
@@ -107,6 +108,10 @@ export default {
     weight: {
       required: true,
       type: String
+    },
+    personal_rank: {
+      required: false,
+      type: Number
     },
     item: {
       required: false
