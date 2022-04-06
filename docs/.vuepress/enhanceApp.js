@@ -12,5 +12,5 @@ export default ({
   Vue.use(InstantSearch);
   Vue.use(VueObserveVisibility);
 
-  router.addRoutes([{ path: "/boardgames/:id", component: BoardGameDetail }]);
+  router.addRoute({ path: "/boardgames/:id", component: BoardGameDetail });
 };

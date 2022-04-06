@@ -18,13 +18,13 @@ Shut Up and Sit Down have a [fantastic review and explanation of what the game i
 * [The Embers of Muaat](https://twilight-imperium.fandom.com/wiki/The_Embers_of_Muaat)
 * [The Emirates of Hacan](https://twilight-imperium.fandom.com/wiki/The_Emirates_of_Hacan)
 * [The Federation of Sol](https://twilight-imperium.fandom.com/wiki/The_Federation_of_Sol)
-* ~[The Ghosts of Creuss](https://twilight-imperium.fandom.com/wiki/The_Ghosts_of_Creuss)~
+* [The Ghosts of Creuss](https://twilight-imperium.fandom.com/wiki/The_Ghosts_of_Creuss)
 * [The L1Z1X Mindnet](https://twilight-imperium.fandom.com/wiki/The_L1Z1X_Mindnet)
 * [The Naalu Collective](https://twilight-imperium.fandom.com/wiki/The_Naalu_Collective)
-* ~[The Universities of Jol-Nar](https://twilight-imperium.fandom.com/wiki/The_Universities_of_Jol-Nar)~
+* [The Universities of Jol-Nar](https://twilight-imperium.fandom.com/wiki/The_Universities_of_Jol-Nar)
 * [The Xxcha Kingdom](https://twilight-imperium.fandom.com/wiki/The_Xxcha_Kingdom)
 * [The Yin Brotherhood](https://twilight-imperium.fandom.com/wiki/The_Yin_Brotherhood)
-* ~[The Yssaril Tribes](https://twilight-imperium.fandom.com/wiki/The_Yssaril_Tribes)~
+* [The Yssaril Tribes](https://twilight-imperium.fandom.com/wiki/The_Yssaril_Tribes)
 
 ## FAQ Links
 * [Overlooked Rules](https://www.reddit.com/r/twilightimperium/comments/rfd3se/can_we_compile_a_megathread_of_the_most/)

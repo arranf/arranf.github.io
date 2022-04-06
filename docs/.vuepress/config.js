@@ -1,6 +1,12 @@
 module.exports = {
   title: "Arran France",
   description: "Arran France's Personal Site",
+  head: [
+    [
+      "meta",
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+    ],
+  ],
   themeConfig: {
     search: false,
     lastUpdated: "Last Updated",
