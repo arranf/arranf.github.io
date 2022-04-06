@@ -14,11 +14,13 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 ## Experience
 
-<WorkHistory-Block title="Tendable" subtitle="Developer" years="June 2021-Current">
+<WorkHistory-Block title="Tendable" subtitle="Senior Developer" years="June 2021-April 2022">
 
-I am responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture.
+I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, wrote several reusable service templates and libraries. During my time, I also fixed a major security vulnerability and wrote tools to analyse our app usage.
 
-<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'Postgres', 'Redis', 'Microservices']" />
+In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; migrated our CI from a devops lead platform to GitHub Actions to empower developers, and introduced structured documentation processes for developers.
+
+<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'Twirp', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" />
 
 </WorkHistory-Block>
 
@@ -26,7 +28,7 @@ I am responsible for re-architecture of the platform's backend infrastructure fr
 
 I was responsible for building a growing feature set and scaling our architecture to meet a rapidly growing number of clients across multiple geographies.
 
-During my time I took on several solo initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuilding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
+During my time I took on independent initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuilding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
 
@@ -100,7 +102,7 @@ I built a Vue.js web application to make hosting movie nights among friends easi
 
 I built a Flutter application for Android and iOS to help users identify the optimal talent combinations for the game Heroes of the Storm.
 
-The on-device application is supported by a data pipeline that translates in-game data via an AWS Lambda function. App content updates are provided by a Express/MongoDB backend which also scrapes statistics from the web. Images are served by S3, and the API is backed by CloudFront.
+The on-device application is supported by a data pipeline that translates in-game data via an AWS Lambda function. App content updates are provided by an Express/MongoDB backend which also scrapes statistics from the web. Images are served by S3, and the API is backed by CloudFront.
 
 <WorkHistory-Skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Cloudfront', 'Lambda', 'Puppeteer', 'Heroku']" />
 
@@ -108,7 +110,7 @@ The on-device application is supported by a data pipeline that translates in-gam
 
 <WorkHistory-Block title="Miscellaneous">
 
-I maintain a number of open source Rust libraries and tools including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing markdown syntax from a string. I also have my own gitops powered home Kubernetes cluster.
+I maintain a number of open source Rust libraries and tools including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing Markdown syntax from a string. I also have my own gitops powered Kubernetes cluster.
 
 </WorkHistory-Block>
 
