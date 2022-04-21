@@ -1,7 +1,7 @@
 <profile-image />
 I'm Arran France and I'm a software engineer.
 
-I work at Tendable as part of the API & Web team where I am responsible for the reimagining of our backend architecture. Previously I worked at Tractable, as part of the Estimating team, and Limejump, as part of the Customer Experience team.
+I lead the Orchestration team at Tractable, where I help the team provide our product teams stable, reliable, and extendable applications to build products on.  Tendable as part of the API & Web team where I am responsible for the reimagining of our backend architecture. Previously I worked at Tendable as part of the API & Web team, at Tractable as part of the Estimating team, and Limejump, as part of the Customer Experience team.
 
 My experience focuses on using web technologies on both frontend and backend to produce products that put the customer's experience first, and supporting the team by building processes to improve delivery. I also have a significant amount of experience of working with devops to migrate orchestration tools and build CI/CD pipelines.
 
