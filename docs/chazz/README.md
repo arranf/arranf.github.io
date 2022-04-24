@@ -6,7 +6,9 @@
 
 # Chazz Beyond
 
-[Chazz Beyond v0.3](https://files.arranfrance.com/ChazzBeyond-v0.3.zip), the browser extension to send information from your D&D Beyond character sheet to Discord via Chazz [is available for download](https://files.arranfrance.com/ChazzBeyond-v0.3.zip).
+Chazz Beyond is a Chrome based browser extension to send information from your D&D Beyond character sheet to Discord via Chazz.
+
+The easiest way to download it is via the [Chrome Web Store](https://chrome.google.com/webstore/detail/chazzbeyond/pmbkgngmnpblpacehppjifbkagljkfbe) It is also available as a [download for manual installation](https://files.arranfrance.com/ChazzBeyond+v0.4.2.zip).
 
 The video below explains how to set up the extension once it is downloaded.
 
