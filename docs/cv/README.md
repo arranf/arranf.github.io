@@ -14,6 +14,12 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 ## Experience
 
+<WorkHistory-Block title="Tractable" subtitle="Team Lead" years="June 2022-Present">
+
+I am responsible for the Application Platform team where I am responsible for supporting the growth and wellbeing of the engineers on the team and the health of the overall team. I also work to identify potential problems that need solving within the team's mandate and help prioritise and plan work.
+
+</WorkHistory-Block>
+
 <WorkHistory-Block title="Tendable" subtitle="Senior Developer" years="June 2021-April 2022">
 
 I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, wrote several reusable service templates and libraries. During my time, I also fixed a major security vulnerability and wrote tools to analyse our app usage.
@@ -91,6 +97,12 @@ I architected an information strategy for storing and recording PII data within 
 
 ## Projects
 
+<WorkHistory-Block title="Miscellaneous">
+
+I maintain a number of open source Rust libraries and tools including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing Markdown syntax from a string. I have also made contributions to the Twirp framework and Hathora I also have my own gitops powered Kubernetes cluster.
+
+</WorkHistory-Block>
+
 <WorkHistory-Block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
 
 I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
@@ -105,12 +117,6 @@ I built a Flutter application for Android and iOS to help users identify the opt
 The on-device application is supported by a data pipeline that translates in-game data via an AWS Lambda function. App content updates are provided by an Express/MongoDB backend which also scrapes statistics from the web. Images are served by S3, and the API is backed by CloudFront.
 
 <WorkHistory-Skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Cloudfront', 'Lambda', 'Puppeteer', 'Heroku']" />
-
-</WorkHistory-Block>
-
-<WorkHistory-Block title="Miscellaneous">
-
-I maintain a number of open source Rust libraries and tools including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing Markdown syntax from a string. I also have my own gitops powered Kubernetes cluster.
 
 </WorkHistory-Block>
 
