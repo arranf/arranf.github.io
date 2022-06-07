@@ -2,22 +2,25 @@
 
 <template>
   <div>
-    <!-- Include only the reset -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
-
     <ais-instant-search :search-client="searchClient" :index-name="ALGOLIA_INDEX_NAME">
       <div class="top-panel">
+        <div class="sort-container">
+        <span>Sort By</span>
         <ais-sort-by
           :items="[
             { value: ALGOLIA_INDEX_NAME, label: 'Name' },
             { value: `${ALGOLIA_INDEX_NAME}_rank_ascending`, label: 'BGG Rank' },
-            { value: `${ALGOLIA_INDEX_NAME}_personal_rank_ascending`, label: 'My Ranking' }
+            { value: `${ALGOLIA_INDEX_NAME}_personal_rank_ascending`, label: 'My Ranking' },
+            { value: `${ALGOLIA_INDEX_NAME}_lastmodified_descending`, label: 'Newest' },
           ]"
         />
+        </div>
+        <div class="search-container">
         <ais-search-box
           placeholder="Search for games"
           reset-title="Clear"
         />
+        </div>
       </div>
       <div class="top-panel">
         
@@ -53,6 +56,7 @@ import algoliasearch from 'algoliasearch/lite';
 import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
+
 
 const ALGOLIA_APP_ID = "DS3H5ZZC3L";
 const ALGOLIA_API_KEY = "df3ea87860cc4dd53c139f7199b38d44";
@@ -90,10 +94,8 @@ export default {
   async beforeMount() {
     // Must be imported _only_ client side
      await Promise.all([import('lazysizes'), import('lazysizes/plugins/unveilhooks/ls.unveilhooks')]);
-
       document.addEventListener('lazybeforeunveil', function(e) {
         let bg = e.target.getAttribute('data-bg');
-        console.log(e.target)
         if(bg){
             e.target.style.backgroundImage = 'url(' + bg + ')';
         }
@@ -102,20 +104,40 @@ export default {
 }
 </script>
 
+<style src="instantsearch.css/themes/reset-min.css">
+</style>
+
 <style lang="stylus">
+@media only screen and (max-width: 600px) {
+  .sort-container {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.sort-container {
+  display: flex;
+  align-items: first baseline;
+  margin-right: 0.5rem;
+  color: #23263b;
+}
+
   .top-panel {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: end;
+
 
     h5 {
       margin-top: 12px;
       margin-bottom: 12px;
     }
+
   }
 
   .ais-SortBy {
     margin-right: 4px;
+    margin-left: 0.5rem;
   }
 
   .ais-ClearRefinements {
