@@ -35,8 +35,8 @@ module.exports = {
       {
         text: "My Collections",
         items: [
-          { text: "Films", link: "/films/" },
           { text: "Board Games", link: "/boardgames/" },
+          { text: "Films", link: "/films/" },
         ],
       },
       {
@@ -44,7 +44,7 @@ module.exports = {
         items: [
           {
             text: "Millennium Blades Store Builder",
-            link: "https://millenniumblades.arranfrance.com/",
+            link: "https://timetoduel.app/",
           },
           {
             text: "Descent 2E Monster Choosing Tool",

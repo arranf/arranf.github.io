@@ -1,7 +1,7 @@
 <profile-image />
 I'm Arran France and I'm a software engineering manager.
 
-I lead the Application Platform team at Tractable, who are responsible for providing our product teams stable, reliable, and extendable application layer infrastructure and framework for building products. Previously I worked at Tendable as part of the API & Web team, at Tractable as part of the Estimating team, and at Limejump as part of the Customer Experience team.
+I lead the Application Platform team at Tractable, who are responsible for providing our product teams stable, reliable, and extendable application layer infrastructure and frameworks. Previously I worked at Tendable as part of the API & Web team, at Tractable as part of the Estimating team, and at Limejump as part of the Customer Experience team.
 
 My experience focuses on using web technologies on both frontend and backend to produce products that put the customer's experience first, and supporting the team by building processes to improve delivery. I also have a significant amount of experience of working with devops to migrate orchestration tools and build CI/CD pipelines.
 
