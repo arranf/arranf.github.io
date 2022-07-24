@@ -2,16 +2,16 @@
 
 <template>
   <div>
-    <ais-instant-search :search-client="searchClient" :index-name="ALGOLIA_INDEX_NAME">
+    <ais-instant-search :search-client="searchClient" :index-name="`${ALGOLIA_INDEX_NAME}_lastmodified_descending`">
       <div class="top-panel">
         <div class="sort-container">
         <span>Sort By</span>
         <ais-sort-by
           :items="[
-            { value: `${ALGOLIA_INDEX_NAME}_lastmodified_descending`, label: 'Newest' },
-            { value: ALGOLIA_INDEX_NAME, label: 'Name' },
             { value: `${ALGOLIA_INDEX_NAME}_rank_ascending`, label: 'BGG Rank' },
             { value: `${ALGOLIA_INDEX_NAME}_personal_rank_ascending`, label: 'My Ranking' },
+            { value: ALGOLIA_INDEX_NAME, label: 'Name' },
+            { value: `${ALGOLIA_INDEX_NAME}_lastmodified_descending`, label: 'Newest' },
           ]"
         />
         </div>
