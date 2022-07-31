@@ -15,7 +15,7 @@
       </div>
       <div class="description-section">
         <p class="supporting-text">
-          {{short_description}}
+          {{tagline}}
         </p>
         <h4 @click="descriptionToggled = !descriptionToggled"  class="toggle-title">Description<span class="expansion-toggle">{{descriptionToggleIcon}}</span></h4>
         <p class="summary-section" v-show="descriptionToggled">
