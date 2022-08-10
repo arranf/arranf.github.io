@@ -6,7 +6,7 @@
     <div class="card-text-section" >
       <a :href="url" target="_blank" rel="noopener noreferrer"><h3 class="title">{{name}}</h3></a>
       <div class="flex summary-section">
-        <div class="text summary-item" v-if="rating">{{rating.toFixed(1)}}</div> 
+        <div class="text summary-item circle" v-if="personal_rating !== 'N/A'" :style="{color: backgroundColor}">{{personal_rating}}</div> 
         <div class="text summary-item" v-if="personal_rank">My Rank #{{personal_rank}}</div> 
         <div class="text summary-item" v-if="rank">BGG Rank #{{rank}}</div> 
         <div class="text summary-item">{{playing_time}}</div>
@@ -38,6 +38,9 @@ import { oxfordComma } from '../utils';
 
 export default {
   props: {
+    personal_rating: {
+      type: String
+    },
     tagline: {
       type: String
     },
@@ -181,7 +184,7 @@ export default {
    margin: 8px 0;
    border-radius: 10px;
 
-   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2),0px 0px 0px 0px rgba(0, 0, 0, 0.14),0px 0px 0px 0px rgba(0,0,0,.12);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2),0px 0px 0px 0px rgba(0, 0, 0, 0.14),0px 0px 0px 0px rgba(0,0,0,.12);
     border-width: 1px;
     border-style: solid;
     border-color: #e0e0e0;
@@ -249,6 +252,13 @@ export default {
   .summary-item {
     margin-right: 8px;
     margin-bottom: 4px;
+  }
+
+  .circle {
+    background-color: #e8e8e8;
+    border-radius: 12px;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
   }
 
   .description-section, .expansion-section, .summary-section, .title {
