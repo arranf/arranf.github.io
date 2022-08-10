@@ -259,6 +259,8 @@ export default {
     border-radius: 12px;
     padding-right: 0.3rem;
     padding-left: 0.3rem;
+    min-width: 1rem;
+    text-align: center;
   }
 
   .description-section, .expansion-section, .summary-section, .title {
