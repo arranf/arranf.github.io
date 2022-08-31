@@ -2,16 +2,17 @@
 
 <template>
   <div>
-    <ais-instant-search :search-client="searchClient" :index-name="`${ALGOLIA_INDEX_NAME}_lastmodified_descending`">
+    <ais-instant-search :search-client="searchClient" :index-name="`${MEILISEARCH_INDEX_NAME}:lastmodified:desc`">
       <div class="top-panel">
         <div class="sort-container">
         <span>Sort By</span>
         <ais-sort-by
           :items="[
-            { value: `${ALGOLIA_INDEX_NAME}_rank_ascending`, label: 'BGG Rank' },
-            { value: `${ALGOLIA_INDEX_NAME}_personal_rank_ascending`, label: 'My Ranking' },
-            { value: ALGOLIA_INDEX_NAME, label: 'Name' },
-            { value: `${ALGOLIA_INDEX_NAME}_lastmodified_descending`, label: 'Newest' },
+            { value: `${MEILISEARCH_INDEX_NAME}:rank:asc`, label: 'BGG Rank' },
+            { value: `${MEILISEARCH_INDEX_NAME}:personal_rank:asc`, label: 'My Ranking' },
+            { value: `${MEILISEARCH_INDEX_NAME}:rating:desc`, label: 'My Rating'},
+            { value: MEILISEARCH_INDEX_NAME, label: 'Name' },
+            { value: `${MEILISEARCH_INDEX_NAME}:lastmodified:desc`, label: 'Newest' },
           ]"
         />
         </div>
@@ -51,15 +52,11 @@
 </template>
 
 <script>
-import algoliasearch from 'algoliasearch/lite';
+import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
 
 import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
-
-
-const ALGOLIA_APP_ID = "DS3H5ZZC3L";
-const ALGOLIA_API_KEY = "df3ea87860cc4dd53c139f7199b38d44";
 
 export default {
   components: {
@@ -69,7 +66,7 @@ export default {
   },
   data() {
     return {
-      ALGOLIA_INDEX_NAME: "games",
+      MEILISEARCH_INDEX_NAME: "games",
       WEIGHT_LABELS: [
         "Light",
         "Light Medium",
@@ -85,9 +82,12 @@ export default {
         '3-4h',
         '> 4h'
       ],
-      searchClient: algoliasearch(
-        ALGOLIA_APP_ID,
-        ALGOLIA_API_KEY
+      searchClient: instantMeiliSearch(
+        'https://search.arranfrance.com',
+        '521bd1937a2c0ec2957247abcf0f88da89b9a3e1ce9497b295e4967806419cb1',
+        {
+          keepZeroFacets: true
+        }
       ),
     }
   },
