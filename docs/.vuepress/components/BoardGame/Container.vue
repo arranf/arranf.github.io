@@ -10,7 +10,7 @@
           :items="[
             { value: `${MEILISEARCH_INDEX_NAME}:rank:asc`, label: 'BGG Rank' },
             { value: `${MEILISEARCH_INDEX_NAME}:personal_rank:asc`, label: 'My Ranking' },
-            { value: `${MEILISEARCH_INDEX_NAME}:rating:desc`, label: 'My Rating'},
+            { value: `${MEILISEARCH_INDEX_NAME}:personal_rating:desc`, label: 'My Rating'},
             { value: MEILISEARCH_INDEX_NAME, label: 'Name' },
             { value: `${MEILISEARCH_INDEX_NAME}:lastmodified:desc`, label: 'Newest' },
           ]"
