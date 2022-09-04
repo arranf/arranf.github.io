@@ -17,13 +17,12 @@
   },
   "homepage": "https://github.com/arranf/arranf.github.io#readme",
   "devDependencies": {
+    "@meilisearch/instant-meilisearch": "^0.8.2",
+    "algoliasearch": "^4.14.2",
     "instantsearch.css": "^7.4.5",
     "lazysizes": "^5.3.2",
-    "vue-instantsearch": "^4.4.1",
+    "vue-instantsearch": "^4.4.2",
     "vue-observe-visibility": "^1.0.0",
     "vuepress": "^1.9.7"
-  },
-  "dependencies": {
-    "@meilisearch/instant-meilisearch": "^0.8.1"
   }
 }
