@@ -12,6 +12,8 @@ Shut Up and Sit Down have a [fantastic review and explanation of what the game i
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_u2xEap5hBM?start=62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[The Official Learn to Play Guide](https://images-cdn.fantasyflightgames.com/filer_public/f3/c6/f3c66512-8e19-4f30-a0d4-d7d75701fd37/ti-k0289_learn_to_playcompressed.pdf)
+
 ## Choose a Race
 
 * [The Barony of Letnev](https://twilight-imperium.fandom.com/wiki/The_Barony_of_Letnev)
