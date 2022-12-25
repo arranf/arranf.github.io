@@ -77,7 +77,10 @@ import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
 
-import VueSlider from 'vue-slider-component';
+// Imported separately for SSR
+import VueSlider from 'vue-slider-component/dist-css/vue-slider-component.umd.min.js'
+import 'vue-slider-component/dist-css/vue-slider-component.css'
+// import theme
 import 'vue-slider-component/theme/default.css'
 
 export default {
