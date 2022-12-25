@@ -36,6 +36,25 @@
         <filter-wrapper header="Playing Time">
           <ais-refinement-list attribute="playing_time" operator="or" :sort-by="(a,b) => PLAYING_TIME_ORDER.indexOf(a.name) - PLAYING_TIME_ORDER.indexOf(b.name)" />
         </filter-wrapper>
+
+        <filter-wrapper header="Rating">
+          <ais-range-input attribute="personal_rating" :min="4" :max="10" :sort-by="(a, b) => parseInt(a.name) - parseInt(b.name)" >
+              <template v-slot="{ currentRefinement, range, refine }">
+                  <vue-slider
+                    :min="range.min"
+                    :max="range.max"
+                    :lazy="true"
+                    :interval="0.5"
+                    :value="toValue(currentRefinement, range)"
+                    @change="refine({ min: $event[0], max: $event[1] })"
+                    :processStyle="{'background-color': '#46bd87'}"
+                    :tooltipStyle="{'background-color': '#46bd87'}"
+                    tooltip="always"
+                    :adsorb="true"
+                  />
+                </template>
+            </ais-range-input>
+        </filter-wrapper>
         
         <ais-clear-refinements />
 
@@ -58,11 +77,23 @@ import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
 
+import VueSlider from 'vue-slider-component';
+import 'vue-slider-component/theme/default.css'
+
 export default {
   components: {
     Item,
     InfiniteHits,
-    FilterWrapper
+    FilterWrapper,
+    VueSlider
+  },
+  methods: {
+    toValue(value, range) {
+      return [
+        typeof value.min === "number" ? value.min : range.min,
+        typeof value.max === "number" ? value.max : range.max,
+      ];
+    },
   },
   data() {
     return {
@@ -142,6 +173,7 @@ export default {
 
   .ais-ClearRefinements {
     display: flex;
+    margin-bottom: 12px;
   }
   .ais-ClearRefinements-button {
     margin-top: auto;
@@ -466,6 +498,29 @@ export default {
   box-shadow: none;
   color: #b6b7d5;
   cursor: not-allowed; 
+}
+
+/** Range Input */
+
+.ais-RangeInput-input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ebecf3;
+  color: #21243d;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  min-width: none;
+  padding: 0;
+  padding-bottom: 3px;
+}
+
+.ais-RangeInput-label:first-of-type {
+  margin-right: 6px;
+}
+
+.ais-RangeInput-label:last-of-type {
+  margin-left: 6px;
 }
 
 </style>

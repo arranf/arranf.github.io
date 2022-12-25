@@ -39,7 +39,7 @@ import { oxfordComma } from '../utils';
 export default {
   props: {
     personal_rating: {
-      type: String
+      type: Number
     },
     tagline: {
       type: String
