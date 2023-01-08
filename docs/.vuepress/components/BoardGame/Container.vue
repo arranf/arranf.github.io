@@ -36,25 +36,6 @@
         <filter-wrapper header="Playing Time">
           <ais-refinement-list attribute="playing_time" operator="or" :sort-by="(a,b) => PLAYING_TIME_ORDER.indexOf(a.name) - PLAYING_TIME_ORDER.indexOf(b.name)" />
         </filter-wrapper>
-
-        <filter-wrapper header="Rating">
-          <ais-range-input attribute="personal_rating" :min="4" :max="10" :sort-by="(a, b) => parseInt(a.name) - parseInt(b.name)" >
-              <template v-slot="{ currentRefinement, range, refine }">
-                  <vue-slider
-                    :min="range.min"
-                    :max="range.max"
-                    :lazy="true"
-                    :interval="0.5"
-                    :value="toValue(currentRefinement, range)"
-                    @change="refine({ min: $event[0], max: $event[1] })"
-                    :processStyle="{'background-color': '#46bd87'}"
-                    :tooltipStyle="{'background-color': '#46bd87'}"
-                    tooltip="always"
-                    :adsorb="true"
-                  />
-                </template>
-            </ais-range-input>
-        </filter-wrapper>
         
         <ais-clear-refinements />
 
@@ -77,26 +58,12 @@ import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
 
-// Imported separately for SSR
-import VueSlider from 'vue-slider-component/dist-css/vue-slider-component.umd.min.js'
-import 'vue-slider-component/dist-css/vue-slider-component.css'
-// import theme
-import 'vue-slider-component/theme/default.css'
 
 export default {
   components: {
     Item,
     InfiniteHits,
-    FilterWrapper,
-    VueSlider
-  },
-  methods: {
-    toValue(value, range) {
-      return [
-        typeof value.min === "number" ? value.min : range.min,
-        typeof value.max === "number" ? value.max : range.max,
-      ];
-    },
+    FilterWrapper
   },
   data() {
     return {
