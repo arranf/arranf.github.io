@@ -1158,6 +1158,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/dom-speech-recognition@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@types/dom-speech-recognition/-/dom-speech-recognition-0.0.1.tgz#e326761a04b4a49c0eec2ac7948afc1c6aa12baa"
+  integrity sha512-udCxb8DvjcDKfk1WTBzDsxFbLgYxmQGKrE/ricoMqHRNjSlSUCcamVTA5lIQqzY10mY5qCY0QDwBfFEwhfoDPw==
+
 "@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.31":
   version "4.17.33"
   resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.33.tgz#de35d30a9d637dc1450ad18dd583d75d5733d543"
@@ -1812,7 +1817,7 @@ ajv@^6.1.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.4:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-algoliasearch-helper@^3.11.2:
+algoliasearch-helper@^3.11.3:
   version "3.11.3"
   resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.11.3.tgz#6e7af8afe6f9a9e55186abffb7b6cf7ca8de3301"
   integrity sha512-TbaEvLwiuGygHQIB8y+OsJKQQ40+JKUua5B91X66tMUHyyhbNHvqyr0lqd3wCoyKx7WybyQrC0WJvzoIeh24Aw==
@@ -4853,18 +4858,19 @@ instantsearch.css@^8.0.0:
   resolved "https://registry.yarnpkg.com/instantsearch.css/-/instantsearch.css-8.0.0.tgz#66a56b52400c7a14f678859e35a12eb32696a417"
   integrity sha512-yU63cF9KdkyFFh7ynYQy39nh1MD1eVDHIaa/gdm8a/O9dTG/5P6hBF1ONoIbKTtjlxxsHS2S8MarCZZ0l31ajg==
 
-instantsearch.js@^4.49.4:
-  version "4.49.4"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.49.4.tgz#fa87694683ce7b2c6fa3ef595f37ad48bf5fa69b"
-  integrity sha512-yrYdlX3wo8xqTTTapnfX+qF2FvNK2qFtvI0e8kMrATfFtMiIzX5zYLfbaYyOgOmMhIr2GD9cJEm/mJsHzjfG+w==
+instantsearch.js@4.50.2:
+  version "4.50.2"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.50.2.tgz#f8cc7342ddfc9fa025f84cab43837fc456b1826c"
+  integrity sha512-7MqHwLPOb9LCe3HkFHGOZUfzzpFbM82qJabZSDJkIZPZT00nvgw4NLHL/A6Wnqj9WkRK1au+n17EQFVgk5nqww==
   dependencies:
     "@algolia/events" "^4.0.1"
     "@algolia/ui-components-highlight-vdom" "^1.2.1"
     "@algolia/ui-components-shared" "^1.2.1"
+    "@types/dom-speech-recognition" "^0.0.1"
     "@types/google.maps" "^3.45.3"
     "@types/hogan.js" "^3.0.0"
     "@types/qs" "^6.5.3"
-    algoliasearch-helper "^3.11.2"
+    algoliasearch-helper "^3.11.3"
     hogan.js "^3.0.2"
     htm "^3.0.0"
     preact "^10.10.0"
@@ -8439,11 +8445,11 @@ vue-hot-reload-api@^2.3.0:
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
 vue-instantsearch@^4.7.0:
-  version "4.7.2"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.7.2.tgz#f3989bc9bc3fd0b4988aba60ffa446e3de477e90"
-  integrity sha512-WHDR2fr6k2Yh9at6oM+cKoyvur94h2AYr8P0N69SDEiCeQmWho6Mm4LOSxfEnBM3+MSpbfWajUwElsIXjnmBxg==
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.2.tgz#332cc00d21ed9b76d6cd4fbb02ee137f0d21603e"
+  integrity sha512-iaCn6is2FRduELIUXCK27dUfi7hil5hUI+ux1++V0wCGMhFZkpvtlLYaFaQiY0QgzdLuaN+plccPUE/Cue9pOg==
   dependencies:
-    instantsearch.js "^4.49.4"
+    instantsearch.js "4.50.2"
     mitt "^2.1.0"
 
 vue-loader@^15.7.1:
