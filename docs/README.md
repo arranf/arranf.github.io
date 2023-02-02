@@ -9,4 +9,4 @@ I previously built [Heroes Companion](https://github.com/arranf/Heroes-Companion
 
 I have a number of open source packages available for [Rust](https://crates.io/users/arranf).
 
-When I'm not working you can normally find me reading, writing, watching the NFL (Go Cowboys!), playing board games, or preparing for playing Dungeons and Dragons with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
+When I'm not working you can normally find me reading, writing, watching the NFL (Go Cowboys!), playing board games, or preparing for playing pen and paper RPGs with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).

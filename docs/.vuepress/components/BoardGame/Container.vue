@@ -36,6 +36,10 @@
         <filter-wrapper header="Playing Time">
           <ais-refinement-list attribute="playing_time" operator="or" :sort-by="(a,b) => PLAYING_TIME_ORDER.indexOf(a.name) - PLAYING_TIME_ORDER.indexOf(b.name)" />
         </filter-wrapper>
+
+        <filter-wrapper header="Tags">
+          <ais-refinement-list attribute="tags" operator="and" :sort-by="(a,b) => a - b" :transform-items="transformItems" />
+        </filter-wrapper>
         
         <ais-clear-refinements />
 
@@ -52,6 +56,14 @@
 </template>
 
 <script>
+function titleCase(str) {
+  str = str.toLowerCase().split(' ');
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+  }
+  return str.join(' ');
+}
+
 import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
 
 import Item from './Item.vue';
@@ -64,6 +76,14 @@ export default {
     Item,
     InfiniteHits,
     FilterWrapper
+  },
+  methods: {
+    transformItems: (items) => {
+      return items.map(item => ({
+        ...item,
+        label: titleCase(item.label)
+      }))
+    }
   },
   data() {
     return {
