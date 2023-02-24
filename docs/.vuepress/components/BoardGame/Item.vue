@@ -9,6 +9,7 @@
         <div class="text summary-item circle" v-if="personal_rating" :style="{color: backgroundColor}">{{personal_rating}}</div> 
         <div class="text summary-item" v-if="personal_rank">My Rank #{{personal_rank}}</div> 
         <div class="text summary-item" v-if="rank">BGG Rank #{{rank}}</div> 
+        <div class="text summary-item">{{weight}} Weight Game</div>
         <div class="text summary-item">{{playing_time}}</div>
       </div>
       <div class="summary-section">
@@ -181,7 +182,7 @@ export default {
 
 <style lang="stylus" scoped>
  .board-game-item {
-   margin: 8px 0;
+   margin: 0.6rem 0;
    border-radius: 10px;
 
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2),0px 0px 0px 0px rgba(0, 0, 0, 0.14),0px 0px 0px 0px rgba(0,0,0,.12);
@@ -195,13 +196,13 @@ export default {
 
     p {
       line-height: 1.4;
-      margin-top: 4px;
-      margin-bottom: 4px;
+      margin-top: 0.3rem;
+      margin-bottom: 0.3rem;
     }
 
     h3 {
-      margin-top: 8px;
-      margin-bottom: 8px;
+      margin-top: 0.6rem;
+      margin-bottom: 0.6rem;
     }
 
   .board-game-media  {
@@ -222,7 +223,7 @@ export default {
   }
 
   .expansion-toggle {
-    padding-left: 4px;
+    padding-left: 0.3rem;
 
     cursor: pointer;
 
@@ -232,10 +233,10 @@ export default {
   }
 
   .card-text-section {
-    padding: 4px 8px;
+    padding: 0.3rem 0.6rem;
 
     &:last-child {
-      margin-bottom: 8px;
+      margin-bottom: 0.6rem;
     }
   }
 
@@ -250,8 +251,8 @@ export default {
   }
 
   .summary-item {
-    margin-right: 8px;
-    margin-bottom: 4px;
+    margin-right: 0.6rem;
+    margin-bottom: 0.3rem;
   }
 
   .circle {
@@ -259,23 +260,23 @@ export default {
     border-radius: 12px;
     padding-right: 0.3rem;
     padding-left: 0.3rem;
-    min-width: 1rem;
+    min-width: 0.6rem;
     text-align: center;
   }
 
   .description-section, .expansion-section, .summary-section, .title {
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 8px;
-    margin-bottom: 4px;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.3rem;
   }
 
   .description-section {
-    margin-bottom: 8px;
+    margin-bottom: 0.6rem;
   }
 
   .toggle-title {
-    margin-bottom: 4px;
+    margin-bottom: 0.3rem;
   }
  }
 </style>

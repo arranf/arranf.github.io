@@ -264,7 +264,8 @@ export default {
   margin-top: -0.5rem;
   position: absolute;
   top: 50%;
-  width: 1rem; }
+  width: 1rem; 
+  }
 
 .ais-SearchBox-input {
   -webkit-appearance: none;
@@ -406,6 +407,7 @@ export default {
   width: 1rem; }
 
 .ais-HierarchicalMenu-item--selected > .ais-HierarchicalMenu-link::before {
+  color: #000;
   background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%235468ff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
 }
 
@@ -511,6 +513,11 @@ export default {
 
 .ais-RangeInput-label:last-of-type {
   margin-left: 6px;
+}
+
+.ais-HierarchicalMenu-link--selected > .ais-HierarchicalMenu-label {
+  border-bottom: 2px solid #46bd87;
+  padding-bottom: 4px;
 }
 
 </style>
