@@ -105,7 +105,7 @@ export default {
       ],
       searchClient: instantMeiliSearch(
         'https://search.arranfrance.com',
-        '521bd1937a2c0ec2957247abcf0f88da89b9a3e1ce9497b295e4967806419cb1',
+        '32140ba2b46b24fbebaf55f36d2aeed2b63f31866d9220f41749744f68fa6623',
         {
           keepZeroFacets: true
         }
