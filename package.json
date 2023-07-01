@@ -23,7 +23,7 @@
     "lazysizes": "^5.3.2",
     "vue-instantsearch": "^4.10.3",
     "vue-observe-visibility": "^1.0.0",
-    "vuepress": "git://github.com/arranf/vuepress.git#278af7d87d1f5ec62d6b5e9917286ffc908265cd"
+    "vuepress": "https://github.com/arranf/vuepress.git#278af7d87d1f5ec62d6b5e9917286ffc908265cd"
   },
   "dependencies": {
     "vue-slider-component": "^3.2.24"
