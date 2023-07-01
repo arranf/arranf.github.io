@@ -70,19 +70,16 @@ import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
 import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
-import qs from "qs";
 
+function replaceProperty(obj, key, value) {
+  for( let prop in obj) {
+    if (prop === key)
+      obj[prop] = value;
+    else if (typeof obj[prop] === 'object')
+      replaceProperty(obj[prop], key, value);
+  }
+}
 const MEILISEARCH_INDEX_NAME = "games";
-
-// const parseQuery = (query) => {
-//   return qs.parse(query);
-// };
-// const stringifyQuery = (query) => {
-//   // console.log(query);
-//   const result = qs.stringify(query, { encodeValuesOnly: true });
-
-//   return result ? `?${result}` : "";
-// };
 
 export default {
   components: {
@@ -104,17 +101,15 @@ const vueRouter = this.$router /* get this from Vue Router */
 const routing = {
   router: {
     read() {
-      console.log(vueRouter.currentRoute.query)
       return vueRouter.currentRoute.query;
     },
     write(routeState) {
-      console.log(routeState)
+      replaceProperty(routeState, 'page', 1)
       vueRouter.push({
         query: routeState,
       });
     },
     createURL(routeState) {
-      console.log(routeState);
       return vueRouter.resolve({
         query: routeState,
       }).href;
