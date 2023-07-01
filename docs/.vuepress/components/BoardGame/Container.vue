@@ -2,7 +2,8 @@
 
 <template>
   <div>
-    <ais-instant-search :search-client="searchClient" :index-name="`${MEILISEARCH_INDEX_NAME}:lastmodified:desc`">
+    <ais-instant-search :search-client="searchClient" :index-name="`${MEILISEARCH_INDEX_NAME}:lastmodified:desc`" 
+    :routing="routing">
       <div class="top-panel">
         <div class="sort-container">
         <span>Sort By</span>
@@ -69,7 +70,19 @@ import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
 import Item from './Item.vue';
 import InfiniteHits from './InfiniteHits.vue';
 import FilterWrapper from './FilterWrapper.vue';
+import qs from "qs";
 
+const MEILISEARCH_INDEX_NAME = "games";
+
+// const parseQuery = (query) => {
+//   return qs.parse(query);
+// };
+// const stringifyQuery = (query) => {
+//   // console.log(query);
+//   const result = qs.stringify(query, { encodeValuesOnly: true });
+
+//   return result ? `?${result}` : "";
+// };
 
 export default {
   components: {
@@ -86,8 +99,54 @@ export default {
     }
   },
   data() {
+
+const vueRouter = this.$router /* get this from Vue Router */
+const routing = {
+  router: {
+    read() {
+      console.log(vueRouter.currentRoute.query)
+      return vueRouter.currentRoute.query;
+    },
+    write(routeState) {
+      console.log(routeState)
+      vueRouter.push({
+        query: routeState,
+      });
+    },
+    createURL(routeState) {
+      console.log(routeState);
+      return vueRouter.resolve({
+        query: routeState,
+      }).href;
+    },
+    onUpdate(cb) {
+      if (typeof window === 'undefined') return;
+
+      this._removeAfterEach = vueRouter.afterEach(() => {
+        cb(this.read());
+      });
+
+      this._onPopState = () => {
+        cb(this.read());
+      };
+      window.addEventListener('popstate', this._onPopState);
+    },
+    dispose() {
+      if (typeof window === 'undefined') {
+        return;
+      }
+      if (this._onPopState) {
+        window.removeEventListener('popstate', this._onPopState);
+      }
+      if (this._removeAfterEach) {
+        this._removeAfterEach();
+      }
+    },
+  },
+};
+
     return {
-      MEILISEARCH_INDEX_NAME: "games",
+      MEILISEARCH_INDEX_NAME,
       WEIGHT_LABELS: [
         "Light",
         "Light Medium",
@@ -110,6 +169,7 @@ export default {
           keepZeroFacets: true
         }
       ),
+      routing
     }
   },
   async beforeMount() {
