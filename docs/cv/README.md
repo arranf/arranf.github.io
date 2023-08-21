@@ -14,9 +14,9 @@ A full-stack software engineer with a product focus and leadership experience lo
 
 ## Experience
 
-<WorkHistory-Block title="Tractable" subtitle="Team Lead" years="June 2022-Present">
+<WorkHistory-Block title="Tractable" subtitle="Team Lead" years="May 2022-Present">
 
-I am responsible for the Application Platform team where I am responsible for supporting the growth and wellbeing of the engineers on the team and the health of the overall team. I also work to identify potential problems that need solving within the team's mandate and help prioritise and plan work.
+I am responsible for the Estimating North America team and the delivery of three strategic product lines in the North American region including our fastest growing product. I previously lead two platform oriented teams improving developer experience and delivering engineering wide applications. Day to day I am responsible for supporting the growth and wellbeing of the engineers on the team and I work with stakeholders across the company to align, plan, and prioritise our work. During my time I've also worked on company-wide initiatives to lead bottom up changes around employee satisfaction and company values.
 
 </WorkHistory-Block>
 

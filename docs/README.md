@@ -1,12 +1,8 @@
 <profile-image />
 I'm Arran France and I'm a software engineering manager.
 
-I lead the Application Platform team at Tractable, who are responsible for providing our product teams stable, reliable, and extendable application layer infrastructure, and the Engineering Platform team, who produce and provide support for tools which improve developer productivity.
+I lead the North American Estimating team at Tractable, who are responsible for delivering Tractable's fastest growing product offering in the company's most strategic region. I previously lead the Application Platform and the Engineering platform teams providing product teams extendable application layer infrastructure tools to improve developer productivity.
 
 My experience focuses on using web technologies on both frontend and backend to produce products that put the customer's experience first, and supporting the team by building processes to improve delivery. I also have a significant amount of experience of working with devops to migrate orchestration tools and build CI/CD pipelines.
-
-I previously built [Heroes Companion](https://github.com/arranf/Heroes-Companion), an iOS and Android application that helps Heroes of Storm players plan their optimal talents using real data. I also work on [Jonathan's Movies](https://github.com/arranf/jonathans-movies-client), a tool to help friends choose a movie together.
-
-I have a number of open source packages available for [Rust](https://crates.io/users/arranf).
 
 When I'm not working you can normally find me reading, writing, watching the NFL (Go Cowboys!), playing board games, or preparing for playing pen and paper RPGs with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
