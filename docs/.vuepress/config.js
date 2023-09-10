@@ -25,6 +25,8 @@ module.exports = {
         items: [
           { text: "Github", link: "https://github.com/arranf" },
           { text: "Twitter", link: "https://twitter.com/arranf" },
+          { text: "BlueSky", link: "https://bsky.app/profile/arranfrance.com" },
+          { text: "YouTube", link: "https://youtube.com/c/@arranfrance" },
           {
             text: "BoardGameGeek",
             link: "https://boardgamegeek.com/user/Arranf",
@@ -56,8 +58,7 @@ module.exports = {
           },
           {
             text: "ChazzBeyond Chrome Extension",
-            link:
-              "https://chrome.google.com/webstore/detail/chazzbeyond/pmbkgngmnpblpacehppjifbkagljkfbe?hl=en-GB",
+            link: "https://chrome.google.com/webstore/detail/chazzbeyond/pmbkgngmnpblpacehppjifbkagljkfbe?hl=en-GB",
           },
           {
             text: "Valinde",

@@ -5,4 +5,4 @@ I lead the North American Estimating team at Tractable, who are responsible for 
 
 My experience focuses on using web technologies on both frontend and backend to produce products that put the customer's experience first, and supporting the team by building processes to improve delivery. I also have a significant amount of experience of working with devops to migrate orchestration tools and build CI/CD pipelines.
 
-When I'm not working you can normally find me reading, writing, watching the NFL (Go Cowboys!), playing board games, or preparing for playing pen and paper RPGs with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
+When I'm not working you can normally find me reading, writing, making YouTube videos, watching the NFL (Go Cowboys!), playing board games, or preparing for playing pen and paper RPGs with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
