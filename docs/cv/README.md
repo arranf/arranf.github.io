@@ -14,23 +14,21 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 <WorkHistory-Block title="Tractable" subtitle="Team Lead (Equivalent EM 1)" years="May 2022-Present">
 
-I am responsible for the day-to-day operations of the Estimating North America team (7 engineers) and the delivery of three strategic product lines in the North American region including our fastest growing product, reporting into the Director of Engineering. I work closely with my counterpart in product management (Director of Product) and research & AI development to define the team's strategy; and with stakeholders in customer solutions and customer success to plan delivery, align on roadmap priorities, and work with Tractable's partners.
+I am responsible for the day-to-day operations of a team of seven and the delivery of three product lines in North America including Tractable's fastest growing product. I work closely with my counterparts in product management (Director of Product) and research & AI development to define the team's strategy and with stakeholders in go to market to align on the near term roadmap.
 
-11 engineers have directly reported to me during my tenure (4 currently), ranging from mid to staff level. I work with them to define their personal objectives, create opportunities for them to thrive within and outside the team, and give them feedback to support their growth. I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and support them with sponsorship for cross-team engagements.
+During my tenure I've had 11 direct reports, from mid to staff level. I work with my reports to define their personal objectives, create opportunities for them to thrive, and give them regular feedback to support their growth. Day to day I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and sponsor cross-team engagements.
 
-Within engineering, I work with senior management to define staffing needs, capacity planning, to align on the path to consolidating capabilities across the platform, and to support our hiring efforts.
+Within engineering, I work with senior management to define staffing needs, provide capacity planning, and to support our hiring efforts. Outside of engineering, I run the company-wide employee led ESAT initiative to improve the workplace. I am also working with the people team as part of a small team redefining Tractable's company values.
 
-Outside of engineering, I run the company-wide employee led ESAT initiative (with sponsorship from Head of People) to improve the workplace. I am also working with the people team as part of a small team redefining Tractable's company values.
-
-I previously concurrently lead two platform oriented teams (8 engineers at senior and staff levels) with the mission to improve developer experience and deliver core services and capabilities for all product lines. In that role, I took on existing teams who needed to be realigned to be more focused on their users than their own preferences. I was able to reorient the teams toward their users, focus the teams on their users, and successfully lead an initiative to introduce a new auth platform into the company stack and support its adoption.
+I previously lead two platform oriented teams (8 engineers at senior plus) with the mandate to improve developer experience and deliver core services and capabilities for all product lines. In that role, I reduced unnecessary spend by £500k/pa and successfully defined and lead an initiative to introduce a cross product auth platform.
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Tendable" subtitle="Tech Lead" years="June 2021-April 2022">
 
-I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, wrote several reusable service templates and libraries. During my time, I also fixed a major security vulnerability and wrote tools to obtain metrics .
+I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, and defined several reusable service templates and libraries.
 
-In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; migrated our CI from a devops lead platform to GitHub Actions to empower developers, and introduced structured documentation processes for developers.
+In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; and migrated our CI from a devops lead platform to developer owned GitHub Actions.
 
 <!-- <WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" /> -->
 
@@ -41,8 +39,8 @@ In addition to my individual contributions, I took a lead on improving the way o
 I was responsible for building a growing feature set and scaling our architecture to meet a rapidly growing number of clients across multiple geographies.
 
 During my time I took on independent initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuilding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
-
-I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
+<!-- 
+I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys. -->
 
 <!-- <WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" /> -->
 
@@ -50,11 +48,11 @@ I also helped improve the robustness of our codebase by kickstarting an initiati
 
 <WorkHistory-Block title="Limejump" subtitle="Developer" years="February 2019-September 2020">
 
-I was responsible for the ongoing re-architecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team. On a day-to-day basis I worked on creating abstractions to trade-off simplicity, speed, and correctness whilst working on identifying what users really need.
+I was responsible for the ongoing re-architecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team.
 
 During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accommodate scale and cleanly divide responsibilities in a growing team.
 
-Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, introduced and led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
+Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced an engineering wide 'Friday Developer Talk' slot.
 
 <!-- <WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" /> -->
 
@@ -67,7 +65,7 @@ I ran my own consulting company working with non-profits to customise their proc
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
+<WorkHistory-Block :brief="true" title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
 
 <!-- I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise and cloud infrastructure. My primary focus was coordinating the development for a key strategic partner.
 
@@ -77,7 +75,7 @@ During my time I introduced developer best practices including code reviews and 
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017">
+<WorkHistory-Block :brief="true" title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017">
 
 <!-- I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified, wrote, and contributed a fix for a bug in Samsung’s JavaScript analysis framework.
 
@@ -87,7 +85,7 @@ I also added features to the symbolic engine to help users analyse line coverage
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Spark Development Network" subtitle="Internship" years="Summer 2016">
+<WorkHistory-Block :brief="true" title="Spark Development Network" subtitle="Internship" years="Summer 2016">
 <!-- 
 I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and developers have within that ecosystem. -->
 
@@ -95,13 +93,11 @@ I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large 
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Hope Church" subtitle="Communications Director" years="2013-2015">
+<WorkHistory-Block :brief="true" title="Hope Church" subtitle="Communications Director" years="2013-2015">
 
 <!-- I architected an information strategy for storing and recording PII data within ICO guidelines. This strategy led to me modernising internal tools and processes, which included a migration to Google Apps and the introduction of a modern CRM. -->
 
 </WorkHistory-Block>
-
-## Education and Projects
 
 <WorkHistory-Block title="Ask Me About">
 

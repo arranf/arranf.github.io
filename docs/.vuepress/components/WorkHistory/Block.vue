@@ -1,10 +1,10 @@
 <template>
-<div class="block">
+<div :class="{block: !brief, 'brief-block': brief}">
     <h3 style="margin-bottom: 0; padding-bottom: 0;">{{title}}</h3> 
     <github v-if="githubUrl" :url="githubUrl" />
     <h4 v-if="subtitle" style="display: inline;">{{subtitle}}</h4> <span v-if="years" class="right"><Badge :text="years" /></span>
 
-    <p><slot></slot></p>
+    <p v-if="!brief"><slot></slot></p>
 </div>
 </template>
 
@@ -28,6 +28,9 @@ export default {
         },
         githubUrl: {
             type: String
+        },
+        brief: {
+            type: Boolean
         }
     }
 }
@@ -38,10 +41,16 @@ export default {
 .block
   margin-top: 1.25em
   margin-bottom: 2em
-  border-bottom: 1px solid #eeeff0
   break-inside avoid-page
   box-decoration-break: clone
+  border-bottom: 1px solid #eeeff0
 
+.brief-block
+  margin-top: 1em
+  margin-bottom: 1.5em
+  break-inside avoid-page
+  box-decoration-break: clone
+  
 main
   .block:last-child
     border-bottom none

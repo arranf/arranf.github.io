@@ -7,6 +7,11 @@
   padding-top: 0px;
 }
 
+.theme-default-content:not(.custom) > h2 {
+  margin-top: -3.1rem;
+  padding-top: 3.6rem;
+}
+
 h2 {
   border-bottom: 0px !important;
 }
@@ -27,6 +32,10 @@ h4 {
 }
 
 @media print {
+  .theme-default-content:not(.custom) > :first-child {
+    margin-top: 0;
+  }
+
   // Pages after the front need a bigger top margin
   @page {
     margin: 1.5em 0.2em;
@@ -113,4 +122,6 @@ h4 {
     margin-bottom: 0.5rem;
   }
 }
+
+
 </style>

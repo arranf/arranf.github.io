@@ -2,7 +2,7 @@
   <div>
     <img
       src="https://secure.gravatar.com/avatar/646c698b580eb0ee44a7e4a55c33aaec?s=256"
-      alt="A picture of Arran"
+      alt="Arran"
     >
   </div>
 </template>
