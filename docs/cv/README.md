@@ -99,13 +99,15 @@ I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large 
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Ask Me About">
+## Ask Me About
 
-* My real-time mobile first application to make hosting movie nights easier and recommend films using data.
+<WorkHistory-Block title="">
+
+* My real-time mobile first application to make hosting movie nights easier (recommends films using ML!).
 * Writing software for running tabletop role-playing games
 * Developing mobile applications for Android and iOS in Flutter
-* Solving problems in Rust
 * Running a Kubernetes cluster
+* Solving problems in Rust
 * eink Displays
 * Tooling for art direction and responsive images for the web
 
@@ -127,6 +129,8 @@ The on-device application is supported by a data pipeline that translates in-gam
 <WorkHistory-Skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Cloudfront', 'Lambda', 'Puppeteer', 'Heroku']" /> -->
 
 <!-- </WorkHistory-Block> -->
+
+## Education
 
 <WorkHistory-Block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
