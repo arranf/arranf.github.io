@@ -10,13 +10,11 @@
 
 A people-first software engineering manager who thrives wearing multiple hats and has a keen product focus.
 
-<WorkHistory-Grid title="Languages" items="languages" class="block" />
-
 ## Experience
 
 <WorkHistory-Block title="Tractable" subtitle="Team Lead (Equivalent EM 1)" years="May 2022-Present">
 
-I am responsible for the day-to-day operations of the Estimating North America team (7 engineers) and the delivery of three strategic product lines in the North American region including our fastest growing product, reporting into the Director of Engineering. I work closely with my counterpart in product management (Director of Product) and research & AI development to define the team's strategy, and with stakeholders in customer solutions and customer success to plan delivery, align on roadmap priorities, and work with partners.
+I am responsible for the day-to-day operations of the Estimating North America team (7 engineers) and the delivery of three strategic product lines in the North American region including our fastest growing product, reporting into the Director of Engineering. I work closely with my counterpart in product management (Director of Product) and research & AI development to define the team's strategy; and with stakeholders in customer solutions and customer success to plan delivery, align on roadmap priorities, and work with Tractable's partners.
 
 11 engineers have directly reported to me during my tenure (4 currently), ranging from mid to staff level. I work with them to define their personal objectives, create opportunities for them to thrive within and outside the team, and give them feedback to support their growth. I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and support them with sponsorship for cross-team engagements.
 
@@ -34,7 +32,7 @@ I was responsible for re-architecture of the platform's backend infrastructure f
 
 In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; migrated our CI from a devops lead platform to GitHub Actions to empower developers, and introduced structured documentation processes for developers.
 
-<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" />
+<!-- <WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" /> -->
 
 </WorkHistory-Block>
 
@@ -46,7 +44,7 @@ During my time I took on independent initiatives including: adjusting our pipeli
 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys.
 
-<WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" />
+<!-- <WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" /> -->
 
 </WorkHistory-Block>
 
@@ -58,62 +56,68 @@ During my time at Limejump I designed and implemented a solution that allows us 
 
 Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, introduced and led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced a 'Friday Developer Talk' slot.
 
-<WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
+<!-- <WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" /> -->
+
+</WorkHistory-Block>
+
+<WorkHistory-Block title="Bricks and Mortar Studio" subtitle="Owner/Director" years="2016-2020">
+I ran my own consulting company working with non-profits to customise their processes and extend their software to support their needs. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
+
+<!-- <WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" /> -->
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Spark Development Network" subtitle="Developer, Remote" years="June 2018-February 2019">
 
-I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise and cloud infrastructure. My primary focus was coordinating the development for a key strategic partner.
+<!-- I built and designed features to specification for clients, incorporating them into the core OSS product when appropriate, or building them as a custom solution when not. Solutions were built to work at scale while maintaining high performance and reliability on both on-premise and cloud infrastructure. My primary focus was coordinating the development for a key strategic partner.
 
 During my time I introduced developer best practices including code reviews and tools for enforcing code style and static analysis.
 
-<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" />
-
-</WorkHistory-Block>
-
-<WorkHistory-Block title="Bricks and Mortar Studio" subtitle="Consultant" years="2016-2020">
-I consulted with non-profits (and their partners) using Rock RMS, an open source CMS/CRM. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
-
-<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" />
+<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'SQL Server', 'jQuery', 'IIS', 'Azure', 'Windows Server',  'Requirements Analysis', 'OSS Community Management', 'Release Planning', 'Retainer Management']" /> -->
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Royal Holloway, University of London" subtitle="Undergraduate Researcher" years="Summer 2016 / Summer 2017">
 
-I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified, wrote, and contributed a fix for a bug in Samsung’s JavaScript analysis framework.
+<!-- I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified, wrote, and contributed a fix for a bug in Samsung’s JavaScript analysis framework.
 
 I also added features to the symbolic engine to help users analyse line coverage and to provide preliminary support for symbolic objects. Additionally, I performed a number of case studies on popular NPM libraries to identify areas of the engine that required improvement.
 
-<WorkHistory-Skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />
+<WorkHistory-Skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" /> -->
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Spark Development Network" subtitle="Internship" years="Summer 2016">
+<!-- 
+I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and developers have within that ecosystem. -->
 
-I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large (1000 KLOC+) C#/ASP.NET open source application for non-profits, including the first iteration of their notification and telemetry system. I also gave a talk at their annual conference on the benefits of open source software and the different roles that users and developers have within that ecosystem.
-
-<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Entity Framework 6', 'SQL Server', 'HTML5', 'CSS3', 'jQuery', 'Git', 'Public Speaking']" />
+<!-- <WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Entity Framework 6', 'SQL Server', 'HTML5', 'CSS3', 'jQuery', 'Git', 'Public Speaking']" /> -->
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Hope Church" subtitle="Communications Director" years="2013-2015">
 
-I architected an information strategy for storing and recording PII data within ICO guidelines. This strategy led to me modernising internal tools and processes, which included a migration to Google Apps and the introduction of a modern CRM.
+<!-- I architected an information strategy for storing and recording PII data within ICO guidelines. This strategy led to me modernising internal tools and processes, which included a migration to Google Apps and the introduction of a modern CRM. -->
 
 </WorkHistory-Block>
 
-## Projects
+## Education and Projects
 
-<WorkHistory-Block title="Miscellaneous">
+<WorkHistory-Block title="Ask Me About">
 
-I maintain a number of open source Rust libraries and tools including applications for parsing D&D dice roll strings, building a search index for a static site, adding IP addresses to AWS EC2 instances, parsing and decoding Hearthstone deck strings, and removing Markdown syntax from a string. I have also made contributions to the Twirp framework and Hathora I also have my own gitops powered Kubernetes cluster.
+* My real-time mobile first application to make hosting movie nights easier and recommend films using data.
+* Writing software for running tabletop role-playing games
+* Developing mobile applications for Android and iOS in Flutter
+* Solving problems in Rust
+* Running a Kubernetes cluster
+* eink Displays
+* Tooling for art direction and responsive images for the web
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
+<!-- <WorkHistory-Block title="Jonathan's Movies" github-url="arranf/Jonathans-Movies-Client">
 
-I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages FeathersJS and web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
+I built a Vue.js web application to make hosting movie nights among friends easier. The project leverages web sockets to display selections in real-time to all connected users. The server side also uses machine learning to produce movie recommendations for users using a cosine similarity matrix.
 
 <WorkHistory-Skills :list="['TypeScript', 'Node.js', 'Vue', 'Webpack', 'Jest', 'Real-Time', 'Web Sockets', 'Machine Learning', 'OAuth']" />
 </WorkHistory-Block>
@@ -122,13 +126,11 @@ I built a Vue.js web application to make hosting movie nights among friends easi
 
 I built a Flutter application for Android and iOS to help users identify the optimal talent combinations for the game Heroes of the Storm.
 
-The on-device application is supported by a data pipeline that translates in-game data via an AWS Lambda function. App content updates are provided by an Express/MongoDB backend which also scrapes statistics from the web. Images are served by S3, and the API is backed by CloudFront.
+The on-device application is supported by a data pipeline that translates in-game data via an AWS Lambda function. App content updates are provided by an Express/MongoDB backend which also scrapes statistics from the web.
 
-<WorkHistory-Skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Cloudfront', 'Lambda', 'Puppeteer', 'Heroku']" />
+<WorkHistory-Skills :list="['Flutter', 'Dart', 'Redux', 'Java', 'SQLite', 'Express', 'MongoDB', 'Mongoose', 'AWS', 'S3', 'Cloudfront', 'Lambda', 'Puppeteer', 'Heroku']" /> -->
 
-</WorkHistory-Block>
-
-## Education
+<!-- </WorkHistory-Block> -->
 
 <WorkHistory-Block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 

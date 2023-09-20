@@ -5,10 +5,10 @@
     </div>
     <div class="container">
       <div class="item">
-        <h4>Software Engineer</h4>
+        <h4>Software Engineering Manager</h4>
       </div>
       <div class="item">
-        <h4>Surrey, United Kingdom</h4>
+        <h4>London, United Kingdom</h4>
       </div>
       <div class="item">
         <a href="mailto:arran@arranfrance.com">arran@arranfrance.com</a>
