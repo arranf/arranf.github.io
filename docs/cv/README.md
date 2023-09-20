@@ -8,25 +8,33 @@
 
 ## Profile
 
-A full-stack software engineer with a product focus and leadership experience looking to make an impact.
+A people-first software engineering manager who thrives wearing multiple hats and has a keen product focus.
 
 <WorkHistory-Grid title="Languages" items="languages" class="block" />
 
 ## Experience
 
-<WorkHistory-Block title="Tractable" subtitle="Team Lead" years="May 2022-Present">
+<WorkHistory-Block title="Tractable" subtitle="Team Lead (Equivalent EM 1)" years="May 2022-Present">
 
-I am responsible for the Estimating North America team and the delivery of three strategic product lines in the North American region including our fastest growing product. I previously lead two platform oriented teams improving developer experience and delivering engineering wide applications. Day to day I am responsible for supporting the growth and wellbeing of the engineers on the team and I work with stakeholders across the company to align, plan, and prioritise our work. During my time I've also worked on company-wide initiatives to lead bottom up changes around employee satisfaction and company values.
+I am responsible for the day-to-day operations of the Estimating North America team (7 engineers) and the delivery of three strategic product lines in the North American region including our fastest growing product, reporting into the Director of Engineering. I work closely with my counterpart in product management (Director of Product) and research & AI development to define the team's strategy, and with stakeholders in customer solutions and customer success to plan delivery, align on roadmap priorities, and work with partners.
+
+11 engineers have directly reported to me during my tenure (4 currently), ranging from mid to staff level. I work with them to define their personal objectives, create opportunities for them to thrive within and outside the team, and give them feedback to support their growth. I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and support them with sponsorship for cross-team engagements.
+
+Within engineering, I work with senior management to define staffing needs, capacity planning, to align on the path to consolidating capabilities across the platform, and to support our hiring efforts.
+
+Outside of engineering, I run the company-wide employee led ESAT initiative (with sponsorship from Head of People) to improve the workplace. I also am working with the people team as part of an initiative to redefine Tractable's company values.
+
+I previously concurrently lead two platform oriented teams (8 engineers at senior and staff levels) with the mission to improve developer experience and deliver core services and capabilities for all product lines. In that role, I took on existing teams who needed to be realigned to be more focused on their users than their own preferences. I was able to reorient the teams toward their users, focus the teams on their users, and successfully lead an initiative to introduce a new auth platform into the company stack and support its adoption.
 
 </WorkHistory-Block>
 
-<WorkHistory-Block title="Tendable" subtitle="Senior Developer" years="June 2021-April 2022">
+<WorkHistory-Block title="Tendable" subtitle="Tech Lead" years="June 2021-April 2022">
 
-I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, wrote several reusable service templates and libraries. During my time, I also fixed a major security vulnerability and wrote tools to analyse our app usage.
+I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, wrote several reusable service templates and libraries. During my time, I also fixed a major security vulnerability and wrote tools to obtain metrics .
 
 In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; migrated our CI from a devops lead platform to GitHub Actions to empower developers, and introduced structured documentation processes for developers.
 
-<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'Twirp', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" />
+<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" />
 
 </WorkHistory-Block>
 
