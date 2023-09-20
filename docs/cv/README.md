@@ -22,7 +22,7 @@ I am responsible for the day-to-day operations of the Estimating North America t
 
 Within engineering, I work with senior management to define staffing needs, capacity planning, to align on the path to consolidating capabilities across the platform, and to support our hiring efforts.
 
-Outside of engineering, I run the company-wide employee led ESAT initiative (with sponsorship from Head of People) to improve the workplace. I also am working with the people team as part of an initiative to redefine Tractable's company values.
+Outside of engineering, I run the company-wide employee led ESAT initiative (with sponsorship from Head of People) to improve the workplace. I am also working with the people team as part of a small team redefining Tractable's company values.
 
 I previously concurrently lead two platform oriented teams (8 engineers at senior and staff levels) with the mission to improve developer experience and deliver core services and capabilities for all product lines. In that role, I took on existing teams who needed to be realigned to be more focused on their users than their own preferences. I was able to reorient the teams toward their users, focus the teams on their users, and successfully lead an initiative to introduce a new auth platform into the company stack and support its adoption.
 
