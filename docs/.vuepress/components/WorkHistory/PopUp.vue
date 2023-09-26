@@ -2,7 +2,7 @@
   <transition name="sw-update-popup">
     <div class="sw-update-popup" :class="classes">
       <p>{{message}}</p>
-      <a class="download-link" :href="url">{{buttonText}}</a>
+      <a class="download-link" target="_blank" :href="url">{{buttonText}}</a>
     </div>
   </transition>
 </template>

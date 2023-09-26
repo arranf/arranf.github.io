@@ -139,5 +139,5 @@ The on-device application is supported by a data pipeline that translates in-gam
 </WorkHistory-Block>
 
 <WorkHistory-PopUp
-          :url="'https://s3.eu-west-2.amazonaws.com/arranfrance.com/Arran-France--Full-Stack-Software-Engineer--CV.pdf'"
+          url="https://s3.eu-west-2.amazonaws.com/arranfrance.com/CV+Arran+France+-+Engineering+Manager.pdf"
         />

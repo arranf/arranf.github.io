@@ -24,7 +24,6 @@ module.exports = {
         text: "Social",
         items: [
           { text: "Github", link: "https://github.com/arranf" },
-          { text: "Twitter", link: "https://twitter.com/arranf" },
           { text: "BlueSky", link: "https://bsky.app/profile/arranfrance.com" },
           { text: "YouTube", link: "https://youtube.com/c/@arranfrance" },
           {
@@ -49,16 +48,12 @@ module.exports = {
             link: "https://timetoduel.app/",
           },
           {
-            text: "Descent 2E Monster Choosing Tool",
+            text: "Descent 2E Monster Selector",
             link: "https://descent.arranfrance.com/",
           },
           {
             text: "Mork Borg Character Sheet",
             link: "https://morkborg.arranfrance.com/",
-          },
-          {
-            text: "ChazzBeyond Chrome Extension",
-            link: "https://chrome.google.com/webstore/detail/chazzbeyond/pmbkgngmnpblpacehppjifbkagljkfbe?hl=en-GB",
           },
           {
             text: "Valinde",
