@@ -13,9 +13,6 @@
       <div class="item">
         <a href="mailto:arran@arranfrance.com">arran@arranfrance.com</a>
       </div>
-      <div class="item">
-        <a href="https://github.com/arranf">github.com/arranf</a>
-      </div>
     </div>
   </div>
 </template>
