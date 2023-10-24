@@ -5,4 +5,4 @@ I lead the North American Estimating team at Tractable, who are responsible for 
 
 ### The Other Stuff
 
-When I'm not working you can normally find me doing one of my dozen or so hobbies. I enjoy writing, reading, making [YouTube videos on tabletop games](https://www.youtube.com/c/@arranfrance), watching the NFL (Go Cowboys!), playing board games, photography, and playing pen and paper RPGs with my friends. I'm married to the beautiful [Catherine](https://catherinefrance.co.uk/).
+When I'm not working you can normally find me enjoying one of my hobbies. I enjoy writing, reading, making [YouTube videos on tabletop games](https://www.youtube.com/c/@arranfrance), watching the NFL (Go Cowboys!), playing board games, photography, and playing pen and paper RPGs with my friends.
