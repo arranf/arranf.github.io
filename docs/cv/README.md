@@ -12,7 +12,7 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 ## Experience
 
-<WorkHistory-Block title="Tractable" subtitle="Team Lead (Equivalent EM 1)" years="May 2022-Present">
+<WorkHistory-Block title="Tractable" subtitle="Engineering Manager" years="May 2022-Present">
 
 I am responsible for the day-to-day operations of a team of seven and the delivery of three product lines in North America including Tractable's fastest growing product. I work closely with my counterparts in product management (Director of Product) and research & AI development to define the team's strategy and with stakeholders in go to market to align on the near term roadmap.
 
