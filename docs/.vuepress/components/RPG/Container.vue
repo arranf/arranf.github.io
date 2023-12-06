@@ -2,10 +2,10 @@
 
 <template>
   <div>
-    <ais-instant-search :search-client="searchClient" :index-name="`${MEILISEARCH_INDEX_NAME}:lastmodified:desc`">
+    <ais-instant-search :search-client="searchClient" :index-name="`${MEILISEARCH_INDEX_NAME}:name:asc`">
       <div class="top-panel">
         <div class="sort-container">
-        <span>Sort By</span>
+        <!-- <span>Sort By</span>
         <ais-sort-by
           :items="[
             { value: `${MEILISEARCH_INDEX_NAME}:rank:asc`, label: 'BGG Rank' },
@@ -14,35 +14,38 @@
             { value: MEILISEARCH_INDEX_NAME, label: 'Name' },
             { value: `${MEILISEARCH_INDEX_NAME}:lastmodified:desc`, label: 'Newest' },
           ]"
-        />
+        /> -->
         </div>
         <div class="search-container">
         <ais-search-box
-          placeholder="Search for games"
+          placeholder="Search for RPGs"
           reset-title="Clear"
         />
         </div>
       </div>
       <div class="top-panel">
-        
-        <filter-wrapper header="Player Count">
-          <ais-hierarchical-menu :attributes="['players.level1', 'players.level2']" :sort-by="(a, b) => parseInt(a.name) - parseInt(b.name)"
-            :limit="13" :show-parent-level="true"
-            :transformItems="(items) => items.filter(i => i.label !== '0')" />
+
+        <filter-wrapper header="Format">
+          <ais-refinement-list attribute="format" operator="or" />
         </filter-wrapper>
 
-        <filter-wrapper header="Complexity">
-          <ais-refinement-list attribute="weight" operator="or" :sort-by="(a,b) => WEIGHT_LABELS.indexOf(a.name) - WEIGHT_LABELS.indexOf(b.name)" />
+
+        <filter-wrapper header="System">
+          <ais-refinement-list attribute="system" operator="or" />
         </filter-wrapper>
 
-        <filter-wrapper header="Playing Time">
+        <filter-wrapper header="Type">
+          <ais-refinement-list attribute="type" operator="or" />
+        </filter-wrapper>
+
+
+        <!-- <filter-wrapper header="Playing Time">
           <ais-refinement-list attribute="playing_time" operator="or" :sort-by="(a,b) => PLAYING_TIME_ORDER.indexOf(a.name) - PLAYING_TIME_ORDER.indexOf(b.name)" />
         </filter-wrapper>
 
         <filter-wrapper header="Tags">
           <ais-refinement-list attribute="tags" operator="and" :sort-by="(a,b) => a - b" :transform-items="transformItems" />
-        </filter-wrapper>
-        
+        </filter-wrapper> -->
         <ais-clear-refinements />
 
       </div>
@@ -80,7 +83,7 @@ function replaceProperty(obj, key, value) {
       replaceProperty(obj[prop], key, value);
   }
 }
-const MEILISEARCH_INDEX_NAME = "games";
+const MEILISEARCH_INDEX_NAME = "rpgs";
 
 export default {
   components: {
@@ -100,24 +103,9 @@ export default {
 
     return {
       MEILISEARCH_INDEX_NAME,
-      WEIGHT_LABELS: [
-        "Light",
-        "Light Medium",
-        "Medium",
-        "Medium Heavy",
-        "Heavy"
-      ],
-      PLAYING_TIME_ORDER: [
-        '< 30min',
-        '30min - 1h',
-        '1-2h',
-        '2-3h',
-        '3-4h',
-        '> 4h'
-      ],
       searchClient: instantMeiliSearch(
         'https://search.arranfrance.com',
-        '32140ba2b46b24fbebaf55f36d2aeed2b63f31866d9220f41749744f68fa6623',
+        '25049e8ca34d3d3891a419941834109838094889f7e8a5de2dd86bccfad5b46a',
       )
     }
   },

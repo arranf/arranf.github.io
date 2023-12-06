@@ -37,6 +37,7 @@ module.exports = {
         text: "My Collections",
         items: [
           { text: "Board Games", link: "/boardgames/" },
+          { text: "RPGs", link: "/rpgs/"},
           { text: "Films", link: "/films/" },
         ],
       },
