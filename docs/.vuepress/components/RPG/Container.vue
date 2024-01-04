@@ -26,16 +26,16 @@
       <div class="top-panel">
 
         <filter-wrapper header="Format">
-          <ais-refinement-list attribute="format" operator="or" />
+          <ais-refinement-list attribute="format" operator="or" :limit="15" />
         </filter-wrapper>
 
 
         <filter-wrapper header="System">
-          <ais-refinement-list attribute="system" operator="or" />
+          <ais-refinement-list attribute="system" operator="or" :limit="25" />
         </filter-wrapper>
 
         <filter-wrapper header="Type">
-          <ais-refinement-list attribute="type" operator="or" />
+          <ais-refinement-list attribute="type" operator="or" :limit="15" />
         </filter-wrapper>
 
 
