@@ -105,7 +105,7 @@ export default {
       MEILISEARCH_INDEX_NAME,
       searchClient: instantMeiliSearch(
         'https://search.arranfrance.com',
-        '25049e8ca34d3d3891a419941834109838094889f7e8a5de2dd86bccfad5b46a',
+        '18e0c1ac136d91dfa656cd6b3bd195bb68df07f4f97f45087a729b53f58d0e91',
       )
     }
   },
