@@ -12,13 +12,21 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 ## Experience
 
-<WorkHistory-Block title="Tractable" subtitle="Engineering Manager" years="May 2022-Present">
 
-I am responsible for the day-to-day operations of a team of seven and the delivery of three product lines in North America including Tractable's fastest growing product. I work closely with my counterparts in product management (Director of Product) and research & AI development to define the team's strategy and with stakeholders in go to market to align on the near term roadmap.
+<WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2023-Present">
 
-During my tenure I've had 11 direct reports, from mid to staff level. I work with my reports to define their personal objectives, create opportunities for them to thrive, and give them regular feedback to support their growth. Day to day I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and sponsor cross-team engagements.
+I currently lead the Wills engineering team at Farewill.
 
-Within engineering, I work with senior management to define staffing needs, provide capacity planning, and to support our hiring efforts. Outside of engineering, I run the company-wide employee led ESAT initiative to improve the workplace. I am also working with the people team as part of a small team redefining Tractable's company values.
+</WorkHistory-Block>
+
+
+<WorkHistory-Block title="Tractable" subtitle="Engineering Manager" years="May 2022-Jan 2023">
+
+I led the Estimating product responsible for the day-to-day operations of a team of eleven and the delivery of three product lines across three separate regions including Tractable's fastest growing product. I worked closely with my counterparts in product management (Director of Product) and research & AI development to define the team's strategy and with stakeholders in go to market to align on the product roadmap.
+
+During my tenure I had 20 direct reports, from junior to staff level. I worked with my reports to define their personal objectives, create opportunities for them to thrive, and give them regular feedback to support their growth. Day to day I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and sponsor cross-team engagements.
+
+Within engineering, I work with senior management to define staffing needs, provide capacity planning, and to support our hiring efforts. Outside of engineering, I ran the company-wide employee led ESAT initiative to improve the workplace and worked with the people team as part of a small team redefining Tractable's company values.
 
 I previously lead two platform oriented teams (8 engineers at senior plus) with the mandate to improve developer experience and deliver core services and capabilities for all product lines. In that role, I reduced unnecessary spend by £500k/pa and successfully defined and lead an initiative to introduce a cross product auth platform.
 

@@ -1,7 +1,7 @@
 <profile-image />
 I'm Arran France and I'm a people-first software engineering manager with a focus on building user-first products.
 
-I lead the North American Estimating team at Tractable, who are responsible for delivering Tractable's fastest growing product offering. I previously led the Application Platform and the Engineering Platform teams providing product teams extendable reusable components and infrastructure tools to improve developer productivity.
+I lead the Wills team at Farewill. I previously worked at Tractable leading the Estimating product, and the Application Platform and the Engineering Platform teams.
 
 ### The Other Stuff
 
