@@ -1,7 +1,7 @@
 <template>
   <div>
     <img
-      src="https://secure.gravatar.com/avatar/646c698b580eb0ee44a7e4a55c33aaec?s=256"
+      src="https://secure.gravatar.com/avatar/19e95ace85155a0b0a80bc6ad5ae4538?s=256"
       alt="Arran"
     >
   </div>
