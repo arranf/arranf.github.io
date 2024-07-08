@@ -2,127 +2,10 @@
 # yarn lockfile v1
 
 
-"@algolia/cache-browser-local-storage@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.19.1.tgz#d29f42775ed4d117182897ac164519c593faf399"
-  integrity sha512-FYAZWcGsFTTaSAwj9Std8UML3Bu8dyWDncM7Ls8g+58UOe4XYdlgzXWbrIgjaguP63pCCbMoExKr61B+ztK3tw==
-  dependencies:
-    "@algolia/cache-common" "4.19.1"
-
-"@algolia/cache-common@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.19.1.tgz#faa5eeacaffd6023c2cf26e9866bdb06193f9b26"
-  integrity sha512-XGghi3l0qA38HiqdoUY+wvGyBsGvKZ6U3vTiMBT4hArhP3fOGLXpIINgMiiGjTe4FVlTa5a/7Zf2bwlIHfRqqg==
-
-"@algolia/cache-in-memory@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.19.1.tgz#afe4f0f21149800358379871089e0141fb72415b"
-  integrity sha512-+PDWL+XALGvIginigzu8oU6eWw+o76Z8zHbBovWYcrtWOEtinbl7a7UTt3x3lthv+wNuFr/YD1Gf+B+A9V8n5w==
-  dependencies:
-    "@algolia/cache-common" "4.19.1"
-
-"@algolia/client-account@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/client-account/-/client-account-4.19.1.tgz#1fa65881baab79ad35af6bcf44646a13b8d5edc9"
-  integrity sha512-Oy0ritA2k7AMxQ2JwNpfaEcgXEDgeyKu0V7E7xt/ZJRdXfEpZcwp9TOg4TJHC7Ia62gIeT2Y/ynzsxccPw92GA==
-  dependencies:
-    "@algolia/client-common" "4.19.1"
-    "@algolia/client-search" "4.19.1"
-    "@algolia/transporter" "4.19.1"
-
-"@algolia/client-analytics@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/client-analytics/-/client-analytics-4.19.1.tgz#e6ed79acd4de5a0284c9696bf4e1c25278ba34db"
-  integrity sha512-5QCq2zmgdZLIQhHqwl55ZvKVpLM3DNWjFI4T+bHr3rGu23ew2bLO4YtyxaZeChmDb85jUdPDouDlCumGfk6wOg==
-  dependencies:
-    "@algolia/client-common" "4.19.1"
-    "@algolia/client-search" "4.19.1"
-    "@algolia/requester-common" "4.19.1"
-    "@algolia/transporter" "4.19.1"
-
-"@algolia/client-common@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.19.1.tgz#40a8387316fa61d62ad1091beb3a8e227f008e75"
-  integrity sha512-3kAIVqTcPrjfS389KQvKzliC559x+BDRxtWamVJt8IVp7LGnjq+aVAXg4Xogkur1MUrScTZ59/AaUd5EdpyXgA==
-  dependencies:
-    "@algolia/requester-common" "4.19.1"
-    "@algolia/transporter" "4.19.1"
-
-"@algolia/client-personalization@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/client-personalization/-/client-personalization-4.19.1.tgz#fe362e0684dc74c3504c3641c5a7488c6ae02e07"
-  integrity sha512-8CWz4/H5FA+krm9HMw2HUQenizC/DxUtsI5oYC0Jxxyce1vsr8cb1aEiSJArQT6IzMynrERif1RVWLac1m36xw==
-  dependencies:
-    "@algolia/client-common" "4.19.1"
-    "@algolia/requester-common" "4.19.1"
-    "@algolia/transporter" "4.19.1"
-
-"@algolia/client-search@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.19.1.tgz#5e54601aa5f5cea790cec3f2cde4af9d6403871e"
-  integrity sha512-mBecfMFS4N+yK/p0ZbK53vrZbL6OtWMk8YmnOv1i0LXx4pelY8TFhqKoTit3NPVPwoSNN0vdSN9dTu1xr1XOVw==
-  dependencies:
-    "@algolia/client-common" "4.19.1"
-    "@algolia/requester-common" "4.19.1"
-    "@algolia/transporter" "4.19.1"
-
 "@algolia/events@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@algolia/events/-/events-4.0.1.tgz#fd39e7477e7bc703d7f893b556f676c032af3950"
   integrity sha512-FQzvOCgoFXAbf5Y6mYozw2aj5KCJoA3m4heImceldzPSMbdyS4atVjJzXKMsfX3wnZTFYwkkt8/z8UesLHlSBQ==
-
-"@algolia/logger-common@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/logger-common/-/logger-common-4.19.1.tgz#0e46a11510f3e94e1afc0ac780ae52e9597be78f"
-  integrity sha512-i6pLPZW/+/YXKis8gpmSiNk1lOmYCmRI6+x6d2Qk1OdfvX051nRVdalRbEcVTpSQX6FQAoyeaui0cUfLYW5Elw==
-
-"@algolia/logger-console@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/logger-console/-/logger-console-4.19.1.tgz#656a6f4ebb5de39af6ef7095c398d9ab3cceb87d"
-  integrity sha512-jj72k9GKb9W0c7TyC3cuZtTr0CngLBLmc8trzZlXdfvQiigpUdvTi1KoWIb2ZMcRBG7Tl8hSb81zEY3zI2RlXg==
-  dependencies:
-    "@algolia/logger-common" "4.19.1"
-
-"@algolia/requester-browser-xhr@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.19.1.tgz#7341ea2f980b8980a2976110142026721e452187"
-  integrity sha512-09K/+t7lptsweRTueHnSnmPqIxbHMowejAkn9XIcJMLdseS3zl8ObnS5GWea86mu3vy4+8H+ZBKkUN82Zsq/zg==
-  dependencies:
-    "@algolia/requester-common" "4.19.1"
-
-"@algolia/requester-common@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.19.1.tgz#f3396c77631b9d36e8d4d6f819a2c27f9ddbf7a1"
-  integrity sha512-BisRkcWVxrDzF1YPhAckmi2CFYK+jdMT60q10d7z3PX+w6fPPukxHRnZwooiTUrzFe50UBmLItGizWHP5bDzVQ==
-
-"@algolia/requester-node-http@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-4.19.1.tgz#ea210de9642628b3bdda1dd7fcd1fcb686da442e"
-  integrity sha512-6DK52DHviBHTG2BK/Vv2GIlEw7i+vxm7ypZW0Z7vybGCNDeWzADx+/TmxjkES2h15+FZOqVf/Ja677gePsVItA==
-  dependencies:
-    "@algolia/requester-common" "4.19.1"
-
-"@algolia/transporter@4.19.1":
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/@algolia/transporter/-/transporter-4.19.1.tgz#b5787299740c4bec9ba05502d98c14b5999860c8"
-  integrity sha512-nkpvPWbpuzxo1flEYqNIbGz7xhfhGOKGAZS7tzC+TELgEmi7z99qRyTfNSUlW7LZmB3ACdnqAo+9A9KFBENviQ==
-  dependencies:
-    "@algolia/cache-common" "4.19.1"
-    "@algolia/logger-common" "4.19.1"
-    "@algolia/requester-common" "4.19.1"
-
-"@algolia/ui-components-highlight-vdom@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@algolia/ui-components-highlight-vdom/-/ui-components-highlight-vdom-1.2.1.tgz#c430c9f090ef8c68477ef4b685324ed231ce0c13"
-  integrity sha512-IlYgIaCUEkz9ezNbwugwKv991oOHhveyq6nzL0F1jDzg1p3q5Yj/vO4KpNG910r2dwGCG3nEm5GtChcLnarhFA==
-  dependencies:
-    "@algolia/ui-components-shared" "1.2.1"
-    "@babel/runtime" "^7.0.0"
-
-"@algolia/ui-components-shared@1.2.1", "@algolia/ui-components-shared@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@algolia/ui-components-shared/-/ui-components-shared-1.2.1.tgz#62e3a04fc11623f149312942cd764d4528dd994c"
-  integrity sha512-a7mYHf/GVQfhAx/HRiMveKkFvHspQv/REdG+C/FIOosiSmNZxX7QebDwJkrGSmDWdXO12D0Qv1xn3AytFcEDlQ==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
@@ -1065,7 +948,14 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.1.2":
+  version "7.24.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
+  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
+"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
   version "7.22.10"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.10.tgz#ae3e9631fd947cb7e3610d3e9d8fef5f76696682"
   integrity sha512-21t/fkKLMZI4pqP2wlmsQAWnYW1PDyKyyUV4vCi+B25ydmdaYTKXPwCj0BzSUnZf4seIiYvSA3jcZ3gdsMFkLQ==
@@ -1138,12 +1028,12 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@meilisearch/instant-meilisearch@^0.13.4":
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/@meilisearch/instant-meilisearch/-/instant-meilisearch-0.13.4.tgz#a46030bafe33aaaf9c5e04772e2db7ea70041702"
-  integrity sha512-RrNq6Qu6gwwDzFcs/LJKA/W2luL7tLjHpFYclr+t//2Hmy4FtY0xJDUVtXODzHewNy9OZ3NoIi0ohvq7JBMgpA==
+"@meilisearch/instant-meilisearch@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@meilisearch/instant-meilisearch/-/instant-meilisearch-0.19.0.tgz#a26ff3197b46ca08d53ae2fd3b83f4b769269ebd"
+  integrity sha512-XqHID1e4iISKzmD8+GZLB21BOROT6s+KD/G+PmCtArlB8O/cy1kGJBVjo5QZgUuzSkRBV4UwICsa9gqHrWS4Zw==
   dependencies:
-    meilisearch "^0.34.0"
+    meilisearch "^0.41.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -1526,19 +1416,19 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vuepress/core@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-1.9.9.tgz#aa8bc4497fcbb6aab9c1e290944d422edeb20495"
-  integrity sha512-Ekgu409ZSgvAV9n14F3DaEWtgkwrEicg1nWs0gbxGgUCdREeX/7rwxSfKwWwBjCwfCUKR2L3+6pXGjzxex0t+g==
+"@vuepress/core@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-1.9.10.tgz#ce17d603a0195ab2b8152f5a33bea274869184a3"
+  integrity sha512-H9ddo5fSinPb8QYl8OJFbZikMpOW84bm/U3Drzz8CnCXNtpda7CU2wX/XzOhe98G8jp45xhtZRkxOrqzBBAShA==
   dependencies:
     "@babel/core" "^7.8.4"
     "@vue/babel-preset-app" "^4.1.2"
-    "@vuepress/markdown" "1.9.9"
-    "@vuepress/markdown-loader" "1.9.9"
-    "@vuepress/plugin-last-updated" "1.9.9"
-    "@vuepress/plugin-register-components" "1.9.9"
-    "@vuepress/shared-utils" "1.9.9"
-    "@vuepress/types" "1.9.9"
+    "@vuepress/markdown" "1.9.10"
+    "@vuepress/markdown-loader" "1.9.10"
+    "@vuepress/plugin-last-updated" "1.9.10"
+    "@vuepress/plugin-register-components" "1.9.10"
+    "@vuepress/shared-utils" "1.9.10"
+    "@vuepress/types" "1.9.10"
     autoprefixer "^9.5.1"
     babel-loader "^8.0.4"
     bundle-require "2.1.8"
@@ -1573,21 +1463,21 @@
     webpack-merge "^4.1.2"
     webpackbar "3.2.0"
 
-"@vuepress/markdown-loader@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/markdown-loader/-/markdown-loader-1.9.9.tgz#b44e446a04808b9aef503d32fdcbc1e7fb7afef4"
-  integrity sha512-nyY+sytuQaDLEIk6Yj9JFUfSQpe9/sz30xQFkGCYqi0lQTRGQM6IcRDgfcTS7b25A0qRlwpDGBfKQiGGMZKSfg==
+"@vuepress/markdown-loader@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/markdown-loader/-/markdown-loader-1.9.10.tgz#076619a9079d4955bb73b59dc9e474c488d49bb7"
+  integrity sha512-94BlwKc+lOaN/A5DkyA9KWHvMlMC1sWunAXE3Tv0WYzgYLDs9QqCsx7L5kLkpcOOVVm/8kBJumnXvVBwhqJddw==
   dependencies:
-    "@vuepress/markdown" "1.9.9"
+    "@vuepress/markdown" "1.9.10"
     loader-utils "^1.1.0"
     lru-cache "^5.1.1"
 
-"@vuepress/markdown@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/markdown/-/markdown-1.9.9.tgz#1f582e6302e91a09491ca7bd0c8bcf9683140e03"
-  integrity sha512-JzFdBdGe5aoiKSaEgF+h3JLDXNVfWPI5DJWXrIt7rhhkMJesF6HowIznPLdXqukzHfXHcPvo9oQ4o6eT0YmVGA==
+"@vuepress/markdown@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/markdown/-/markdown-1.9.10.tgz#63df6c6137e2d6bac2d03b5911e4326484761ba7"
+  integrity sha512-sXTLjeZzH8SQuAL5AEH0hhsMljjNJbzWbBvzaj5yQCCdf+3sp/dJ0kwnBSnQjFPPnzPg5t3tLKGUYHyW0KiKzA==
   dependencies:
-    "@vuepress/shared-utils" "1.9.9"
+    "@vuepress/shared-utils" "1.9.10"
     markdown-it "^8.4.1"
     markdown-it-anchor "^5.0.2"
     markdown-it-chain "^1.3.0"
@@ -1595,46 +1485,61 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.9.tgz#fad96c550bea0b204fe16266cff1405e8636c1e1"
-  integrity sha512-lTnIhbuALjOjFts33jJD8r4ScNBxnZ6MtmePKEwvYlC3J9uvngs1Htpb1JzLEX9QCydt+bhLmZ92bTXn/PdTpg==
+"@vuepress/plugin-active-header-links@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.9.10.tgz#bcd96ee7c156310de30a9565ab9ca18e72f18a5a"
+  integrity sha512-2dRr3DE2UBFXhyMtLR3sGTdRyDM8YStuY6AOoQmoSgwy1IHt7PO7ypOuf1akF+1Nv8Q2aISU06q6TExZouu3Mw==
   dependencies:
-    "@vuepress/types" "1.9.9"
+    "@vuepress/types" "1.9.10"
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-last-updated@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.9.9.tgz#a7cb5f39b2793c8d113de08a514c316c26cc38c1"
-  integrity sha512-MV4csmM0/lye83VtkOc+b8fs0roi7mvE7BmCCOE39Z6t8nv/ZmEPOwKeHD0+hXPT+ZfoATYvDcsYU7uxbdw0Pw==
+"@vuepress/plugin-last-updated@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.9.10.tgz#e2564512fe5652be892351cd95c5e611fd11a3be"
+  integrity sha512-YxzWGF/OfU6WsHSynZFn74NGGp7dY27Bjy9JyyFo8wF5+2V1gpyDjveHKHGKugS/pMXlxfjzhv9E2Wmy9R7Iog==
   dependencies:
-    "@vuepress/types" "1.9.9"
+    "@vuepress/types" "1.9.10"
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-nprogress@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.9.9.tgz#4fee4818ddc8ddc6a1778b7f2b74ab784c90915d"
-  integrity sha512-+3fLxjwTLH8MeU54E7i1ovRu9KzBom2lvSeUsu9B8PuLyrETAqW7Pe1H66awEEALEe0ZnnEU4d7SeVe9ljsLAQ==
+"@vuepress/plugin-nprogress@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.9.10.tgz#945142c2db4a2a11942c063d5d0f01bc5d295f49"
+  integrity sha512-I1kkm6yWUQd7vwiV3lEDVpVP0Lr04K0zlczU502lDUa1RufSZ7vt+mlF5fOM28GqT+pKTEToWmm+VNT/R3qvMQ==
   dependencies:
-    "@vuepress/types" "1.9.9"
+    "@vuepress/types" "1.9.10"
     nprogress "^0.2.0"
 
-"@vuepress/plugin-register-components@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-register-components/-/plugin-register-components-1.9.9.tgz#95be133d6ef33c03f410caae8eb1fabdf27a7999"
-  integrity sha512-tddnAiSmJsIWWPzE7TcbGU8xzndXf4a8i4BfIev2QzSUnIOQFZDGXUAsCkw4/f9N9UFxQSObjFPzTeUUxb7EvA==
+"@vuepress/plugin-register-components@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-register-components/-/plugin-register-components-1.9.10.tgz#3f8fd91acefec32b115d4dce89b14863cbe29212"
+  integrity sha512-sgdJ5OydTPZAoTkselpvVP3Xsd6bfZ0FpaxOTinal0gJ99h49lvLu9bvzMx13rdGRFO/kRXn0qQQpwKTAfTPqA==
   dependencies:
-    "@vuepress/shared-utils" "1.9.9"
-    "@vuepress/types" "1.9.9"
+    "@vuepress/shared-utils" "1.9.10"
+    "@vuepress/types" "1.9.10"
 
-"@vuepress/plugin-search@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.9.tgz#d30804b86f9b7f54b3db0b987a288433be3cfd7b"
-  integrity sha512-W/FE+YHoXDD4qk2wu5yRMkti271TA4y+7UBMrmCavvVAGrLIRnaZfswRUgIiDlEthBc+Pn8/As/Dy1jFTLBa9A==
+"@vuepress/plugin-search@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.10.tgz#313a504020d60a2f694b27a8b6457ee99b4c71e7"
+  integrity sha512-bn2XJikaRgQZXvu8upCjOWrxbLHIRTqnJ3w7G0mo6jCYWGVsHNo6XhVpqylpLR2PWnHT/ImO2bGo38/5Bag/tQ==
   dependencies:
-    "@vuepress/types" "1.9.9"
+    "@vuepress/types" "1.9.10"
 
-"@vuepress/shared-utils@1.9.9", "@vuepress/shared-utils@^1.2.0":
+"@vuepress/shared-utils@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.9.10.tgz#45aae7fcf07a2067fb340c71e5bd96837b48dfee"
+  integrity sha512-M9A3DocPih+V8dKK2Zg9FJQ/f3JZrYsdaM/vQ9F48l8bPlzxw5NvqXIYMK4kKcGEyerQNTWCudoCpLL5uiU0hg==
+  dependencies:
+    chalk "^2.3.2"
+    escape-html "^1.0.3"
+    fs-extra "^7.0.1"
+    globby "^9.2.0"
+    gray-matter "^4.0.1"
+    hash-sum "^1.0.2"
+    semver "^6.0.0"
+    toml "^3.0.0"
+    upath "^1.1.0"
+
+"@vuepress/shared-utils@^1.2.0":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.9.9.tgz#f6561ec2264d54e4e459d17678766ffe09f4bfc6"
   integrity sha512-qhk/7QF5LgMEXhEB1hlqreGFgkz4p2pmaBBNFxnAnYmSwmyO+u/oFOpZLI16QRx9Wg6ekR2ENmByQLxV7y4lJg==
@@ -1649,15 +1554,15 @@
     toml "^3.0.0"
     upath "^1.1.0"
 
-"@vuepress/theme-default@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/theme-default/-/theme-default-1.9.9.tgz#26f1965e1204445fa617308d3b06f134baab4936"
-  integrity sha512-de0FiOwM/h3rFTBSZK0NNBB117lA/e3IHusU7Xm2XeZRiZ/EE3yvbWclZnbbRNt3YjDMmrWXEW/kBTBxfiMuWQ==
+"@vuepress/theme-default@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/theme-default/-/theme-default-1.9.10.tgz#6e916e2164ab3d9cc9567610e4ada9c3a568f206"
+  integrity sha512-XnXn9t+pYCIhWi3cZXJlighuy93FFm5yXdISAAlFlcNkshuGtqamkjacHV8q/QZMfOhSIs6wX7Hj88u2IsT5mw==
   dependencies:
-    "@vuepress/plugin-active-header-links" "1.9.9"
-    "@vuepress/plugin-nprogress" "1.9.9"
-    "@vuepress/plugin-search" "1.9.9"
-    "@vuepress/types" "1.9.9"
+    "@vuepress/plugin-active-header-links" "1.9.10"
+    "@vuepress/plugin-nprogress" "1.9.10"
+    "@vuepress/plugin-search" "1.9.10"
+    "@vuepress/types" "1.9.10"
     docsearch.js "^2.5.2"
     lodash "^4.17.15"
     stylus "^0.54.8"
@@ -1665,10 +1570,10 @@
     vuepress-plugin-container "^2.0.2"
     vuepress-plugin-smooth-scroll "^0.0.3"
 
-"@vuepress/types@1.9.9":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.9.tgz#7c21e4c91c13e58e2ff303ded9ad7425805cb07d"
-  integrity sha512-ukGW49ILzLhIc7CltHMr+BeIjWKloJNN1mrvbDz3beycp9b9kgH+DXNdRIK9QCKr4fJsy7x08vNMwZr9Nq/PTQ==
+"@vuepress/types@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.10.tgz#5b8d112a0d7dbaffce1e5d39b66754412c83ecc6"
+  integrity sha512-TDNQn4og85onmBpLTTXXmncW3rUnYGr2MkuI8OIFJZetDNM49t1WbjNVlrT+kx7C6qXi6okDQgrHGYXajHZWfg==
   dependencies:
     "@types/markdown-it" "^10.0.0"
     "@types/webpack-dev-server" "^3"
@@ -1872,10 +1777,10 @@ ajv@^6.1.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.4:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-algoliasearch-helper@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.14.0.tgz#2409c2591952719ab6fba1de77b3bbe5094ab85e"
-  integrity sha512-gXDXzsSS0YANn5dHr71CUXOo84cN4azhHKUbg71vAWnH+1JBiR4jf7to3t3JHXknXkbV0F7f055vUSBKrltHLQ==
+algoliasearch-helper@3.22.2:
+  version "3.22.2"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.22.2.tgz#e351833f3bbace34751e239d5a82b5696e561ae8"
+  integrity sha512-3YQ6eo7uYOCHeQ2ZpD+OoT3aJJwMNKEnwtu8WMzm81XmBOSCwRjQditH9CeSOQ38qhHkuGw23pbq+kULkIJLcw==
   dependencies:
     "@algolia/events" "^4.0.1"
 
@@ -1899,26 +1804,6 @@ algoliasearch@^3.24.5:
     reduce "^1.0.1"
     semver "^5.1.0"
     tunnel-agent "^0.6.0"
-
-algoliasearch@^4.18.0:
-  version "4.19.1"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.19.1.tgz#18111fb422eaf841737adb92d5ab12133d244218"
-  integrity sha512-IJF5b93b2MgAzcE/tuzW0yOPnuUyRgGAtaPv5UUywXM8kzqfdwZTO4sPJBzoGz1eOy6H9uEchsJsBFTELZSu+g==
-  dependencies:
-    "@algolia/cache-browser-local-storage" "4.19.1"
-    "@algolia/cache-common" "4.19.1"
-    "@algolia/cache-in-memory" "4.19.1"
-    "@algolia/client-account" "4.19.1"
-    "@algolia/client-analytics" "4.19.1"
-    "@algolia/client-common" "4.19.1"
-    "@algolia/client-personalization" "4.19.1"
-    "@algolia/client-search" "4.19.1"
-    "@algolia/logger-common" "4.19.1"
-    "@algolia/logger-console" "4.19.1"
-    "@algolia/requester-browser-xhr" "4.19.1"
-    "@algolia/requester-common" "4.19.1"
-    "@algolia/requester-node-http" "4.19.1"
-    "@algolia/transporter" "4.19.1"
 
 alphanum-sort@^1.0.0:
   version "1.0.2"
@@ -4980,29 +4865,35 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
-instantsearch.css@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.css/-/instantsearch.css-8.0.0.tgz#66a56b52400c7a14f678859e35a12eb32696a417"
-  integrity sha512-yU63cF9KdkyFFh7ynYQy39nh1MD1eVDHIaa/gdm8a/O9dTG/5P6hBF1ONoIbKTtjlxxsHS2S8MarCZZ0l31ajg==
+instantsearch-ui-components@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/instantsearch-ui-components/-/instantsearch-ui-components-0.7.0.tgz#74de07593c549d8caf151605552d1db0bea7907c"
+  integrity sha512-4dHmCFbKWap5iSR2VmF5pSBECGQbAa8sPMoazMihYY2/0ahVzdHrOOtT8/hferG1A/xTT8nzfU7PIg+8lomNsA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
-instantsearch.js@4.56.9:
-  version "4.56.9"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.56.9.tgz#ef0e4103192357289f35219079ccc4db260345d1"
-  integrity sha512-jyRbByRUPm/ISVdRknCUDenZh65IDO2KE3GMP+RLSpcl3PV9TRfqFCbzoaSAwholbZW7sm3InBP7isCWyQMPlw==
+instantsearch.css@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.css/-/instantsearch.css-8.3.0.tgz#e794db9df927da4d600f4326f708a54c3d7ff815"
+  integrity sha512-mdrfA4pw+6YNvoimibCMJWDgrxOreCzKSUjyQgyvZljFzqpCxcKF5ZApIt/L//3804C55NvXncX2zsZezAS8kA==
+
+instantsearch.js@4.73.0:
+  version "4.73.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.73.0.tgz#9a9940108f6b6f3084df8368ce18a22e08a19009"
+  integrity sha512-rL2oiIJZR8W5LcqJbxkNQr5KredSHNSJlxpmgk16+gSCcvCJzvM4EMoL7AotJFopDVABrvNXefPoCTNY3zRYLg==
   dependencies:
     "@algolia/events" "^4.0.1"
-    "@algolia/ui-components-highlight-vdom" "^1.2.1"
-    "@algolia/ui-components-shared" "^1.2.1"
     "@types/dom-speech-recognition" "^0.0.1"
     "@types/google.maps" "^3.45.3"
     "@types/hogan.js" "^3.0.0"
     "@types/qs" "^6.5.3"
-    algoliasearch-helper "3.14.0"
+    algoliasearch-helper "3.22.2"
     hogan.js "^3.0.2"
     htm "^3.0.0"
+    instantsearch-ui-components "0.7.0"
     preact "^10.10.0"
     qs "^6.5.1 < 6.10"
-    search-insights "^2.6.0"
+    search-insights "^2.13.0"
 
 internal-ip@^4.3.0:
   version "4.3.0"
@@ -5828,10 +5719,10 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-meilisearch@^0.34.0:
-  version "0.34.1"
-  resolved "https://registry.yarnpkg.com/meilisearch/-/meilisearch-0.34.1.tgz#9d003a81280a95394e52e2116e8244e3bca54555"
-  integrity sha512-7mrLp88JfrbvhAMhOjNPzHGd2iCLHgzNhkveMxppMOToMLQw4Ygof4ksQ9uFi7SKq3UwEhIoMoFT1rUHLD3vWQ==
+meilisearch@^0.41.0:
+  version "0.41.0"
+  resolved "https://registry.yarnpkg.com/meilisearch/-/meilisearch-0.41.0.tgz#98fc50dd8ce4f2446aa4445e3cecd47e3c9afde5"
+  integrity sha512-5KcGLxEXD7E+uNO7R68rCbGSHgCqeM3Q3RFFLSsN7ZrIgr8HPDXVAIlP4LHggAZfk0FkSzo8VSXifHCwa2k80g==
   dependencies:
     cross-fetch "^3.1.6"
 
@@ -7504,10 +7395,10 @@ schema-utils@^2.6.5:
     ajv "^6.12.4"
     ajv-keywords "^3.5.2"
 
-search-insights@^2.6.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/search-insights/-/search-insights-2.7.0.tgz#d8b7ce839cae7b905e62b156f4eefe122e560e5a"
-  integrity sha512-GLbVaGgzYEKMvuJbHRhLi1qoBFnjXZGZ6l4LxOYPCp4lI2jDRB3jPU9/XNhMwv6kvnA9slTreq6pvK+b3o3aqg==
+search-insights@^2.13.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/search-insights/-/search-insights-2.14.0.tgz#212626f1c5ee8d8e232af1f35c9afaa760a56d24"
+  integrity sha512-OLN6MsPMCghDOqlCtsIsYgtsC0pnwVTyT9Mu6A3ewOj1DxvzZF6COrn2g86E/c05xbktB0XN04m/t1Z+n+fTGw==
 
 section-matter@^1.0.0:
   version "1.0.0"
@@ -8634,12 +8525,13 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-instantsearch@^4.10.3:
-  version "4.10.9"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.10.9.tgz#e177bb1ba35b60d96959ddad5f1947fc732a0e66"
-  integrity sha512-Ix9Aey2PnJ9lUjsNBOHtQga/qUQA5UXdAsDRNMClZDir5ECHiAVvHmoqYt2+Ou0F4p3d/tRrbHp6A4w7wM1V2w==
+vue-instantsearch@^4.18.0:
+  version "4.18.0"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.18.0.tgz#12998061a11214b9eb30bbe35935a68840cd4d03"
+  integrity sha512-kWcRemgJxTofc9SUzQCDKc6tm3ObLYjRnXkpiHKpKuXnRd6PyyHe/JOxYrOPe5cGYVQI026e1/Z0IxHcFR71SQ==
   dependencies:
-    instantsearch.js "4.56.9"
+    instantsearch-ui-components "0.7.0"
+    instantsearch.js "4.73.0"
     mitt "^2.1.0"
 
 vue-loader@^15.7.1:
@@ -8749,14 +8641,14 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress@^1.9.7:
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.9.9.tgz#75b313f48a21b2eeb435cad52333f26b3b8a7404"
-  integrity sha512-CU94W3EdWaCavGx2VSvQJMI/hyv+m/YMdrvJJw67EVfmmJJDb1iTGrilDgLd0qsyrXzBy0Ru9Qi6rkf4IwcOTg==
+vuepress@^1.9.10:
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.9.10.tgz#14700fccd85bc56c810cf367ecc797fcbecc7c0f"
+  integrity sha512-UnGm9vjQvG918SZVNvgiUlNimLqawdYPq0aPRXDpEB1VksvqegVFy/GKdA8ShXJaEpOMPSt7YD4uK21jaMs3kA==
   dependencies:
-    "@vuepress/core" "1.9.9"
-    "@vuepress/theme-default" "1.9.9"
-    "@vuepress/types" "1.9.9"
+    "@vuepress/core" "1.9.10"
+    "@vuepress/theme-default" "1.9.10"
+    "@vuepress/types" "1.9.10"
     cac "^6.5.6"
     envinfo "^7.2.0"
     opencollective-postinstall "^2.0.2"
