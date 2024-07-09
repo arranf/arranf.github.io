@@ -13,5 +13,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 100%;
+  max-width: 256px;
+  object-fit: cover;
 }
 </style>
