@@ -17,5 +17,7 @@ img {
   width: 100%;
   max-width: 256px;
   object-fit: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 </style>
