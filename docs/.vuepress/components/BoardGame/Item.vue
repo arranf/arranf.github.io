@@ -181,14 +181,22 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
  .board-game-item {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
    margin: 0.6rem 0;
    border-radius: 10px;
 
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2),0px 0px 0px 0px rgba(0, 0, 0, 0.14),0px 0px 0px 0px rgba(0,0,0,.12);
     border-width: 1px;
     border-style: solid;
-    border-color: #e0e0e0;
+    border-color: var(--c-border-dark);
 
     display: flex;
     flex-direction: column;

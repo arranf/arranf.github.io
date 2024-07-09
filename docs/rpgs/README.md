@@ -1,9 +1,6 @@
 ---
-{
-  "title": "RPGs"
-}
+title: RPGs
+layout: SearchLayout
 ---
-
-# My RPGs
 
 <RPG-Container />

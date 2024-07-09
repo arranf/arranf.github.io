@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Github from './Github'
+import Github from './Github.vue'
 
 export default {
     components: {

@@ -1,6 +1,7 @@
 <template>
 <div class="item" :class="itemClass">
-    <slot /> <span :class="badgeClass"> <Badge v-if="badge" :type="badgeColor" :text="badgeText"  /></span>
+    <slot></slot>
+    <span :class="badgeClass"> <Badge v-if="badge" :type="badgeColor" :text="badgeText"  /></span>
 </div>
 </template>
 
@@ -25,7 +26,8 @@ export default {
         },
         badgeClass() {
             return {
-                right: this.badge && this.badge.position && this.badge.position === 'right'
+                right: this.badge && this.badge.position && this.badge.position === 'right',
+                'pl-1': true
             }
         },
         badgeText() {
@@ -49,6 +51,8 @@ export default {
   flex 1
   border-bottom 1px solid #d8d3d3
 
+.pl-1 
+  padding-left 0.75em
 
 .p-1 
   padding 0.75em

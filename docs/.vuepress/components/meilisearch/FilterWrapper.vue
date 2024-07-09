@@ -2,10 +2,11 @@
   <div 
     class="filter-wrapper"
     @mouseover="hover = true"
-    @mouseleave="hover = false"> 
+    @mouseleave="hover = false"
+    > 
     <h5 v-if="header" class="filter-title">{{header}}</h5>
-    <ais-panel v-show="hover" >
-      <slot  />
+    <ais-panel v-show="hover">
+      <slot ></slot>
     </ais-panel>
   </div>
 </template>
@@ -39,9 +40,8 @@ export default {
   }
 
   .ais-Panel {
-    background: #F8FAFC;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-    border: 1px solid rgba(0,0,0,0.1);
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
     padding: 1em;
     min-width: 200px;
     position: absolute;
@@ -49,9 +49,9 @@ export default {
   }
 
   @media (hover: hover) {
-        .facet:hover .ais-Panel-body,
-        .facet:focus-within .ais-Panel-body {
-            display: block;
-        }
+    .facet:hover .ais-Panel-body,
+    .facet:focus-within .ais-Panel-body {
+      display: block;
     }
+  }
 </style>

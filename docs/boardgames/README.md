@@ -1,9 +1,7 @@
 ---
-{
-  "title": "Board Games"
-}
+title: Board Games
+externalLinkIcon: false
+layout: SearchLayout
 ---
-
-# My Board Games
 
 <BoardGame-Container />

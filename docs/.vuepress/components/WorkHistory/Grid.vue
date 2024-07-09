@@ -32,11 +32,11 @@ export default {
         {
           name:
             "Ede and Ravenscroft Prize - Best First Year in Science Faculty",
-          badge: { text: "2016", position: "right", type: "warn" }
+          badge: { text: "2016", position: "right", type: "warning" }
         },
         {
           name: "Driver Prize - Best Student in Computer Science",
-          badge: { text: "2016 / 2017", position: "right", type: "warn" }
+          badge: { text: "2016 / 2017", position: "right", type: "warning" }
         }
         // {
         //   name: "Letter of Commendation",

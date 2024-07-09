@@ -1,8 +1,7 @@
 ---
-{ "title": "CV" }
+title: CV | Arran France
+layout: CVLayout
 ---
-
-<WorkHistory-Styles />
 
 <WorkHistory-Header />
 

@@ -1,15 +1,16 @@
 
 <script>
+import { h } from 'vue'
+
 export default {
   props: {
     title: String,
     year: String
   },
-  functional: true,
-  render: function (h, ctx) {
+  render: function () {
     return h('p', 
-       {key: ctx.props.title + ctx.props.year, class: 'film-title'}, 
-      [ctx.props.title, h('span', {class: 'film-year'}, ` (${ctx.props.year})`)]
+       {key: this.title + this.year, class: 'film-title'}, 
+      [this.title, h('span', {class: 'film-year'}, ` (${this.year})`)]
     );
   }
 };
@@ -21,6 +22,6 @@ export default {
 }
 
 .film-year {
-  color: #777777;
+  color: var(--c-text-lighter);
 }
 </style>

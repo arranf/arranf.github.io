@@ -96,9 +96,6 @@ export default {
       }
 
       return str;
-    },
-    beforeMount() {
-      return console.log(this.id)
     }
   }
 }

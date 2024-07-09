@@ -37,7 +37,6 @@
 </template>
 
 <script>
-import { oxfordComma } from '../utils';
 
 export default {
   props: {
