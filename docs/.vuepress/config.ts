@@ -1,5 +1,5 @@
 import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defaultTheme } from '@vuepress/theme-default'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from 'vuepress/utils'
@@ -7,7 +7,10 @@ import { getDirname, path } from 'vuepress/utils'
 const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
-  bundler: viteBundler(),
+  bundler: webpackBundler({
+    postcss: {},
+    vue: {},
+  }),
   plugins: [
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
