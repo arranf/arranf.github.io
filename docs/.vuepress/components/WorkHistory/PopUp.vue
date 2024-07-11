@@ -15,11 +15,11 @@ export default {
       type: String
     }
   },
-  // data() {
-  //   return {
-  //     isFaded: false
-  //   };
-  // },
+  data() {
+    return {
+      isFaded: false
+    };
+  },
   computed: {
     message() {
       return "Also available as a PDF";
@@ -29,25 +29,23 @@ export default {
     },
     classes() {
       return {
-        // faded: this.isFaded
+        faded: this.isFaded
       };
     }
   },
   methods: {
-    // setFaded() {
-    // // If you want to reenable the fading of the popup uncomment this line
-    // this.isFaded = true
-    // }
+    setFaded() {
+    // If you want to disable the fading of the popup uncomment this line
+      this.isFaded = true
+    }
   },
   created() {
-    // setTimeout(this.setFaded, 3000);
+    setTimeout(this.setFaded, 3000);
   }
 };
 </script>
 
 <style lang="stylus" scoped>
-$accentColor = #3eaf7c;
-$codeBgColor = #282c34;
 
 .sw-update-popup {
   display: flex;
@@ -55,7 +53,7 @@ $codeBgColor = #282c34;
   padding: 0.65em;
   border: none;
   border-radius: 3px;
-  background: $codeBgColor;
+  background: var(--code-bg-color);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
   // Mobile specific here
   min-width: 100%;
@@ -85,22 +83,31 @@ p {
 @media (min-width: 768px) {
   .sw-update-popup {
     text-align: left;
-    // Mobile specific here
     left: initial;
     min-width: initial;
     right: 0.2em;
     bottom: 0.2em;
   }
 
-  // .faded {
-  // transition: opacity 1s ease;
-  // opacity: 0.3;
+  .faded {
+    transition: opacity 1s ease;
+    opacity: 0.5;
 
-  // &:hover {
-  // transition: none;
-  // opacity: 1;
-  // }
-  // }
+    &:hover {
+      transition: none;
+      opacity: 1;
+    }
+  }
+
+  html.dark .faded {
+   opacity: 0.7;
+
+   &:hover {
+    transition: none;
+    opacity: 1;
+   }
+  }
+
   p, a {
     margin-left: 1em;
   }
