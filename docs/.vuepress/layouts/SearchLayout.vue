@@ -16,6 +16,10 @@ h5 {
   font-size: 0.83em;
 }
 
+.vp-page .theme-default-content {
+  padding-top: 2rem !important;
+}
+
 @media only screen and (max-width: 600px) {
   .sort-container {
     margin-bottom: 0.5rem;
@@ -29,49 +33,49 @@ h5 {
   color: var(--c-text);
 }
 
-  .top-panel {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: end;
+.top-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: end;
 
 
-    h5 {
-      margin-top: 12px;
-      margin-bottom: 12px;
-    }
-
+  h5 {
+    margin-top: 12px;
+    margin-bottom: 12px;
   }
 
-  .ais-SortBy {
-    margin-right: 4px;
-    margin-left: 0.5rem;
-  }
-
-
-  .ais-HierarchicalMenu-count, .ais-Menu-count, .ais-RatingMenu-count, .ais-RefinementList-count, .ais-ToggleRefinement-count {
-    background: var(--c-bg) none repeat scroll 0 0;
-    border: 1px solid var(--c-border);
-    border-radius: 99999px;
-    color: var(--c-text);
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    font-size: .75rem;
-    font-weight: 400;
-    line-height: 1rem;
-    margin-left: .5rem;
-    overflow: hidden;
-    padding: 0 .25rem;
 }
 
- .ais-HierarchicalMenu-item {
-  display: block;
-  font-size: .875rem;
-  line-height: 1.75rem;
- }
+.ais-SortBy {
+  margin-right: 4px;
+  margin-left: 0.5rem;
+}
+
+
+.ais-HierarchicalMenu-count, .ais-Menu-count, .ais-RatingMenu-count, .ais-RefinementList-count, .ais-ToggleRefinement-count {
+  background: var(--c-bg) none repeat scroll 0 0;
+  border: 1px solid var(--c-border);
+  border-radius: 99999px;
+  color: var(--c-text);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  margin-left: .5rem;
+  overflow: hidden;
+  padding: 0 .25rem;
+}
+
+.ais-HierarchicalMenu-item {
+display: block;
+font-size: .875rem;
+line-height: 1.75rem;
+}
 
 
 /**
@@ -96,13 +100,15 @@ h5 {
 .ais-RefinementList-item--selected .ais-RefinementList-checkbox,
 .ais-GeoSearch-input:checked {
   background-size: 14px;
-  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%235468ff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%2220%206%209%2017%204%2012%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
+  /** If you change the brand colour you will need to change the inline hex of 3eaf7c here to the new brand colour */
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%233eaf7c%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%2220%206%209%2017%204%2012%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
   border-color: currentcolor;
   color: var(--c-border); }
 
 .ais-RefinementList-checkbox:focus,
 .ais-GeoSearch-input:focus {
-  outline: currentcolor none medium; }
+  outline: currentcolor none medium; 
+}
 
 /**
  * SearchBox
@@ -116,10 +122,12 @@ h5 {
   height: 2.5rem;
   line-height: 1.25rem;
   position: relative;
-  width: 100%; }
+  width: 100%; 
+}
 
 .ais-SearchBox-form::before {
-  background: transparent url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%235a5e9a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2211%22%20r%3D%228%22%3E%3C%2Fcircle%3E%3Cline%20x1%3D%2221%22%20y1%3D%2221%22%20x2%3D%2216.65%22%20y2%3D%2216.65%22%3E%3C%2Fline%3E%3C%2Fsvg%3E") repeat scroll 0% 0%;
+  /** If the brand colour changes replace the inline hex of 379c6f with the new brand colour (but darker) */
+  background: transparent url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23379c6f%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2211%22%20r%3D%228%22%3E%3C%2Fcircle%3E%3Cline%20x1%3D%2221%22%20y1%3D%2221%22%20x2%3D%2216.65%22%20y2%3D%2216.65%22%3E%3C%2Fline%3E%3C%2Fsvg%3E") repeat scroll 0% 0%;
   content: '';
   height: 1rem;
   left: 1rem;
@@ -127,7 +135,7 @@ h5 {
   position: absolute;
   top: 50%;
   width: 1rem; 
-  }
+}
 
 .ais-SearchBox-input {
   -webkit-appearance: none;
@@ -136,7 +144,7 @@ h5 {
   background-color: var(--c-bg);
   border: 1px solid var(--c-border-dark);
   border-radius: 3px;
-  caret-color: var(--c-brand);
+  caret-color: var(--c-text);
   color: var(--c-text);
   -webkit-box-flex: 1;
   -ms-flex: 1 1 0%;
@@ -235,7 +243,8 @@ h5 {
 }
 
 .ais-HierarchicalMenu-list .ais-HierarchicalMenu-list {
-  margin-left: 1.5rem; }
+  margin-left: 1.5rem; 
+}
 
 .ais-HierarchicalMenu-link::before {
   background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b6b7d5%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%2218%2015%2012%209%206%2015%22%3E%3C%2Fpolyline%3E%3C%2Fsvg%3E");
@@ -248,7 +257,8 @@ h5 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 1rem; }
+  width: 1rem; 
+}
 
 .ais-HierarchicalMenu-item--selected > .ais-HierarchicalMenu-link::before {
   color: #000;
@@ -287,8 +297,9 @@ h5 {
 .ais-MenuSelect-select,
 .ais-HitsPerPage-select,
 .ais-SortBy-select {
-  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23777aaf" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fcfcfd));
-  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23777aaf" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, #fff, #fcfcfd);
+  /** If the brand colour changes replace the inline hex of 379c6f with the new brand colour (but darker) */
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23379c6f" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(var(--c-bg)), to(--c-bg-light));
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23379c6f" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, var(--c-bg), var(--c-bg-light));
   background-position: right 1rem center, 0 0;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -328,8 +339,9 @@ h5 {
 .ais-HitsPerPage-select:hover,
 .ais-SortBy-select:hover {
     border-color: var(--c-border-dark); 
-    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23777aaf" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(#fcfcfd), to(#f5f5fa));
-    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23777aaf" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, #fcfcfd, #f5f5fa);
+    /** If the brand colour changes - you will need to change the string 46bd87 to the new brand colour light */
+    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%2346bd87" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(var(--c-bg-light)), to(var(--c-bg-lighter)));
+    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%2346bd87" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, var(--c-bg-light), var(--c-bg-lighter));
 }
 
 .ais-HitsPerPage-select:focus,
@@ -342,8 +354,8 @@ h5 {
   border-color: #efeff5;
   color: #b6b7d5;
   cursor: not-allowed;  
-  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23b6b7d5" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5fa));
-  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23b6b7d5" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, #fff, #f5f5fa);
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23b6b7d5" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(var(--c-bg)), to(var(--c-bg-lighter)));
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23b6b7d5" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, var(--c-bg), var(--c-bg-lighter));
 }
 
 /** Range Input */
@@ -370,7 +382,7 @@ h5 {
 }
 
 .ais-HierarchicalMenu-link--selected > .ais-HierarchicalMenu-label {
-  border-bottom: 2px solid #46bd87;
+  border-bottom: 2px solid var(--c-brand);
   padding-bottom: 4px;
 }
 
