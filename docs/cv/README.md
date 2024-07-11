@@ -12,14 +12,14 @@ A people-first software engineering manager who thrives wearing multiple hats an
 ## Experience
 
 
-<WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2023-Present">
+<WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2024-Present">
 
 I currently lead the Wills engineering team at Farewill.
 
 </WorkHistory-Block>
 
 
-<WorkHistory-Block title="Tractable" subtitle="Engineering Manager" years="May 2022-Jan 2023">
+<WorkHistory-Block title="Tractable" subtitle="Engineering Manager" years="May 2022-Jan 2024">
 
 I led the Estimating product responsible for the day-to-day operations of a team of eleven and the delivery of three product lines across three separate regions including Tractable's fastest growing product. I worked closely with my counterparts in product management (Director of Product) and research & AI development to define the team's strategy and with stakeholders in go to market to align on the product roadmap.
 
