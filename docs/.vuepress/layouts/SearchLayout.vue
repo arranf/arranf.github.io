@@ -206,6 +206,7 @@ line-height: 1.75rem;
   right: 0.5rem; 
 }
 
+
 .ais-SearchBox-loadingIndicator[hidden],
 .ais-SearchBox-reset[hidden] {
   display: none; 
@@ -233,6 +234,11 @@ line-height: 1.75rem;
   padding-left: 2rem; }
 
 
+.ais-RefinementList-showMore {
+  padding: 0.5rem 0;
+  text-decoration: underline;
+  text-decoration-color: var(--c-brand-light);
+}
 
 /**
  * HierarchicalMenu
@@ -298,8 +304,8 @@ line-height: 1.75rem;
 .ais-HitsPerPage-select,
 .ais-SortBy-select {
   /** If the brand colour changes replace the inline hex of 379c6f with the new brand colour (but darker) */
-  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23379c6f" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(var(--c-bg)), to(--c-bg-light));
-  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23379c6f" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, var(--c-bg), var(--c-bg-light));
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23379c6f" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%23379c6f" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>');
   background-position: right 1rem center, 0 0;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -340,8 +346,8 @@ line-height: 1.75rem;
 .ais-SortBy-select:hover {
     border-color: var(--c-border-dark); 
     /** If the brand colour changes - you will need to change the string 46bd87 to the new brand colour light */
-    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%2346bd87" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), -webkit-gradient(linear, left top, left bottom, from(var(--c-bg-light)), to(var(--c-bg-lighter)));
-    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%2346bd87" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>'), linear-gradient(-180deg, var(--c-bg-light), var(--c-bg-lighter));
+    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%2346bd87" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><g stroke="%2346bd87" stroke-width="2" fill="none" fill-rule="evenodd"><path d="M13 7L7 1 1 7M1 17l6 6 6-6"/></g></svg>');
 }
 
 .ais-HitsPerPage-select:focus,

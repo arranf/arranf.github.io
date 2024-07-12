@@ -39,6 +39,11 @@
           <ais-refinement-list attribute="playing_time" operator="or" :sort-by="sortByPlayingTime" />
         </filter-wrapper>
 
+        <filter-wrapper header="Mechanics">
+          <ais-refinement-list attribute="mechanics" operator="and" :sort-by="['count:desc']" :searchable="true" :show-more="true"
+            :transform-items="transformItems" />
+        </filter-wrapper>
+
         <filter-wrapper header="Tags">
           <ais-refinement-list attribute="tags" operator="and" :sort-by="['name:asc']" 
             :transform-items="transformItems" />
