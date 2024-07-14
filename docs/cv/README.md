@@ -37,7 +37,7 @@ I was responsible for re-architecture of the platform's backend infrastructure f
 
 In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; and migrated our CI from a devops lead platform to developer owned GitHub Actions.
 
-<!-- <WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" /> -->
+<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" />
 
 </WorkHistory-Block>
 
@@ -49,7 +49,7 @@ During my time I took on independent initiatives including: adjusting our pipeli
 <!-- 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys. -->
 
-<!-- <WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" /> -->
+<WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" />
 
 </WorkHistory-Block>
 
@@ -61,14 +61,14 @@ During my time at Limejump I designed and implemented a solution that allows us 
 
 Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced an engineering wide 'Friday Developer Talk' slot.
 
-<!-- <WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" /> -->
+<WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Bricks and Mortar Studio" subtitle="Owner/Director" years="2016-2020">
 I ran my own consulting company working with non-profits to customise their processes and extend their software to support their needs. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
 
-<!-- <WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" /> -->
+<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" />
 
 </WorkHistory-Block>
 
@@ -86,9 +86,9 @@ During my time I introduced developer best practices including code reviews and 
 
 <!-- I produced a web interface (Rust/Angular 1) to queue jobs for a JavaScript symbolic execution engine and identified, wrote, and contributed a fix for a bug in Samsung’s JavaScript analysis framework.
 
-I also added features to the symbolic engine to help users analyse line coverage and to provide preliminary support for symbolic objects. Additionally, I performed a number of case studies on popular NPM libraries to identify areas of the engine that required improvement.
+I also added features to the symbolic engine to help users analyse line coverage and to provide preliminary support for symbolic objects. Additionally, I performed a number of case studies on popular NPM libraries to identify areas of the engine that required improvement.-->
 
-<WorkHistory-Skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" /> -->
+<!-- <WorkHistory-Skills :list="['Rust', 'GDB', 'Z3', 'SMT', 'Angular 1', 'JavaScript', 'Node.js', 'Bash']" />  -->
 
 </WorkHistory-Block>
 
