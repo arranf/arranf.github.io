@@ -37,7 +37,7 @@ I was responsible for re-architecture of the platform's backend infrastructure f
 
 In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; and migrated our CI from a devops lead platform to developer owned GitHub Actions.
 
-<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'Github Actions']" />
+<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'GitHub Actions']" />
 
 </WorkHistory-Block>
 

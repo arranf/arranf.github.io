@@ -52,7 +52,7 @@ export default defineUserConfig({
               text: "BoardGameGeek",
               link: "https://boardgamegeek.com/user/Arranf",
             },
-            { text: "Github", link: "https://github.com/arranf" },
+            { text: "GitHub", link: "https://github.com/arranf" },
             { text: "YouTube", link: "https://youtube.com/c/@arranfrance" },
           ],
         },
