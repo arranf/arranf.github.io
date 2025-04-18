@@ -9,7 +9,7 @@ head:
 <profile-image />
 I'm Arran France and I'm a people-first software engineering manager with a focus on building user-first products.
 
-I lead the Wills team at Farewill. I previously worked at Tractable leading the Estimating product, and the Application Platform and the Engineering Platform teams.
+I work at Farewill where I lead the Legal Services and Funeral Plans teams. I previously worked at Tractable leading the Estimating product, and the Application Platform and the Engineering Platform teams.
 
 ### The Other Stuff
 

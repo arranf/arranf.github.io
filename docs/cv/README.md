@@ -20,7 +20,7 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 <WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2024-Present">
 
-I currently lead the Wills engineering team at Farewill.
+I currently lead Farewill's two engineering teams.
 
 </WorkHistory-Block>
 
