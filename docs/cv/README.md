@@ -20,10 +20,26 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 <WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2024-Present">
 
-I currently lead Farewill's two engineering teams.
+I currently lead Farewill's two engineering teams, totally six engineers in a hybrid IC/manager role.
+
+I've supported shipping improvements to the core Wills product offering to achieve:
+
+- A 75% increase of gifts lefts in wills
+- A 15% % increase in recurring subscription revenue
+
+I supported R&D efforts to create AI tooling to aid will checkers and a tool to support charity partners in creating marketing materials.
+
+I also shipped core foundational improvements including:
+
+- Migrating the core API from JavaScript to TypeScript
+- Reducing the number of vulnerable dependencies from 56 to 6 and implemented processes to prevent regression
+- Consolidating to a single observable jobs framework
+- Foundational platform changes to support selling under multiple brands
+- Improving the observability of our platform with OpenTelemetry to identify bugs proactively reducing the MTTR and customer impact
+
+<WorkHistory-Skills :list="['TypeScript', 'Postgres', 'Redis', 'Node.js', 'React', 'Next.js', 'Cloudflare']" />
 
 </WorkHistory-Block>
-
 
 <WorkHistory-Block title="Tractable" subtitle="Engineering Manager" years="May 2022-Jan 2024">
 
@@ -43,7 +59,7 @@ I was responsible for re-architecture of the platform's backend infrastructure f
 
 In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; and migrated our CI from a devops lead platform to developer owned GitHub Actions.
 
-<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'RPC', 'Postgres', 'Node.js', 'Redis', 'Microservices', 'ETL', 'GitHub Actions']" />
+<WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'Postgres', 'Node.js', 'Redis', 'ETL', 'Protobuf']" />
 
 </WorkHistory-Block>
 
@@ -55,7 +71,7 @@ During my time I took on independent initiatives including: adjusting our pipeli
 <!-- 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys. -->
 
-<WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'E2E', 'Kafka', 'Jenkins', 'Datadog', 'Microservices', 'ArgoCD', 'Monorepo', 'Marathon', 'DC/OS', 'Yarn2']" />
+<WorkHistory-Skills :list="['TypeScript', 'GraphQL', 'Kafka', 'Node.js', 'React', 'Kubernetes', 'Postgres', 'Redis', 'Docker', 'AWS', 'Gauge', 'Jenkins', 'Datadog', 'ArgoCD', 'Monorepo']" />
 
 </WorkHistory-Block>
 
@@ -67,14 +83,14 @@ During my time at Limejump I designed and implemented a solution that allows us 
 
 Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced an engineering wide 'Friday Developer Talk' slot.
 
-<WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Kafka', 'Prometheus', 'Humio', 'CircleCI', 'Git', 'Google Cloud', 'Microservices', 'Nginx', 'Scrum', 'Angular 1']" />
+<WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Prometheus', 'CircleCI', 'Git', 'Google Cloud']" />
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Bricks and Mortar Studio" subtitle="Owner/Director" years="2016-2020">
-I ran my own consulting company working with non-profits to customise their processes and extend their software to support their needs. I performed data migration and wrote code for client-specific features. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
+I ran my own consulting company working with non-profits to customise their processes and extend their software to support their needs. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
 
-<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas', 'Requirements Analysis', 'Project Management']" />
+<WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas']" />
 
 </WorkHistory-Block>
 
@@ -112,17 +128,18 @@ I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large 
 
 </WorkHistory-Block>
 
-## Ask Me About
-
 <WorkHistory-Block title="">
 
-* My real-time mobile first application to make hosting movie nights easier (recommends films using ML!).
-* Writing software for running tabletop role-playing games
-* Developing mobile applications for Android and iOS in Flutter
-* Running a Kubernetes cluster
-* Solving problems in Rust
-* eink Displays
-* Tooling for art direction and responsive images for the web
+## Ask Me About
+
+
+- My real-time mobile first application to make hosting movie nights easier (recommends films using ML!).
+- Writing software for running tabletop role-playing games
+- Developing mobile applications for Android and iOS in Flutter
+- Running a Kubernetes cluster
+- Solving problems in Rust
+- eink Displays
+- Tooling for art direction and responsive images for the web
 
 </WorkHistory-Block>
 
@@ -147,8 +164,8 @@ The on-device application is supported by a data pipeline that translates in-gam
 
 <WorkHistory-Block title="First Class Software Engineering BSc" subtitle="Royal Holloway, University of London" years="2015-2018">
 
-<WorkHistory-Grid title="Awards" items="awards" width="100" />
+<!-- <WorkHistory-Grid title="Awards" items="awards" width="100" /> -->
 
 </WorkHistory-Block>
 
-<WorkHistory-PopUp url="https://files.arranfrance.com/CV+Arran+France+-+Engineering+Manager.pdf" />
+<WorkHistory-PopUp url="https://files.arranfrance.com/Arran+France+CV.pdf" />

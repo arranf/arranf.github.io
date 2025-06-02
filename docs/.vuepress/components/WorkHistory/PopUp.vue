@@ -73,12 +73,13 @@ p, a {
   padding-right: 1.5em;
 }
 
+
 p {
-  color: #ffffff;
   margin: 0 0;
   padding-left: 0.2em;
   white-space: nowrap;
 }
+
 
 @media (min-width: 768px) {
   .sw-update-popup {

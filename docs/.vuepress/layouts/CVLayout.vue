@@ -51,6 +51,10 @@ h4 {
 }
 
 @media print {
+  .vp-navbar {
+    display: none;
+  }
+
   .theme-default-content:not(.custom) > :first-child {
     margin-top: 0;
   }
@@ -80,6 +84,7 @@ h4 {
   main {
     margin-top: 0 !important;
     margin-bottom: 0;
+    padding-top: 0 !important;
   }
 
   main {
