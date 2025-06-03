@@ -53,7 +53,7 @@ export default {
   padding: 0.65em;
   border: none;
   border-radius: 3px;
-  background: var(--code-bg-color);
+  background-color: var(--vp-c-bg, var(--c-bg));
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
   // Mobile specific here
   min-width: 100%;
@@ -78,6 +78,10 @@ p {
   margin: 0 0;
   padding-left: 0.2em;
   white-space: nowrap;
+}
+
+.faded {
+  opacity: 1;
 }
 
 
