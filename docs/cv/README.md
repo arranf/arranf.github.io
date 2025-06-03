@@ -20,22 +20,23 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 <WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2024-Present">
 
-I currently lead Farewill's two engineering teams, totally six engineers in a hybrid IC/manager role.
+I currently lead Farewill's two engineering teams, six engineers in total, in a hybrid IC/manager role.
+
+Core responsibilities include: supporting engineers with their growth and wellbeing, working with PMs to define the teams roadmaps, identifyin, architecting, and prioritising core platform capabilities, and being a point of escalation for technical issues for engineers.
 
 I've supported shipping improvements to the core Wills product offering to achieve:
 
-- A 75% increase of gifts lefts in wills
-- A 15% % increase in recurring subscription revenue
+- A 75% increase of gifts lefts in wills (core product metric)
+- A 15% increase in recurring subscription revenue
 
-I supported R&D efforts to create AI tooling to aid will checkers and a tool to support charity partners in creating marketing materials.
-
-I also shipped core foundational improvements including:
+I've also shipped core foundational improvements including:
 
 - Migrating the core API from JavaScript to TypeScript
-- Reducing the number of vulnerable dependencies from 56 to 6 and implemented processes to prevent regression
+- Reducing the number of vulnerable dependencies from 56 to 6 and implementing processes to prevent regression
 - Consolidating to a single observable jobs framework
 - Foundational platform changes to support selling under multiple brands
 - Improving the observability of our platform with OpenTelemetry to identify bugs proactively reducing the MTTR and customer impact
+- R&D efforts to create AI tooling to aid will checkers
 
 <WorkHistory-Skills :list="['TypeScript', 'Postgres', 'Redis', 'Node.js', 'React', 'Next.js', 'Cloudflare']" />
 
