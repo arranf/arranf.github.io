@@ -22,7 +22,7 @@ A people-first software engineering manager who thrives wearing multiple hats an
 
 I currently lead Farewill's two engineering teams, six engineers in total, in a hybrid IC/manager role.
 
-Core responsibilities include: supporting engineers with their growth and wellbeing, working with PMs to define the teams roadmaps, identifyin, architecting, and prioritising core platform capabilities, and being a point of escalation for technical issues for engineers.
+Core responsibilities include: supporting engineers with their growth and wellbeing, working with PMs to define the teams roadmaps, identifying, architecting, and prioritising core platform capabilities, and being a point of escalation for technical issues for engineers.
 
 I've supported shipping improvements to the core Wills product offering to achieve:
 
