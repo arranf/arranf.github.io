@@ -13,7 +13,7 @@ head:
 
 ## Profile
 
-A people-first software engineering manager who thrives wearing multiple hats and has a keen product focus.
+A hands-on software engineering manager who thrives wearing multiple hats and has a keen product focus.
 
 ## Experience
 
