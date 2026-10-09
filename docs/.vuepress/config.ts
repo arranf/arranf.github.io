@@ -73,6 +73,10 @@ export default defineUserConfig({
               link: "https://timetoduel.app/",
             },
             {
+              text: "Kyber Cube",
+              link: "https://kybercube.com/",
+            },
+            {
               text: "Descent 2E Monster Selector",
               link: "https://descent.arranfrance.com/",
             },

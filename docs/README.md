@@ -9,8 +9,8 @@ head:
 <profile-image />
 I'm Arran France and I'm a people-first software engineering manager with a focus on building user-first products.
 
-I work at Farewill where I lead the Legal Services and Funeral Plans teams. I previously worked at Tractable leading the Estimating product, and the Application Platform and the Engineering Platform teams.
+I work at Junction as a software engineer. I previously led engineering teams at Lawhive, Farewill, and Tractable.
 
 ### The Other Stuff
 
-When I'm not working you can normally find me enjoying one of my hobbies. I enjoy writing, reading, making [YouTube videos on tabletop games](https://www.youtube.com/c/@arranfrance), watching the NFL (Go Cowboys!), playing board games, photography, and playing pen and paper RPGs with my friends.
+When I'm not working you can normally find me enjoying one of my hobbies. I enjoy [writing](https://blog.arranfrance.com), reading, watching the NFL (Go Cowboys!), playing Star Wars Unlimited, making [YouTube videos on tabletop games](https://www.youtube.com/c/@arranfrance), watching the NFL (Go Cowboys!), and playing board games and pen and paper RPGs with my friends.
