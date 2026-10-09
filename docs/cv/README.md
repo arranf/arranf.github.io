@@ -17,19 +17,43 @@ A hands-on software engineering manager who thrives wearing multiple hats and ha
 
 ## Experience
 
+<WorkHistory-Block title="Junction" subtitle="Product Engineer" years="Mar 2026-Present">
 
-<WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2024-Present">
+I work hand-in-hand with product to define and build API-first solutions to improve Junction's customer experience.
 
-I currently lead Farewill's two engineering teams, six engineers in total, in a hybrid IC/manager role.
+<WorkHistory-Skills :list="['Python', 'TypeScript', 'Postgres', 'Redis', 'React']" />
 
-Core responsibilities include: supporting engineers with their growth and wellbeing, working with PMs to define the teams roadmaps, identifying, architecting, and prioritising core platform capabilities, and being a point of escalation for technical issues for engineers.
+</WorkHistory-Block>
 
-I've supported shipping improvements to the core Wills product offering to achieve:
+
+<WorkHistory-Block title="Lawhive" subtitle="Senior Engineering Manager" years="Oct 2025-Mar 2026">
+
+I was responsible for the product and platform engineers and primarily focused on three areas:
+
+1. Increasing morale, reducing turnover, and creating a engineer-owned engineering culture
+2. Working closely with talent to create a strong in-house talent pipeline from scratch
+3. Working with the CTO to define our approach to AI enabled engineering
+
+During my tenure:
+
+- Engineer retention increased from a low of ~55% to ~92%
+- I scaled the my teams by 100%
+- I supported the rollout out of AI tools across engineering
+
+</WorkHistory-Block>
+
+<WorkHistory-Block title="Farewill" subtitle="Engineering Lead" years="Jan 2024-Oct 2025">
+
+I lead Farewill's two engineering teams, six engineers in total, in a hybrid IC/manager role.
+
+My core responsibilities incldued: supporting engineers with their growth and wellbeing, working with PMs to define the teams' roadmaps, identifying, architecting, and prioritising core platform capabilities, and being a point of escalation for unblocking engineers.
+
+I supported shipping improvements to the core Wills product offering to achieve:
 
 - A 75% increase of gifts lefts in wills (core product metric)
 - A 15% increase in recurring subscription revenue
 
-I've also shipped core foundational improvements including:
+I also shipped core foundational improvements including:
 
 - Migrating the core API from JavaScript to TypeScript
 - Reducing the number of vulnerable dependencies from 56 to 6 and implementing processes to prevent regression
@@ -48,7 +72,7 @@ I led the Estimating product responsible for the day-to-day operations of a team
 
 During my tenure I had 20 direct reports, from junior to staff level. I worked with my reports to define their personal objectives, create opportunities for them to thrive, and give them regular feedback to support their growth. Day to day I also provide context from across the business, focus them towards our OKRs, support team ceremonies where necessary, and sponsor cross-team engagements.
 
-Within engineering, I work with senior management to define staffing needs, provide capacity planning, and to support our hiring efforts. Outside of engineering, I ran the company-wide employee led ESAT initiative to improve the workplace and worked with the people team as part of a small team redefining Tractable's company values.
+Within engineering, I worked with senior management to define staffing needs, provide capacity planning, and to support our hiring efforts. Outside of engineering, I ran the company-wide employee led ESAT initiative to improve the workplace and worked with the people team as part of a small team redefining Tractable's company values.
 
 I previously lead two platform oriented teams (8 engineers at senior plus) with the mandate to improve developer experience and deliver core services and capabilities for all product lines. In that role, I reduced unnecessary spend by £500k/pa and successfully defined and lead an initiative to introduce a cross product auth platform.
 
@@ -56,9 +80,9 @@ I previously lead two platform oriented teams (8 engineers at senior plus) with 
 
 <WorkHistory-Block title="Tendable" subtitle="Tech Lead" years="June 2021-April 2022">
 
-I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, and defined several reusable service templates and libraries.
+<!-- I was responsible for re-architecture of the platform's backend infrastructure from a monolith Ruby on Rails application to a scalable a microservice based architecture. Supporting that work I built an ETL framework to support analytics on large volumes of data, championed a move to a strongly typed RPC framework to support collaboration between back and mobile teams, and defined several reusable service templates and libraries.
 
-In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; and migrated our CI from a devops lead platform to developer owned GitHub Actions.
+In addition to my individual contributions, I took a lead on improving the way our team worked. I developed and introduced a completely new hiring pipeline for backend, full stack, and frontend developers with bias controls; lead a migration from Bitbucket to GitHub; and migrated our CI from a devops lead platform to developer owned GitHub Actions. -->
 
 <WorkHistory-Skills :list="['Ruby', 'Rails', 'Resque', 'TypeScript', 'Postgres', 'Node.js', 'Redis', 'ETL', 'Protobuf']" />
 
@@ -66,9 +90,9 @@ In addition to my individual contributions, I took a lead on improving the way o
 
 <WorkHistory-Block title="Tractable" subtitle="Developer" years="September 2020-June 2021">
 
-I was responsible for building a growing feature set and scaling our architecture to meet a rapidly growing number of clients across multiple geographies.
+<!-- I was responsible for building a growing feature set and scaling our architecture to meet a rapidly growing number of clients across multiple geographies.
 
-During my time I took on independent initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuilding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments.
+During my time I took on initiatives including: adjusting our pipeline to support flows using both fully AI driven decisions and human in the loop decisions; rebuilding applications to migrate the team's services to Kubernetes from DC/OS; creating a framework for automated end-to-end testing of our pipeline in production; and making the product reproducible across environments. -->
 <!-- 
 I also helped improve the robustness of our codebase by kickstarting an initiative to introduce stronger types, extracting reused functionality into well tested libraries, and improving the resilience of our release process to prevent downtimes during deploys. -->
 
@@ -78,18 +102,18 @@ I also helped improve the robustness of our codebase by kickstarting an initiati
 
 <WorkHistory-Block title="Limejump" subtitle="Developer" years="February 2019-September 2020">
 
-I was responsible for the ongoing re-architecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team.
+<!-- I was responsible for the ongoing re-architecture and redesign of a critical customer facing application as part of a cross disciplinary UX focused team.
 
 During my time at Limejump I designed and implemented a solution that allows us to combine the existing legacy application with a new React implementation to allow us to incrementally deliver improvements to the user. I also architected and implemented a microservice approach to the backend to accommodate scale and cleanly divide responsibilities in a growing team.
 
-Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced an engineering wide 'Friday Developer Talk' slot.
+Whilst at Limejump I drove change to several processes. I made significant contributions to our hiring and interview process, taking ownership of the technical screening phase of our process for full-stack and QA engineers. I also introduced guidance and led training around code reviews, led training on Kubernetes, and created and led an on-call system for our team. I took a role in mentoring developers and introduced an engineering wide 'Friday Developer Talk' slot. -->
 
 <WorkHistory-Skills :list="['Node.js', 'React', 'Redux', 'Kubernetes', 'Docker', 'AWS', 'Prometheus', 'CircleCI', 'Git', 'Google Cloud']" />
 
 </WorkHistory-Block>
 
 <WorkHistory-Block title="Bricks and Mortar Studio" subtitle="Owner/Director" years="2016-2020">
-I ran my own consulting company working with non-profits to customise their processes and extend their software to support their needs. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup.
+<!-- I ran my own consulting company working with non-profits to customise their processes and extend their software to support their needs. Examples include designing the API for a leading giving provider with $1m+ weekly revenue and producing a fit validating prototype for a pre-seed startup. -->
 
 <WorkHistory-Skills :list="['C#', 'ASP.NET', 'SQL', 'Python3', 'Pandas']" />
 
@@ -123,24 +147,26 @@ I worked on v6 of [Rock RMS](https://github.com/SparkDevNetwork/Rock/), a large 
 
 </WorkHistory-Block>
 
-<WorkHistory-Block :brief="true" title="Hope Church" subtitle="Communications Director" years="2013-2015">
+<!-- <WorkHistory-Block :brief="true" title="Hope Church" subtitle="Communications Director" years="2013-2015"> -->
 
 <!-- I architected an information strategy for storing and recording PII data within ICO guidelines. This strategy led to me modernising internal tools and processes, which included a migration to Google Apps and the introduction of a modern CRM. -->
 
-</WorkHistory-Block>
+<!-- </WorkHistory-Block> -->
 
 <WorkHistory-Block title="">
 
 ## Ask Me About
 
+Nothing here is vibe-coded, I'm happy to talk in depth about these!
 
-- My real-time mobile first application to make hosting movie nights easier (recommends films using ML!).
+- My multiplayer auto-battler game (plus the DSL I built!)
+- Creating a community around a trading-card game app
+- My real-time mobile-first application to make hosting movie nights easier (recommends films using ML!).
 - Writing software for running tabletop role-playing games
 - Developing mobile applications for Android and iOS in Flutter
 - Running a Kubernetes cluster
-- Solving problems in Rust
-- eink Displays
-- Tooling for art direction and responsive images for the web
+- Building eink Displays
+- Tooling for art direction and responsive images of web images
 
 </WorkHistory-Block>
 
